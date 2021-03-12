@@ -1,0 +1,3397 @@
+/* CSS Document */
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	color: #000;
+}
+
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin:0px;
+	padding:0px;
+	width: 100%;
+	background: url(../images/main_bar.jpg) repeat-x 0px 94px;
+}
+
+#main_div {
+	width:auto;
+	height:auto;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+#header_top {
+	width:980px;
+	height:150px;
+	clear:both;
+	float: left;
+	background: url(../images/fundo_top.jpg);
+}
+
+
+
+#middle_div {
+	margin-right:auto;	
+	clear:left;
+}
+
+#logo_maindiv {
+	width:175px;
+	float:left;
+	height:60px;
+	margin-top:25px;
+}
+
+#logo_maindiv_left
+{
+	width: 175px;
+	float: left;
+	height: 80px;
+}
+
+#logo_maindiv_right
+{
+	width: 785px;
+	float: left;
+	height: 80px;
+}
+
+.logo_new
+{
+	width:975px;
+	height:94px;
+	float:left;
+	clear:right;
+	padding-left:25px;
+	background: url(../images/fundo_topo.png);
+}
+
+#comporta{
+	width:215px;
+	height:88px;
+	padding-left:0px;
+	position:relative; left: -360px;
+	background: url(../images/bg_dir.gif);
+}
+
+.searchbox2{
+	font-size:14px;
+	color:#30302D;
+	font-weight:normal;
+	width: 148px;
+	border: 0px;
+	height: 14px;
+	margin-top: 9px;
+	margin-left: 10px;
+}
+
+.searchbox3{
+	font-size:14px;
+	color:#30302D;
+	font-weight:normal;
+	width: 148px;
+	border: 0px;
+	height: 14px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.div_menu
+{
+	float: right;
+	width: 380px;
+}
+
+.allmaps_new
+{
+	float:left;
+	width:130px;
+	margin-top:10px;
+}
+
+.menu_new
+{
+	background: url(../images/top_menu_bar.jpg) no-repeat;
+	float:left;
+	width:220px;
+	height:45px;
+	background-repeat:no-repeat;
+	margin-left:10px;
+}
+
+.menu_new2
+{
+	background: url(../images/top_menu_bar2.jpg) no-repeat;
+	float:left;
+	width:220px;
+	height:20px;
+	background-repeat:no-repeat;
+	margin-left:10px;
+}
+
+.top_menu {
+	font-family:"Arial";
+	font-size:11px;		
+	color:#000000;
+	padding-top:12px;
+	text-decoration:none;
+	float:left;
+	text-align:left;
+}
+
+.top_menu .home
+{
+	float: left;
+	width: 52px;
+	text-align: center;
+}
+
+.top_menu .acclink
+{
+	float: left;
+	width: 72px;
+	text-align: center;
+}
+
+.top_menu .helplink
+{
+	float: left;
+	width: 40px;
+	text-align: center;
+}
+
+.top_menu .helplink2
+{
+	float: left;
+	width: 45px;
+	text-align: center;
+}
+
+.top_menu .logoutlink
+{
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+
+.top_menu a {
+	font-family:"Arial";
+	font-size:11px;
+	text-decoration: none;
+	color: #333333;
+}
+
+.top_menu a:hover {
+	font-family:"Arial";
+	font-size:11px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.welcome_register {
+	font-family:"Arial";
+	font-size:13px;
+	color:#333333;
+	margin-left:0px;
+	float:center;	
+	padding-top: 25px;
+}
+
+.welcome_register2 {
+	font-family:"Tahoma";
+	font-size:13px;
+	color:#FFF;
+	margin-left:0px;
+	float:left;	
+	padding-top: 0px;
+	padding-left: 80px;
+	font-weight: bold;
+}
+
+.register {
+	color:#990000;
+	text-decoration:none;
+}
+
+#all_cate_bar {
+	width:1000px;
+	height:50px;
+	float:left;
+}
+
+#all_cate_btn {
+	width:250px;
+	height:30px;
+	float:left;
+	padding-left:30px;
+	margin-top:5px;
+}
+
+#input_textbox {
+	background: url(../images/input_box.jpg) no-repeat center 8px;
+	padding-top:8px;
+	padding-left:15px;
+	float:left;
+	width: 145px;
+	height: 30px;
+	text-align: left;
+}
+
+.search_btn {
+	padding-top:10px;
+	padding-left:5px;
+	float: left;
+	padding-left:15px;
+}
+
+#how_it_btn {
+	padding-top:8px;
+}
+
+.flash_img {
+	height:173px;
+	clear: both;
+	float: left;
+	padding-left: 10px;
+	width: 960px;
+}
+
+#Auction_boxes {
+	width:980px;
+	height: auto;
+	padding-left: 6px;
+}
+
+.openAuction_mainDIV {
+	width:200px;
+	height:auto;
+	border:1px solid;
+	border-top:none;
+	border-bottom:none;
+	color:#cddce9;
+	margin-left:17px;
+}
+
+.OpenAuction_headding {
+	font-family:"Arial Narrow";
+	font-size:22px;
+	font-weight:bold;
+	color:#0548a5;
+	margin-top:3px;
+	margin-left:15px;
+}
+
+.openAuction_bar_mainDIV {
+	width:970px;
+	height:38px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.openAuction_bar_mainDIV2 {
+	width:968px;
+	margin-left: 15px;
+	border-left: 1px solid #cddce9;
+	border-right: 1px solid #cddce9;
+}
+
+.openAuction_bar_bottom {
+	width:970px;
+	margin-left: 15px;
+}
+
+.openAuction_bar_middle {
+	width:956px;
+	float: left;
+	background: url(../images/hg_motd2.gif) repeat-x center;
+	height: 14px;
+	margin-top: -1px;
+}
+
+.openAuction_leftcorner {
+	background:url(../images/openOuction_box_left-corner.jpg) no-repeat right top;
+	width:7px;
+	height:7px;
+	float:left;
+}
+
+.openAucton_middle {
+	background-color:#cddce9;
+	background-repeat:repeat-x;
+	height:1px;
+	margin-top:6px;
+	float: left;
+}
+
+.openAuction_rightcorner {
+	background:url(../images/openOuction_box_right-corner.jpg) no-repeat right top;
+	width:7px;
+	height:7px;
+	float:right;
+}
+
+.openAction_bar-left {
+	background-image:url(../images/openOuction_bar-left.jpg);
+	background-repeat:no-repeat;
+	width:6px;
+	height:38px;
+	float: left;
+}
+
+.openAction_bar-middle {
+	background-image:url(../images/openOuction_bar-middle.jpg);
+	background-repeat:repeat-x;
+	width:958px;
+	height:38px;
+	float:left;
+}
+
+.openAction_bar-right {
+	background-image:url(../images/openOuction_bar-right.jpg);
+	background-repeat:no-repeat;
+	float:right;
+	width:6px;
+	height:38px;
+}
+
+.openAuction_box {
+	background:url(../images/OpenAuction_box.jpg) no-repeat center;
+	width:318px;
+	height:219px;
+	float:left;
+	margin-top:13px;
+}
+
+#openAuction_box_containt {
+	width:290px;
+	height:219px;
+	margin-left:7px;
+	padding-top:5px;
+}
+
+#openAuction_box_containt_left {
+	width:140px;
+	height:125px;
+	float: left;
+}
+
+#openAuction_box_containt_right {
+	width:150px;
+	height:115px;
+	float: left;
+	text-align: center;
+}
+
+.openAuction_itemname a {
+	font-family:"arial narrow";
+	font-size:14px;
+	color:#022c7f;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.openAuction_itemname a:hover {
+	font-family:"arial narrow";
+	font-size:14px;
+	color:#022c7f;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.openAuction_itemvalue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ffa500;
+	text-decoration:none;
+	height: 30px;
+	padding-left: 6px;
+	font-weight: bold;
+	float: left;
+}
+
+.openAuction_timer {
+	font-family:"Arial Narrow";
+	font-size:36px;
+	color:#000000;
+	font-weight:bold;
+	height: 40px;
+}
+
+.openAuction_product_price {
+	font-family:"Arial Narrow";
+	font-size:30px;
+	color:#b2d635;
+	font-weight:bold;
+	height: 30px;
+}
+
+.openAuction_Bid_button {
+	width:119px;
+	height:65px;
+	text-align: left;
+	float: right;
+}
+
+.star_img {
+	width:110px;
+	height:56px;
+	margin-left:45px;
+}
+
+.soldproduct_img {
+	background-image:url(../images/soldProduct_img.jpg);
+	background-repeat:no-repeat;
+	width:158px;
+	height:72px;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+.openAuction_product_img {
+	height:150px;
+	width:150px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.openAuction_bidder_name {
+	font-family:"Arial Narrow";
+	font-size:18px;
+	color:#0a2e4f;
+	text-align: center;
+	height: 30px;
+}
+
+.H_beit {
+	background-color:#e6edf4;
+	width:958px;
+	height:27px;
+	font-family:"Arial Narrow";
+	font-size:16px;
+	color:#04749e;
+	margin-left: 5px;
+}
+
+.description_headding {
+	font-family:"Arial Narrow";
+	font-size:16px;
+	color:#04749e;
+	margin-left:20px;
+	padding-top: 3px;
+}
+
+.body_inner_box_price{
+	width:107px;
+	height:75px;
+	float:left;
+	clear:right;
+	color:#7ec01d;
+	line-height:19px;
+}
+
+.descripton_box	{
+	background-image:url(../images/description_box.jpg);
+	width:958px;
+	height:130px;
+	margin-top:15px;
+	margin-left: 5px;
+}
+
+.body_inner_img{
+	background-image:url(../images/inner_box_img.gif);
+	background-repeat:no-repeat;
+	width:124px;
+	height:90px;
+	padding-top:20px;
+	padding-left:15px;
+	float:left;
+	clear:right;
+	text-align:center;
+}
+
+.body_inner_decription{
+	width:774px;
+	height:125px;
+	background-image:url(../images/inner_box_right_bg.gif);
+	background-repeat:repeat-x;
+	float:left;
+	clear:right;
+}
+
+.decription_text {
+	font-family:"Arial";
+	font-size:12px;
+	color:#000000;
+}
+
+.auction_decri{
+	width:420px;
+	height:93px;
+	padding-left:30px;
+	margin-top:32px;
+	float:left;
+	clear:right;
+	text-align:left;
+}
+
+.auction_price{
+	width:125px;
+	height:93px;
+	margin-top:32px;
+	float:left;
+	clear:right;
+	text-align:center;
+}
+
+.auction_bidder{
+	width:125px;
+	height:93px;
+	margin-top:32px;
+	float:left;
+	clear:right;
+	text-align:center;
+	font-size:14px;
+	color:#0c2f50;
+}
+
+.auction_countdown{
+	width:112px;
+	height:93px;
+	margin-top:20px;
+	float:left;
+	clear:right;
+	text-align: left;
+}
+
+.body_inner_box_price_heading{
+	font-size:18px;
+	color:#000000;
+	line-height:37px;
+	margin-left:10px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer{
+	width:980px;
+	height:141px;
+	margin-top:15px;
+}
+
+#footer_left{
+	background-image:url(../images/footer_main_left1.jpg);
+	background-repeat:no-repeat;
+	width:14px;
+	height:99px;
+	float:left;
+	margin-top:20px;
+}
+
+#footer_middle{
+	background-image:url(../images/footer_middle1.jpg);
+	background-repeat:repeat-x;
+	float:left;
+	height:99px;
+	width:925px;
+	margin-top:20px;
+	text-align: left;
+}
+
+#footer_right{
+
+	background-image:url(../images/footer_main_right1.jpg);
+
+	background-repeat:no-repeat;
+
+	width:14px;
+
+	height:99px;
+
+	float:left;
+
+	margin-top:20px;
+
+}
+
+#footer_mid{
+
+	background-image:url(../images/footer_main_bg.jpg);
+
+	background-repeat:repeat-x;
+
+	float:left;
+
+	clear:right;
+
+	height:110px;
+
+	width:900px;
+
+	padding-top:20px;
+
+}
+
+
+
+.footer_link{
+
+	color:#5e5e5e;
+
+	text-decoration:none;
+
+	margin-top:20px;
+
+}
+
+
+
+.footer_link:hover{
+
+	color:#000000;
+
+	text-decoration:none;
+
+	margin-top:10px;
+
+}
+
+
+
+.footer_2{
+
+	background:url(../images/paypal.png) no-repeat right;
+
+	width:384px;
+
+	height:81px;
+
+	text-align: left;
+
+	float: right;
+
+}
+
+
+
+.blue_link{
+
+	color:#1a7aec;
+
+	text-decoration:none;
+
+}
+
+
+
+.blue_link:hover{
+
+	color:#000000;
+
+	text-decoration:none;
+
+}
+
+
+
+.black_link{
+
+	color:#000000;
+
+	text-decoration:none;
+
+}
+
+
+
+.black_link:hover{
+
+	color:#000000;
+
+	text-decoration:underline;
+
+}
+
+.footer_bg {
+
+	background-image:url(../images/footer_bg.jpg);
+
+	background-repeat:repeat-x;
+
+	width:980px;
+
+	height:130px;
+
+	float:left;
+
+	padding-left: 22px;
+
+}
+
+.normal_text
+
+{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	color: #5e5e5e;
+
+}
+
+.page_title_font
+
+{
+
+	color:#0548a5;
+
+	font-size:20px;
+
+	font-weight:bold;
+
+	padding-top: 7px;
+
+	padding-left: 20px;
+
+	font-family:"Arial Narrow";
+
+	text-align: left;
+
+}
+
+#cleaner
+
+{
+
+	clear: both;
+
+}
+
+
+
+/* new class after given to design */
+
+.h_beit_image
+
+{
+
+	width: 160px;
+
+	text-align: center;
+
+	float: left;
+
+	padding-top: 3px;
+
+}
+
+.h_beit_desc
+
+{
+
+	width: 380px;
+
+	text-align: left;
+
+	float: left;
+
+	padding-left: 30px;
+
+	padding-top: 3px;
+
+}
+
+.h_beit_price
+
+{
+
+	width: 140px;
+
+	text-align: center;
+
+	float: left;
+
+	padding-top: 3px;
+
+}
+
+.h_beit_bidder
+
+{
+
+	width: 130px;
+
+	text-align: center;
+
+	float: left;
+
+	padding-top: 3px;
+
+}
+
+.h_beit_countdown
+
+{
+
+	width: 80px;
+
+	text-align: center;
+
+	float: left;
+
+	padding-top: 3px;
+
+}
+
+#register-now-box{
+
+float:left;
+
+width:504px;
+
+height:334px;
+
+margin-top:20px;
+
+margin-left:35px;
+
+display:inline;
+
+text-align: left;
+
+}
+
+
+
+#already-registered{
+
+float:left;
+
+width:360px;
+
+margin-top:20px;
+
+margin-left:20px;
+
+height:333px;
+
+text-align: left;
+
+padding:0px;
+
+background:url(../images/login-box-bg.gif) repeat-y left;
+
+background-color: #FFFFFF;
+
+border: 1px #cddce9 solid;}
+
+
+
+.logintextboxclas{font-size:11px;
+
+color:#30302D;
+
+font-weight:normal;
+
+width:228px;
+
+border:1px solid #B6B6B6;
+
+padding:3px;
+
+margin-top:2px}
+
+
+
+.red-text-12-b{
+
+font-size:12px;
+
+color:#C82C2F;
+
+font-weight:bold}
+
+
+
+.register-form{
+
+width:885px;
+
+height: 50px;
+
+text-align: left;
+
+padding-left: 40px;
+
+clear: both;
+
+}
+
+
+
+.register-form .box{
+
+float:left;
+
+width:260px;
+
+margin-right:20px}
+
+
+
+.register-form .box .row{
+
+font-size:11px;
+
+color:#30302D;
+
+float:left;
+
+width:260px;
+
+margin-bottom:3px}
+
+
+
+.register-form .input{
+
+font-size:11px;
+
+color:#30302D;
+
+font-weight:normal;
+
+width:258px;
+
+border:1px solid #B6B6B6;
+
+padding:3px}
+
+
+
+.register-form .box select{font-size:11px;
+
+color:#30302D;
+
+}
+
+
+
+.register-form h4{
+
+margin:0;
+
+padding:0;
+
+background:url(../images/register-h4-bg.gif) repeat-x top #F6F6F6;
+
+border:1px solid #CCCCCC;
+
+font-size:13px;
+
+padding:3px 10px;
+
+color:#30302D;
+
+font-weight:bold;
+
+width:700px;
+
+height: 18px;
+
+float:left}
+
+
+
+.noauction_message
+
+{
+
+	color:#0548a5;
+
+	font-size:18px;
+
+	font-family:"Arial Narrow";
+
+}
+
+.product-title
+
+{
+
+	color:#ffa500;
+
+	font-size:16px;
+
+	font-weight:bold;
+
+	padding-top: 15px;
+
+	padding-left: 20px;
+
+	font-family:"Arial Narrow";
+
+	text-align: left;
+
+}
+
+.H_beit_full {
+
+	background-color:#e6edf4;
+
+	width:968px;
+
+	height:27px;
+
+	font-family:"Arial Narrow";
+
+	font-size:16px;
+
+	color:#04749e;
+
+	margin-top: 15px;
+
+}
+
+.page_link
+
+{
+
+	color:#0548a5;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	font-family:"Arial Narrow";
+
+}
+
+.paging_page
+
+{
+
+	color:#04749e;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	font-family:"Arial Narrow";
+
+}
+
+.auction_decri_ended{
+
+	width:380px;
+
+	height:93px;
+
+	padding-left:30px;
+
+	margin-top:32px;
+
+	float:left;
+
+	clear:right;
+
+	text-align:left;
+
+}
+
+.auction_price_ended{
+
+	width:130px;
+
+	height:93px;
+
+	margin-top:0px;
+
+	float:left;
+
+	clear:right;
+
+	text-align:center;
+
+	margin-left: 10px;
+
+}
+
+.auction_bidder_ended{
+
+	width:90px;
+
+	height:93px;
+
+	margin-top:0px;
+
+	float:left;
+
+	clear:right;
+
+	text-align:center;
+
+	font-size:14px;
+
+	color:#0c2f50;
+
+}
+
+.auction_countdown_ended{
+
+	width:80px;
+
+	height:93px;
+
+	margin-top:32px;
+
+	float:left;
+
+	clear:right;
+
+	text-align: center;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+}
+
+.auction_ended_saving
+
+{
+
+	width:80px;
+
+	height:93px;
+
+	margin-top:32px;
+
+	float:left;
+
+	clear:right;
+
+	text-align: center;
+
+}
+
+.greenfont
+
+{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: green;
+
+}
+
+
+
+.h_beit_desc_ended
+
+{
+
+	width: 350px;
+
+	text-align: left;
+
+	float: left;
+
+	padding-left: 30px;
+
+	padding-top: 3px;
+
+}
+
+.h_beit_price_ended
+
+{
+
+	width: 135px;
+
+	text-align: center;
+
+	float: left;
+
+	padding-top: 3px;
+
+}
+
+.h_beit_bidder_ended
+
+{
+
+	width: 100px;
+
+	text-align: center;
+
+	float: left;
+
+	padding-top: 3px;
+
+}
+
+.h_beit_countdown_ended
+
+{
+
+	width: 80px;
+
+	text-align: center;
+
+	float: left;
+
+	padding-top: 3px;
+
+}
+
+
+
+#help-container{margin:0;padding:0;float:left;width:1001px; text-align:left;}
+
+
+
+#help-container #left-side{margin:0;padding:0;float:left;width:180px; margin-right:1px; padding-left: 15px;}
+
+
+
+#help-container #left-side .topic{margin:0;padding:0;float:left;width:180px;}
+
+
+
+#help-container #left-side .topic .title{margin:0;padding:0;width:180px; height:38px; background:url(../images/view_bg.gif) no-repeat top; float:left;}
+
+
+
+#help-container #left-side .topic .title2{margin:0;padding:0;width:180px; height:59px; float:left;}
+
+
+
+#help-container #left-side .topic .title2 h3,
+
+#help-container #left-side .topic .title h3{ margin:0; padding:12px 0px 0px 20px; font-size:12px; font-weight:bold; color:#fff}
+
+
+
+#help-container #left-side .topic .leftnav {background: url(../images/leftnav_bg.gif) repeat-y;margin:0;float: left;padding: 0;width: 194px;margin-left:1px; border-left: 1px solid #cddce9; border-right: 1px solid #cddce9;border-bottom: 1px solid #cddce9}
+
+
+
+#help-container #left-side .topic .leftnav h2 {margin: 0;background: url(../images/hg_motd2.gif) #e6edf4 repeat-x bottom;width: 186px;padding: 6px 0 10px 8px;font-size:12px; font-weight:bold;}
+
+
+
+#help-container #left-side .topic .leftnav h2 a{color: #244D91; text-decoration:none}
+
+
+
+#help-container #left-side .topic .leftnav h2 a:hover{color: #000; text-decoration:none}
+
+
+
+#help-container #left-side .topic .leftnav ul{margin: 0;padding: 0;background: url(../images/categories-mainlink-bot-bg.gif) #fafbfc repeat-x bottom;padding-bottom:2px;}
+
+
+
+#help-container #left-side .topic .leftnav li {width: 180px;list-style:none;margin:0;padding:0;}
+
+
+
+#help-container #left-side .topic .leftnav li a {background: #fafbfc url(../images/myaccount-leftnav-a-off.gif) no-repeat 7px 10px;display: block;padding: 7px 0 7px 24px;border-top:1px solid #fafbfc;border-bottom:1px solid #C1BEB5;color: #625F56;text-decoration: none;width: 156px;font-size:11px;line-height:15px; font-weight:bold;}
+
+
+
+#help-container #left-side .topic .leftnav li a:hover {border-top:1px solid #FFFCF4;border-bottom:1px solid #C1BEB5;color: #244D91;background: #fafbfc url(../images/myaccount-leftnav-a-on.gif) no-repeat 7px 10px;}
+
+
+
+#help-container #left-side .topic .leftnav .last,
+
+#help-container #left-side .topic .leftnav .last:hover{ border-bottom:0px}
+
+
+
+#help-container #left-side .topic .leftnav .first,
+
+#help-container #left-side .topic .leftnav .first:hover{ border-top:0px}
+
+
+
+#help-container #left-side .topic .leftnav li a.sub {background: #F0EEE2;display: block;padding: 5px 0 2px 10px;color: #625F56;text-decoration: none;width: 156px;font-size:11px;line-height:15px ; font-weight:bold; border:0px}
+
+
+
+#help-container #left-side .topic .leftnav li a.sub:hover {color: #244D91;}
+
+
+
+#help-container #left-side .quick-links{margin:0;padding:0;float:left;width:180px; background:url(../images/view_bg.gif) no-repeat}
+
+
+
+#help-container #left-side .quick-links .title{margin:0;padding:0;width:180px; height:38px;float:left;}
+
+
+
+#help-container #left-side .quick-links .title h3{ margin:0; padding:12px 0px 0px 20px; font-size:12px; font-weight:bold; color:#fff;}
+
+
+
+#help-container #left-side .quick-links .body{float:left; margin-left: 1px; width:180px; border-left: 1px solid #cddce9;border-right: 1px solid #cddce9;border-bottom: 1px solid #cddce9;}
+
+
+
+#help-container #left-side .quick-links .body ul{margin: 0;padding: 0;padding:10px 0px 15px 0px}
+
+
+
+#help-container #left-side .quick-links .body li {width: 180px;list-style:none;margin:0;padding:0}
+
+
+
+#help-container #left-side .quick-links .body li a {background: url(../images/myaccount-leftnav-a-off.gif) no-repeat 7px 5px;display: block;padding: 3px 0 3px 24px;color: #625F56;text-decoration: none;width: 156px;font-size:11px;line-height:15px; font-weight:bold}
+
+
+
+#help-container #left-side .quick-links .body li a:hover {color: #244D91;background: url(../images/myaccount-leftnav-a-on.gif) no-repeat 7px 5px;}
+
+
+
+#help-container #right-side { float:right; width:200px}
+
+
+
+#help-container #right-side .email{margin:0;padding:0;float:left;width:194px; background:url(../images/main_bar.jpg) repeat-x;border-left: 1px solid #cddce9; border-right: 1px solid #cddce9; margin-left: 1px;}
+
+
+
+#help-container #right-side .email .title{margin:0;padding:0;width:185px; height:59px;float:left;}
+
+
+
+#help-container #right-side .email .title h3{ margin:0; padding:12px 0px 0px 20px; font-size:12px; font-weight:bold; color:#fff ;}
+
+
+
+#help-container #right-side .email .body{ background:url(../images/news-body-bg.gif) no-repeat top left; float:left; width:171px; padding-left:1px; padding:10px; text-align:center; font-size:11px; font-weight:bold; border-bottom:1px solid #D7D7CD;}
+
+
+
+#help-container #center{
+
+margin:0;padding:0;float:left;width:582px; text-align:left; padding-top: 2px;
+
+}
+
+#help-container #center-head{
+
+margin:0;padding:0;float:left;width:582px; text-align:left;height: 37px;
+
+}
+
+#help-container #center #center-head #helpbar-left {
+
+	background-image:url(../images/openOuction_bar-left.jpg);
+
+	background-repeat:no-repeat;
+
+	width:6px;
+
+	height:38px;
+
+	float: left;
+
+}
+
+#help-container #center #center-head #helpbar-middle {
+
+	background:url(../images/openOuction_bar-middle.jpg) repeat-x;
+
+	width:570px;
+
+	height:38px;
+
+	float:left;
+
+}
+
+#help-container #center #center-head #helpbar-right {
+
+	background-image:url(../images/openOuction_bar-right.jpg);
+
+	background-repeat:no-repeat;
+
+	float:right;
+
+	width:6px;
+
+	height:38px;
+
+}
+
+
+
+#help-container #center #middleline {
+
+	width:568px;
+
+	float: left;
+
+	background: url(../images/hg_motd2.gif) repeat-x center;
+
+	height: 14px;
+
+	margin-top: -1px;
+
+}
+
+
+
+#help-container #center #leftcorner {
+
+	background:url(../images/openOuction_box_left-corner.jpg) right no-repeat top;
+
+	width:7px;
+
+	height:7px;
+
+	float:left;
+
+}
+
+#help-container #center #rightcorner {
+
+	background:url(../images/openOuction_box_right-corner.jpg) no-repeat right top;
+
+	width:7px;
+
+	height:7px;
+
+	float:right;
+
+}
+
+
+
+#help-container #center .page-title{
+
+float:left;
+
+width:599px;
+
+height:60px;
+
+background:url(../images/page-title-bg.gif) repeat-x
+
+}
+
+
+
+#help-container #center .page-title .left{
+
+float:left;
+
+width:430px;
+
+height:40px;
+
+background:url(../images/page-title-left-bg.gif) no-repeat left;
+
+font-size:12px;
+
+color:#000000;
+
+font-weight:bold;
+
+padding:20px 0px 0px 20px
+
+}
+
+
+
+#help-container #center .page-title .right{
+
+float:right;
+
+width:5px;
+
+height:60px;
+
+background:url(../images/page-title-right-bg.gif) no-repeat right top;
+
+text-align:right;
+
+
+
+}
+
+
+
+#help-container .container{
+
+float:left;
+
+width:552px;
+
+font-size:12px;
+
+padding: 14px;
+
+border-left: 1px solid #cddce9;
+
+border-right: 1px solid #cddce9;
+
+color:#30302D}
+
+
+
+#help-container .container h3{
+
+margin:0;
+
+padding:0;
+
+margin-bottom:15px;
+
+font-size:18px;
+
+color:#244E93;
+
+font-weight:bold}
+
+
+
+#help-container .container p{
+
+margin:0;
+
+padding:0;
+
+margin-bottom:15px;
+
+}
+
+
+
+.my-account-left{margin:0;padding:0;float:left;width:200px; text-align: left; padding-left: 15px;}
+
+
+
+.my-account-left .title{margin:0;padding:0;width:200px; height:38px; background:url(../images/view_bg.gif) no-repeat; float:left}
+
+
+
+.my-account-left .title h3{ margin:0; padding:12px 0px 0px 20px; font-size:12px; font-weight:bold; color:#fff}
+
+
+
+.my-account-left .leftnav {margin:0;float: left;padding:0; width:194px; padding-left:0px; padding-bottom:3px; border-left: 1px solid #cddce9; border-right: 1px solid #cddce9;border-bottom: 1px solid #cddce9; background: #fafbfc;}
+
+
+
+.my-account-left .leftnav h2 {margin: 0;background: #e6edf4 url(../images/bullet.jpg) no-repeat 7px 13px;width: 170px;padding: 10px 0 10px 25px;font-size:11px; font-weight:bold}
+
+
+
+.my-account-left .leftnav h2 a{color: #04749e; text-decoration:none;}
+
+
+
+.my-account-left .leftnav h2 a:hover{color: #000; text-decoration:none}
+
+
+
+.my-account-left .leftnav ul{margin: 0;padding: 0;background: url(../images/myaccount-leftnav-line-bg.gif) #fafbfc repeat-x bottom;padding-bottom:2px; width: 194px;}
+
+
+
+.my-account-left .leftnav li {width: 174px;list-style:none;margin:0;padding:0}
+
+
+
+.my-account-left .leftnav li a {background: #fafbfc url(../images/line.gif) no-repeat 7px 12px;display: block;padding: 7px 0 7px 24px;color: #625F56;text-decoration: none;width: 150px;font-size:11px;line-height:15px}
+
+
+
+.my-account-left .leftnav li a:hover {color: #04749e;background: #fafbfc url(../images/line_hover.gif) no-repeat 7px 12px;}
+
+
+
+.my-account-left .leftnav .last,
+
+.my-account-left .leftnav .last:hover{ border-bottom:0px}
+
+
+
+.my-account-left .leftnav .first,
+
+.my-account-left .leftnav .first:hover{ border-top:0px}
+
+
+
+.my-account-left .leftnav .staticleft {margin: 0;padding: 0;background: #fafbfc url(../images/arrow.gif) no-repeat 7px 14px; padding-bottom:2px; width: 160px; padding-left: 20px; padding-top: 10px; text-align: left;}
+
+
+
+.my-account-left .leftnav .staticleft a {	font-size:11px;font-weight:bold;color:#234F97;text-decoration:none;}
+
+
+
+.my-account-left .leftnav .staticleft a:hover {	font-size:11px;	font-weight:bold;	color:#234F97;	text-decoration:underline;}
+
+
+
+.inner-container{
+
+float:left;
+
+width:760px;
+
+margin-top: 3px;
+
+display:inline}
+
+
+
+.inner-container .titlebar{
+
+float:left;
+
+width:765px;
+
+height: 38px;
+
+display:inline}
+
+
+
+.inner-container .titlebar .leftbar{
+
+background: url(../images/openOuction_bar-left.jpg) no-repeat left;
+
+float:left;
+
+width:6px;
+
+height: 38px;
+
+display:inline}
+
+
+
+.inner-container .titlebar .middlebar{
+
+background: url(../images/openOuction_bar-middle.jpg) repeat-x left;
+
+float:left;
+
+width:753px;
+
+height: 38px;
+
+display:inline}
+
+
+
+.inner-container .titlebar .rightbar{
+
+background: url(../images/openOuction_bar-right.jpg) no-repeat left;
+
+float:left;
+
+width:6px;
+
+height: 38px;
+
+display:inline}
+
+
+
+.inner-container .bodypart{
+
+float:left;
+
+border-left: 1px solid #cddce9;
+
+border-right: 1px solid #cddce9;
+
+width:763px;
+
+border-top:0px}
+
+
+
+.inner-container .bodypart .strip {
+
+	background-color:#e6edf4;
+
+	width:763px;
+
+	height:27px;
+
+	font-family:"Arial Narrow";
+
+	font-size:16px;
+
+	color:#04749e;
+
+}
+
+
+
+.inner-container .bodypart .sub-strip {
+
+	background:url(../images/register-h4-bg.gif);
+
+	width:763px;
+
+	height:24px;
+
+	font-family:"Arial Narrow";
+
+	font-size:16px;
+
+	color:#1a7aec;
+
+	text-align: left;
+
+}
+
+
+
+.inner-container .bodypart .strip .imagetext {
+
+float: left;
+
+width: 170px;
+
+text-align: center;
+
+}
+
+.inner-container .bodypart .strip .descriptiontext {
+
+float: left;
+
+width: 235px;
+
+text-align: left;
+
+}
+
+.inner-container .bodypart .strip .pricetext {
+
+float: left;
+
+width: 125px;
+
+text-align: center;
+
+}
+
+.inner-container .bodypart .strip .biddertext {
+
+float: left;
+
+width: 140px;
+
+text-align: center;
+
+}
+
+.inner-container .bodypart .strip .countdowntext {
+
+float: left;
+
+width: 80px;
+
+text-align: center;
+
+}
+
+
+
+.inner-container .bodypart .even-row{
+
+width:758px;
+
+background:url(../images/description_box2.jpg) no-repeat;
+
+height: 131px;
+
+padding-bottom: 10px;
+
+margin-left: 2px;
+
+}
+
+
+
+.inner-container .bodypart .even-row .evenproductimage{
+
+	width:124px;
+
+	height:90px;
+
+	padding-top:20px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:center;
+
+}
+
+.inner-container .bodypart .even-row .evenproductdesc{
+
+	width:250px;
+
+	height:90px;
+
+	padding-top:32px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:left;
+
+}
+
+.inner-container .bodypart .even-row .evenproductdesc .auction_decription{
+
+	padding-left:20px;
+
+	text-align:left;
+
+}
+
+
+
+.inner-container .bodypart .even-row .evenproductprice{
+
+	width:120px;
+
+	height:90px;
+
+	padding-top:32px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:center;
+
+}
+
+
+
+.inner-container .bodypart .even-row .evenproductbidder{
+
+	width:100px;
+
+	height:90px;
+
+	padding-top:32px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:center;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:18px;
+
+	color:#000000;
+
+	font-weight: bold;
+
+}
+
+.inner-container .bodypart .even-row .evenproductcountdown{
+
+	width:80px;
+
+	height:90px;
+
+	padding-top:32px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:center;
+
+}
+
+
+
+.inner-container .bodypart .even-row-buybid{
+
+width:758px;
+
+background:url(../images/box.gif) no-repeat;
+
+height: 131px;
+
+padding-bottom: 10px;
+
+margin-left: 2px;
+
+}
+
+
+
+.inner-container .bodypart .even-row-buybid .redio{
+
+float:left;
+
+width:25px;
+
+padding-top: 20px;
+
+padding-left:8px}
+
+
+
+.inner-container .bodypart .even-row-buybid .bidpackimage{
+
+float:left;
+
+width:260px;
+
+padding-top: 20px;
+
+padding-right:8px
+
+}
+
+
+
+.inner-container .bodypart .even-row-buybid .bidpackdiscription{
+
+float:left;
+
+width:235px;
+
+font-size:12px;
+
+padding-top: 25px;
+
+text-align: left;
+
+color:#1a7aec}
+
+
+
+.inner-container .bodypart .even-row-buybid .bidpackdiscription h4{
+
+font-size:14px;
+
+font-weight:bold;
+
+color:#000000;
+
+padding:0;
+
+font-family: Arial, Helvetica, sans-serif;
+
+margin:0;
+
+margin-bottom:7px}
+
+
+
+.inner-container .bodypart .even-row-buybid .bidpackbutton{
+
+float:right;
+
+width:210px;
+
+text-align: right;
+
+padding-top: 20px;
+
+padding-right:8px}
+
+
+
+.inner-container .bottomline{
+
+float:left;
+
+width:765px;
+
+height: 38px;
+
+display:inline}
+
+
+
+.inner-container .bottomline .leftsidecorner{
+
+	background:url(../images/openOuction_box_left-corner.jpg) no-repeat right top;
+
+	width:7px;
+
+	height:7px;
+
+	float:left;
+
+}
+
+
+
+.inner-container .bottomline .middlecorner{
+
+	width:751px;
+
+	float: left;
+
+	background: url(../images/hg_motd2.gif) repeat-x center;
+
+	height: 13px;
+
+}
+
+
+
+.inner-container .bottomline .rightsidecorner{
+
+	background:url(../images/openOuction_box_right-corner.jpg) no-repeat right top;
+
+	width:7px;
+
+	height:7px;
+
+	float:right;
+
+}
+
+
+
+.bidderfont
+
+{
+
+	font-family:"Arial Narrow";
+
+	font-size:16px;
+
+	color:#0a2e4f;
+
+}
+
+.alink
+
+{
+
+	font-size:11px;
+
+	font-weight:bold;
+
+	color:#234F97;
+
+	text-decoration:none;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	padding-top: 3px;
+
+}
+
+.alink:hover{
+
+	font-size:11px;
+
+	font-weight:bold;
+
+	color:#234F97;
+
+	text-decoration:underline;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+/* watchauction.php */
+
+.inner-container .bodypart .strip .watchimagetext {
+
+float: left;
+
+width: 170px;
+
+text-align: center;
+
+}
+
+.inner-container .bodypart .strip .watchdescriptiontext {
+
+float: left;
+
+width: 218px;
+
+text-align: left;
+
+}
+
+.inner-container .bodypart .strip .watchpricetext {
+
+float: left;
+
+width: 115px;
+
+text-align: center;
+
+}
+
+.inner-container .bodypart .strip .watchbiddertext {
+
+float: left;
+
+width: 130px;
+
+text-align: center;
+
+}
+
+.inner-container .bodypart .strip .watchcountdowntext {
+
+float: left;
+
+width: 70px;
+
+text-align: center;
+
+}
+
+
+
+.inner-container .bodypart .strip .watchaucdelete {
+
+float: left;
+
+width: 30px;
+
+text-align: center;
+
+}
+
+
+
+.inner-container .bodypart .even-row .watchevenproductimage{
+
+	width:124px;
+
+	height:90px;
+
+	padding-top:20px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:center;
+
+}
+
+.inner-container .bodypart .even-row .watchevenproductdesc{
+
+	width:220px;
+
+	height:90px;
+
+	padding-top:32px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:left;
+
+}
+
+.inner-container .bodypart .even-row .watchevenproductdesc .watchauction_decription{
+
+	padding-left:20px;
+
+	text-align:left;
+
+}
+
+
+
+.inner-container .bodypart .even-row .watchevenproductprice{
+
+	width:120px;
+
+	height:90px;
+
+	padding-top:32px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:center;
+
+}
+
+
+
+.inner-container .bodypart .even-row .watchevenproductbidder{
+
+	width:90px;
+
+	height:90px;
+
+	padding-top:32px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:center;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:16px;
+
+	color:#000000;
+
+	font-weight: bold;
+
+}
+
+
+
+.inner-container .bodypart .even-row .butlerendprice{
+
+	width:90px;
+
+	height:90px;
+
+	padding-top:32px;
+
+	padding-left:15px;
+
+	float:left;
+
+	text-align:center;
+
+}
+
+
+
+.inner-container .bodypart .even-row .watchevenproductcountdown{
+
+	width:100px;
+
+	height:90px;
+
+	padding-top:32px;
+
+	float:left;
+
+	text-align:center;
+
+}
+
+
+
+.inner-container .bodypart .even-row .watchdelete{
+
+	width:35px;
+
+	height:90px;
+
+	padding-top:36px;
+
+	float:left;
+
+	text-align:right;
+
+}
+
+
+
+/* end watchauction page */
+
+.myrightside
+
+{
+
+	float: right;
+
+	padding-right: 10px;
+
+	padding-top: 10px;
+
+}
+
+
+
+.buybidpacktitle
+
+{
+
+	font: Arial, Helvetica, sans-serif;
+
+	color: #04749e;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+}
+
+.textboxclas{
+
+font-size:11px;
+
+color:#30302D;
+
+font-weight:normal;
+
+width:258px;
+
+border:1px solid #B6B6B6;
+
+padding:3px}
+
+
+
+.hrset
+
+{
+
+	width: 600px;
+
+	border-color: #000000;
+
+	height: 1px;
+
+}
+
+
+
+.purchasedate{
+
+float:left;
+
+width:120px;
+
+padding:0px 0px 0px 8px}
+
+
+
+.purchasedesc{
+
+float:left;
+
+width:460px;
+
+text-align: left;
+
+padding:0px 0px 0px 8px}
+
+
+
+.purchasebid{
+
+float:left;
+
+width:110px;
+
+padding:0px 0px 0px 8px}
+
+
+
+.voucherdate{
+
+float:left;
+
+width:65px;
+
+padding:3px 0px 0px 8px}
+
+
+
+.voucherdescription{
+
+float:left;
+
+width:230px;
+
+text-align: left;
+
+padding:3px 0px 0px 8px}
+
+
+
+.voucherdescription h3
+
+{
+
+font-size:12px;
+
+font-weight:bold;
+
+color:#235099;
+
+margin:0;
+
+padding:0;
+
+margin-bottom:8px
+
+}
+
+
+
+.voucherdescription h3 a{
+
+text-decoration:none;
+
+color:#235099;}
+
+
+
+.voucherdescription h3 a:hover{
+
+text-decoration:none;
+
+color:#000;}
+
+
+
+.voucherprice{
+
+float:left;
+
+width:85px;
+
+padding:3px 0px 0px 8px}
+
+
+
+.vouchercombinable{
+
+float:left;
+
+width:85px;
+
+padding:3px 0px 0px 8px}
+
+
+
+.voucherauction{
+
+float:left;
+
+width:85px;
+
+padding:3px 0px 0px 8px}
+
+
+
+.voucherstatus{
+
+float:left;
+
+width:85px;
+
+padding:3px 0px 0px 0px}
+
+
+
+.voucherexpiry{
+
+float:left;
+
+width:85px;
+
+padding:3px 0px 0px 0px}
+
+
+
+#bidhistory_bid_history
+
+{
+
+	width: 300px;
+
+	height: auto;
+
+	float: right;
+
+	padding-bottom: 5px;
+
+	padding-top: 33px;
+
+	padding-right: 5px;
+
+}
+
+#historytop
+
+{
+
+	background-image: url(../images/hg_gbkdetails_t.png);
+
+	background-repeat: no-repeat;
+
+	height: 14px;
+
+	width: 300px;
+
+	float: right;
+
+	position: relative;
+
+}
+
+#historydetails
+
+{
+
+	height:auto;
+
+	width: 298px;
+
+	position: relative;
+
+	float: right;
+
+	border-left: 1px solid;
+
+	border-right: 1px solid;
+
+	border-color: #DD0000;
+
+	background-color: #FFFFFF;
+
+	margin-top: -10px;
+
+}
+
+#historybot
+
+{
+
+	background-image: url(../images/hg_gbkdetails_b.png);
+
+	background-repeat: no-repeat;
+
+	height: 5px;
+
+	width: 300px;
+
+	position:relative;
+
+	float: right;
+
+}
+
+.grayboldfont
+
+{
+
+	font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+.wonimage{
+
+float:left;
+
+width:160px;
+
+padding:20px 0px 0px 5px}
+
+
+
+.wondescription{
+
+float:left;
+
+width:200px;
+
+text-align: left;
+
+padding:30px 0px 0px 15px;
+
+}
+
+
+
+.wondescription span
+
+{
+
+font-size:12px;
+
+color:#000000;
+
+margin:0;
+
+padding:0px 0px 0px 0px;
+
+margin-bottom:8px;
+
+text-align: left;
+
+}
+
+
+
+.wonprice{
+
+float:left;
+
+width:90px;
+
+padding:35px 0px 0px 8px}
+
+
+
+.wonbidder{
+
+float:left;
+
+width:100px;
+
+padding:35px 0px 0px 8px}
+
+
+
+.woncountdown{
+
+float:left;
+
+width:150px;
+
+padding:35px 0px 0px 8px}
+
+
+
+.rightsidefont
+
+{
+
+	color:#0548a5;
+
+	font-size:12px;
+
+	font-weight:bold;
+
+	padding-top: 10px;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	padding-right: 20px;
+
+}
+
+
+
+.productdetail_box_container
+
+{
+
+	width: 290px;
+
+	margin: 0px 0px 0px 0px;
+
+	float: left;
+
+}
+
+
+
+.productdetail_box
+
+{
+
+	width: 290px;
+
+	margin: 0px 0px 0px 0px;
+
+}
+
+
+
+.productdetail_box .smallcornerleft
+
+{
+
+	float: left;
+
+	background: url(../images/openAuction_box_left-corner-1.jpg) no-repeat;
+
+	width: 7px;
+
+	height: 7px;
+
+}
+
+
+
+.productdetail_box .smallcornerright
+
+{
+
+	float: left;
+
+	background: url(../images/openAuction_box_right-corner1.jpg) no-repeat;
+
+	width: 7px;
+
+	height: 7px;
+
+}
+
+
+
+.productdetail_box .smallcornerleftbot
+
+{
+
+	float: left;
+
+	background: url(../images/openOuction_box_left-corner.jpg) top no-repeat;
+
+	width: 7px;
+
+	height: 7px;
+
+}
+
+
+
+.productdetail_box .smallcornerrightbot
+
+{
+
+	float: left;
+
+	background: url(../images/openOuction_box_right-corner.jpg) top no-repeat;
+
+	width: 7px;
+
+	height: 7px;
+
+}
+
+
+
+.productdetail_box .smallcornermiddlebot
+
+{
+
+	float: left;
+
+	background: url(../images/hg_motd2.gif) center repeat-x;
+
+	width: 275px;
+
+	height: 13px;
+
+}
+
+
+
+.productdetail_box .smallcornermiddle
+
+{
+
+	float: left;
+
+	background: url(../images/hg_motd2.gif) repeat-x;
+
+	width: 275px;
+
+	height: 7px;
+
+}
+
+.productdetail_box .middlepart
+
+{
+
+	float: left;
+
+	width: 237px;
+
+	border-left: 1px solid #cddce9;
+
+	border-right: 1px solid #cddce9;
+
+}
+
+
+
+.productdetail_box .middlepart
+
+{
+
+	float: left;
+
+	width: 237px;
+
+	border-left: 1px solid #cddce9;
+
+	border-right: 1px solid #cddce9;
+
+}
+
+
+
+.productdetail_box .middlepart .bigimage
+
+{
+
+	width: 353px;
+
+	height: 340px;
+
+	padding-top: 15px;
+
+}
+
+
+
+.productdetail_box .middlepart .thumb
+
+{
+
+	width: 353px;
+
+	height: 90px;
+
+	background: url(../images/thumbback.gif) repeat-x;
+
+	border-top: 1px solid #cddce9;
+
+	border-bottom: 1px solid #cddce9;
+
+}
+
+
+
+.productdetail_box .middlepart .thumb img
+
+{
+
+	border: 1px solid #cddce9;
+
+}
+
+
+
+.productdetail_box .middlepart .row{
+
+float:left;
+
+width:237px;
+
+margin-bottom:5px;}
+
+
+
+.productdetail_box .middlepart .row .left1{
+
+float:left;
+
+width:165px;
+
+text-align: left;
+
+padding-left: 10px;
+
+}
+
+
+
+.productdetail_box .middlepart .row .title{
+
+	float:left;
+
+	padding-left: 10px;
+
+	width:50px;
+
+	font-size:10px;
+
+	text-align: left;
+
+}
+
+
+
+.productdetail_box .middlepart .row .text{
+
+	float:left;
+
+	width:215px;
+
+	text-align: right;
+
+	font-size:16px
+
+}
+
+
+
+.leftcleaner
+
+{
+
+	height: 400px;
+
+	float: left;
+
+	width: 6px;
+
+}
+
+.productdetailcounter
+
+{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 26px;
+
+	font-weight: bold;
+
+	height: 40px;
+
+}
+
+.prddetailpricetext{ font-size:22px; font-weight:bold; color:#b2d635}
+
+
+
+.product-history-leftside
+
+{
+
+	background:url(../images/bidbutler_left_dark.png) no-repeat left;
+
+	width: 180px;
+
+	height: 24px;
+
+	float: left;
+
+	cursor: pointer;
+
+}
+
+.product-history-rightside
+
+{
+
+	background:url(../images/bidbutler_right_light.png) no-repeat left;
+
+	width: 109px;
+
+	height: 24px;
+
+	float: left;
+
+	cursor: pointer;
+
+}
+
+.autobidder_title
+
+{
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #235099;
+
+	margin-left: 10px;
+
+	margin-top: 5px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	text-align: left;
+
+}
+
+.product-history-leftside_dark
+
+{
+
+	background:url(../images/bidbutler_left_light.png) no-repeat left;
+
+	width: 109px;
+
+	height: 24px;
+
+	float: left;
+
+	cursor: pointer;
+
+}
+
+.product-history-rightside_dark
+
+{
+
+	background:url(../images/bidbutler_right_dark.png) no-repeat left;
+
+	width: 180px;
+
+	height: 24px;
+
+	float: left;
+
+	cursor: pointer;
+
+}
+
+.product-history-full
+
+{
+
+	background:url(../images/bidbutler_full.png) no-repeat left;
+
+	width: 290px;
+
+	height: 24px;
+
+	float: left;
+
+	cursor: pointer;
+
+}
+
+.darkblue-text-17-b{
+
+font-size:17px;
+
+color:#0A2249;
+
+font-weight:bold}
+
+
+
+.producthistitlerow{
+
+float:left;
+
+padding:5px;
+
+width:220px;
+
+font-size:11px;
+
+padding-left: 10px;
+
+height: 20px;
+
+padding-top: 10px;
+
+}
+
+
+
+.producthisrow{
+
+float:left;
+
+width:227px;
+
+padding-left: 10px;
+
+font-size:11px;
+
+height: 20px;
+
+}
+
+
+
+.cell{
+
+float:left;
+
+width:85px;
+
+}
+
+
+
+.cell1{
+
+float:left;
+
+width:94px;
+
+margin-left:10px}
+
+
+
+.cell .inputtextbox{
+
+font-size:11px;
+
+border:1px solid #B6B6B6;
+
+width:65px;
+
+margin-left:2px;
+
+padding:2px}
+
+
+
+.auctypedetail
+
+{
+
+	background: url(../images/thumbback.gif) repeat-x;
+
+	height: 90px;
+
+	width: 968px;
+
+	text-align: left;
+
+}	
+
+.product-name-bar{
+
+float:left;
+
+width:930px;
+
+padding:15px
+
+}
+
+.product-name-bar-left{
+
+float:left;
+
+width:507px;
+
+font-size:13px;}
+
+
+
+.product-name-bar-left .title{
+
+font-size:13px;
+
+font-weight:bold;
+
+color:#235099;
+
+text-align: left;
+
+margin-bottom:8px}
+
+
+
+.product-name-bar-right{
+
+float:right;
+
+width:245px;
+
+text-align:right;
+
+font-size:11px}
+
+
+
+.savingline
+
+{
+
+	width: 270px;
+
+	background:url(../images/hg_motd2.gif) repeat-x center;
+
+	height: 15px;
+
+}
+
+.normal_text_small
+
+{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	color: #5e5e5e;
+
+}
+
+
+
+.proddetailprice
+
+{
+
+	color:#7ec01d;
+
+	font-size: 34px;
+
+	font-weight: bold;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.imageboxclas{
+
+background:#FFFFFF;
+
+padding:5px;
+
+border:1px solid #cddce9}
+
+
+
+.searchbox{
+
+font-size:14px;
+
+color:#30302D;
+
+font-weight:normal;
+
+width: 128px;
+
+border: 0px;
+
+height: 14px;
+
+margin-top: 2px;
+
+}
+
+.staticdevider
+
+{
+
+	width: 180px;
+
+	background:url(../images/hg_motd2.gif) repeat-x center;
+
+	height: 15px;
+
+}
+
+
+
+.staticright
+
+{
+
+	min-height: 300px;
+
+	width: 710px;
+
+	padding-left: 20px;
+
+	float: left;
+
+	text-align: justify;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	color: #5e5e5e;
+
+	padding-top: 10px;
+
+}
+
+
+
+.darkblue-static-title{
+
+font-size:17px;
+
+color:#0A2249;
+
+font-weight:bold;
+
+height: 30px;}
+
+
+
+.openAuction_bar_mainDIV2_static {
+
+	width:968px;
+
+	margin-left: 15px;
+
+}
+
+
+
+.staticbody
+
+{
+
+	height: auto;
+
+	float: left;
+
+	border-left: 1px solid #cddce9;
+
+	border-right: 1px solid #cddce9;
+
+	width: 968px;
+
+	text-align: justify;
+
+	padding-bottom: 10px;
+
+}
+
+.addressline
+
+{
+
+	width: 600px;
+
+	background:url(../images/hg_motd2.gif) repeat-x center;
+
+	height: 15px;
+
+}
+
+#main_div #middle_div #Auction_boxes .openAuction_box #openAuction_box_containt .openAuction_itemname div {
+
+	font-family: Tahoma, Geneva, sans-serif;
+
+}

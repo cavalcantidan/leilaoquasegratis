@@ -1,0 +1,1911 @@
+/* common styling */
+.menu {
+	font-family: arial, sans-serif;
+	width:200px;
+	height:20px;
+	position:relative;
+	font-size:1.0em;
+	font-weight:bold;
+	z-index:100;
+	padding-left:22px;
+	float:left;
+}
+.menu ul li a, .menu ul li a:visited {
+	display:block;
+	text-decoration:none;
+	width:220px;
+	height:32px;
+	text-align:left;
+	padding-left:8px;
+	line-height:18px;
+	color:#ffffff;
+	overflow:hidden;
+	background-image: url(../images/but_all_categories.jpg);
+	background-repeat: no-repeat;
+	background-position:top left;
+}
+.menu ul {padding:0; margin:0; list-style: none;}
+.menu ul li {
+	float:left;
+	position:relative;
+}
+.menu ul li ul {display: none;}
+
+/* specific to non IE browsers */
+.menu ul li:hover a {color:#ffffff; background:url(../images/but_all_categories_hover.jpg) no-repeat;}
+.menu ul li:hover ul {display:block; position:absolute; top:32px; left:0; width:200px;}
+
+.menu ul li:hover ul li ul {display: none;}
+.menu ul li:hover ul li a {display:block; background:url(../images/All_categories_hover1.jpg); color:#ffffff; height: 25px;}
+.menu ul li:hover ul li#ddf a {display:block; background:url(../images/All_categories_last.jpg); color:#ffffff; background-repeat:no-repeat;}
+
+.menu ul li:hover ul li a:hover {background:url(../images/All_categories_hover.jpg); color:#434343;}
+.menu ul li:hover ul li:hover ul {display:block; position:absolute; left:200px; top:0;}
+.menu ul li:hover ul li:hover ul.left {left:-200px;}
+
+
+
+
+#header_ddmenu
+{
+  width:290px;
+  background:#fff;
+  float: left;
+}
+#header_ddmenu2
+{
+  width:300px;
+  float:left;
+  height:25px;
+  background:#fff;
+}
+/* HEADER ENDE */
+.content
+{
+  margin:0px;
+  width:100%;
+  background:#fff;
+  width:100%;
+}
+#content
+{
+  margin:0px;
+  width:100%;
+  background:#fff;
+  width:100%;
+}
+#subcontent{
+  margin:0;
+  width:730px;
+  float:left; 
+  padding-top:10px;
+  font-size:0.75em;
+  font-weight:bold;
+  color:#434343;  
+}
+#mtbmenus{
+  padding-left:10px;
+  float:left;
+  width:190px;
+}
+#mtbcontent{
+  padding-left:10px;
+  padding-top:10px;
+  float:left;
+  width:770px;
+  color:#434343;
+}
+.mtb_startheader{
+  color:#434343;
+  font-size:0.8em;
+  text-align:center;
+  padding-top:10px;
+  height:40px;
+  padding-right:10px;
+  font-weight:bold;
+  width:740px;
+}
+.mtb_adrheader{
+  color:#434343;
+  font-size:0.8em;
+  padding:10px;
+}
+.mtb_adresse{
+  color:#434343;
+  font-size:0.8em;
+  padding:10px;
+}
+.mtb_adresse2{
+  color:#434343;
+  font-size:0.8em;
+  padding:10px;
+  width:350px;
+  float:left;
+}
+.mtb_mobilnr{
+  color:#434343;
+  font-size:0.8em;
+  padding:10px;
+}
+.mtb_kontok{
+  color:#434343;
+  font-size:0.8em;
+  padding:20px;
+}
+.mtb_passwort{
+  color:#434343;
+  font-size:0.8em;
+  padding:10px;
+}
+#readmsg{
+  position:absolute;
+  z-index:10;
+  width: 750px;
+  min-height:300px;
+  top: 229px;
+  display:'';
+}
+.msgbox_t{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_msg.gif) no-repeat left;
+  width:750px;
+  height:22px;
+}
+.msgbox_s{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_msg_sub.gif);
+  width:710px;
+  padding:20px;
+  text-align:center;
+  font-weight:bold;
+  color:#434343;
+}
+.msgbox_m{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_msg_middle.gif) left;
+  width:710px;
+  padding:20px;
+  font-size:0.8em;
+}
+.msgbox_b{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_msg_bottom.gif) no-repeat top;
+  width:750px;
+  height:10px;
+}
+#msgclose{
+  font-size:0.7em;
+  float:right;
+  width:100px;
+  text-align:right;
+  font-weight:bold;
+  padding-top:4px;
+  padding-right:5px;
+  color:#afafaf;
+}
+#msgsender{
+  font-size:0.75em;
+  width:640px;
+  padding-left:10px;
+  padding-top:4px;
+}
+.mtbcbox_t{
+  width:740px;
+  height:22px;
+  padding-top:4px;
+  padding-left:10px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_mtbcbox_top.gif) no-repeat top;
+  font-size:0.8em;
+  font-weight:bold;
+  color:#434343;
+}
+.mtbcbox_t2{
+  width:750px;
+  height:12px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_mtbcbox_topempty.gif) no-repeat bottom;
+}
+.mtbcbox_ts{
+  width:750px;
+  height:21px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_mtbcbox_stop.gif) no-repeat top;
+  font-size:0.6em;
+  font-weight:bold;
+  color:#434343;
+}
+.mtbcbox_m{
+  width:750px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_mtbcbox_middle.gif) repeat-y;
+}
+.mtbcbox_b{
+  width:740px;
+  padding-top:4px;
+  height:27px;
+  padding-right:10px;
+  text-align:right;
+  font-size:0.6em;
+  color:#434343;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_mtbcbox_bottom.gif) no-repeat top;
+}
+.mtbcbox_b2{
+  width:750px;
+  height:10px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_mtbcbox_bottom2.gif) no-repeat top;
+}
+.mtbcbox_b2{
+  width:750px;
+  height:20px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_mtbcbox_bottom2.gif) no-repeat top;
+}
+.mtbcbox_b3{
+  width:740px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:3px;
+  height:27px;
+  font-size:0.7em;
+  color:#434343;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_mtbcbox_bottom.gif) no-repeat top;
+}
+.mtb_auktion_white{
+  background:#fff;
+  width:748px;
+  margin-left:1px;
+  font-size:0.8em;
+}
+.mtb_auktion_grey{
+  background:#f3f3f3;
+  width:748px;
+  margin-left:1px;
+  font-size:0.8em;
+}
+#mtb_gbkauf_header{
+  padding:20px;
+  padding-bottom:10px;
+  width:710px;
+  height:10px;
+  font-size:0.7em;
+  font-weight:bold;
+  text-align:center;
+}
+.mtbdaten{
+  padding:10px;
+  font-size:0.8em;
+}
+.mtb_glkauktion{
+  padding:20px;
+  font-size:0.8em;
+}
+.mtb_glkpreis{
+  padding:20px;
+  padding-top:0px;
+  font-size:0.8em;
+  font-weight:bold;
+}
+.mtb_glkbank{
+  padding-left:30px;
+  font-size:0.8em;
+}
+.mtb_glkbutton{
+  padding:20px;
+  font-size:0.8em;
+}
+.mtb_glkbest{
+  padding:20px;
+  font-size:0.8em;
+}
+.mtb_glkfooter{
+  padding:20px;
+  font-size:0.8em;
+  text-align:center;
+  font-weight:bold;
+  color:#FF0000;
+}
+#bidpacks{
+    padding:15px;
+  padding-bottom:0px;
+  width:710px;
+}
+.bidpack{
+  width:175px;
+  float:left;
+  text-align:center;
+}
+.payment{
+  font-size:0.8em;
+}
+.contentbox_t{
+  margin:0px;
+  width:100%;
+  height:24px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_top4.gif) no-repeat top;
+}
+.contentbox_t2{
+  margin:0px;
+  width:100%;
+  height:24px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_top4.gif) no-repeat top;
+}
+.contentbox_t3{
+  margin:0px;
+  width:100%;
+  height:24px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_top4.gif) no-repeat top;
+}
+.contentbox_t4{
+  margin:0px;
+  width:100%;
+  height:24px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_top4.gif) no-repeat top;
+}
+.contentbox_t5{
+  margin:0px;
+  width:100%;
+  height:24px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_top4.gif) no-repeat top;
+}
+.contentbox_s{
+  height:15px;
+  width:100%;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_sub2.gif) repeat-y top;
+  font-size:0.6em;
+  font-weight:bold;
+  color:#434343;
+  padding-top:5px;
+}
+.contentbox_m{
+  margin:0px;
+  width:100%;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_middle4.gif) repeat-y top;
+}
+.contentbox_m2{
+  margin:0px;
+  width:100%;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_middle4.gif) repeat-y top;
+}
+.contentbox_m3{
+  margin:0px;
+  width:100%;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_middle4.gif) repeat-y top;
+}
+.contentbox_m4{
+  margin:0px;
+  width:100%;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_middle4.gif) repeat-y top;
+}
+.contentbox_m5{
+  margin:0px;
+  width:100%;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_middle4.gif) repeat-y top;
+}
+.contentbox_b{
+  margin:0px;
+  width:100%;
+  height:20px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_bottom4.gif) no-repeat top;
+}
+.contentbox_b1b{
+  margin:0px;
+  height:30px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_bottom1b.gif) no-repeat top;
+  font-size:0.7em;
+  font-weight:bold;
+  padding-top:4px;
+  padding-left:10px;
+}
+.contentbox_b2{
+  margin:0px;
+  width:100%;
+  height:20px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_bottom4.gif) no-repeat top;
+}
+.contentbox_b3{
+  margin:0px;
+  width:100%;
+  height:20px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_bottom4.gif) no-repeat top;
+}
+.contentbox_b4{
+  margin:0px;
+  width:100%;
+  height:20px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_bottom4.gif) no-repeat top;
+}
+.contentbox_b5{
+  margin:0px;
+  width:100%;
+  height:20px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_bottom4.gif) no-repeat top;
+}
+.cb_header{
+  font-size:0.7em;
+  font-weight:bold;
+  color:#434343;
+  margin:0px;
+  padding-left:12px;
+  padding-top:6px;
+  width:700px;}
+.cb_header2{
+  font-size:0.7em;
+  font-weight:bold;
+  color:#434343;
+  margin:0px;
+  padding-left:12px;
+  padding-top:6px;
+  width:700px;}
+.subbox_t{
+  margin:0px;
+  padding-left:20px;
+  padding-top:10px;
+  width:220px;
+  height:24px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subbox_top.gif) no-repeat bottom;
+}
+.subbox_b{
+  margin:0px;
+  padding-left:20px;
+  width:220px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subbox_bottom.gif) no-repeat bottom;
+}
+.subbox_t2{
+  margin:0px;
+  padding-left:10px;
+  padding-top:10px;
+  width:180px;
+  height:24px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subbox2_top.gif) no-repeat bottom;
+}
+.subbox_m2{
+  margin:0px;
+  padding-left:10px;
+  width:180px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subbox2_middle.gif) repeat-y;
+}
+.subbox_b2{
+  margin:0px;
+  height:10px;
+  padding-left:10px;
+  width:180px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subbox2_bottom.gif) top no-repeat;
+}
+  
+.subbox_reg_t{
+  margin:0px;
+  padding-left:30px;
+  padding-top:10px;
+  width:950px;
+  height:24px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subbox_reg_top.gif) no-repeat bottom;
+}
+.subbox_reg_b{
+  margin:0px;
+  padding-left:30px;
+  width:950px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subbox_reg_bottom.gif) no-repeat bottom;
+}  
+.sb_header{
+  font-size:0.7em;
+  font-weight:bold;
+  color:#ffffff;
+  margin:0px;
+  padding-top:6px;
+}
+.sb_header2{
+  font-size:0.7em;
+  font-weight:bold;
+  color:#66bc29;
+  margin:0px;
+  padding-top:6px;
+}
+.sb_text{
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:0.66em;
+  font-weight:bold;
+  color:#505050;
+  margin:0px;
+  width:180px;
+}
+.input180{
+  margin:0;
+  height:25px;
+  width:180px;
+  background:url(http://img2.telebid.de/telebid-uk/img/fld_input180.gif) no-repeat top;
+}
+.IPT180{
+  background:none;
+  border:none;
+  width:170px;
+  margin:0;
+  padding-left:5px;
+  padding-top:3px;
+}
+.IPT180S{
+  background:none;
+  border:none;
+  width:175px;
+  margin:0;
+  padding-left:5px;
+  padding-top:2px;
+}
+.option{
+  background:#fff;
+}
+/* ANMELDUNG */
+#anmeldung{
+  padding:10px;
+  padding-left:0px;
+  width:388px;
+  float:left;
+  margin:0px;  
+  font-size:0.75em;
+  color:#434343;  
+}
+#pwvergessen{
+  padding-left:80px;
+  padding-top:30px;
+  float:left;
+  font-weight:bold;
+  color:#434343;
+  width:660px;
+  font-size:0.8em;  
+}
+#newsletter{
+  padding:20px;
+  float:left;
+  color:#434343;
+  width:660px;
+  font-size:0.8em;  
+}
+#anmeldenneu{
+  float:left;
+  width:560px;
+  padding:10px;
+}
+.sb_text2{
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:0.66em;
+  color:#505050;
+  margin:0px;
+  width:200px;
+}
+.sb_text3{
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:0.7em;
+  color:#505050;
+  margin:0px;
+  width:200px;
+}
+.smallfont{
+  font-size:11px;
+  font-weight:normal;
+}
+.redfont{
+  color:#FF0000;
+}
+.greenfont{
+  color:#66bc29;
+}
+.input270{
+  margin:0;
+  height:25px;
+  width:270px;
+  background:url(http://img2.telebid.de/telebid-uk/img/fld_input270.gif) no-repeat top;
+}
+.IPT270{
+  background:none;
+  border:none;
+  width:260px;
+  margin:0;
+  padding-left:5px;
+  padding-top:3px;
+}
+#gcode_hg{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_gutschein.gif) center no-repeat;
+  height:114px;
+  width:235px;
+}
+#gcode{
+  margin:0;
+  height:25px;
+  width:180px;
+  background:url(http://img2.telebid.de/telebid-uk/img/fld_input180.gif) no-repeat top right;
+}
+#gcode_fld{
+  background:none;
+  border:none;
+  width:170px;
+  margin:0;
+  padding-top:3px;
+}
+/* REGISTRATION */
+.regnr{
+  float:left;
+  width:225px;
+  height:100px;
+  text-align:center;
+  font-size:0.75em;
+  color:#434343;
+  padding-top:20px;
+  margin:0px;  
+}
+/* #reg01content{
+  padding-top:40px;
+  padding-left:20px;
+  font-size:0.75em;
+  width:600px;
+  color:#434343;
+  float:left;
+} */
+#reg01content{
+  padding-top:40px;
+  padding:20px;
+  font-size:0.75em;
+  width:940px;
+  color:#434343;
+  float:left;
+}
+#reg01bcontent{
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+  font-size:0.75em;
+  width:940px;
+  color:#434343;
+}
+.regfields{
+  padding-left:205px; 
+  padding-top:40px; 
+  padding-bottom:10px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_reg.gif) no-repeat center bottom;
+}
+.input230{
+  margin:0;
+  height:25px;
+  width:230px;
+  background:url(http://img2.telebid.de/telebid-uk/img/fld_input230.gif) no-repeat top;
+}
+.IPT230{
+  background:none;
+  border:none;
+  width:220px;
+  margin:0;
+  padding-left:5px;
+  padding-top:3px;
+}
+.input230t{
+  margin:0;
+  height:25px;
+  width:230px;
+  background:url(http://img2.telebid.de/telebid-uk/img/fld_input230t.gif) no-repeat top;
+}
+.input230g{
+  margin:0;
+  height:25px;
+  width:230px;
+  background:url(http://img2.telebid.de/telebid-uk/img/fld_input230g.gif) no-repeat top;
+}
+.input80{
+  margin:0;
+  height:25px;
+  width:80px;
+  background:url(http://img2.telebid.de/telebid-uk/img/fld_input80.gif) no-repeat top;
+}
+.IPT80{
+  background:none;
+  border:none;
+  width:70px;
+  margin:0;
+  padding-left:5px;
+  padding-top:3px;
+}
+.IPT145{
+  background:none;
+  border:none;
+  width:135px;
+  margin:0;
+  padding-left:5px;
+  padding-top:3px;
+}
+.IPT50S{
+  width:45px;
+}
+.IPT110S{
+  width:125px;
+}
+.IPT60S{
+  width:55px;
+}
+.IPT80S{
+  width:78px;
+}
+#smsinput{
+  width:315px; 
+  border:1px solid #FF0000; 
+  background-color:#ffebd7;
+}
+.inputsms{
+  margin:0;
+  height:25px;
+  width:230px;
+  background:url(http://img2.telebid.de/telebid-uk/img/fld_sms.gif) no-repeat top;
+}
+.IPTSMS{
+  background:none;
+  border:none;
+  width:220px;
+  margin:0;
+  padding-left:5px;
+  padding-top:3px;
+}
+/* KATEGORIEN */
+.caterror{
+  position:absolute;
+  width:180px;
+  padding-left:750px;
+  padding-right:10px;
+  padding-top:10px;
+  height:90px;
+  z-index:10;
+  text-align:center;
+  color:#FF0000;
+  font-weight:bold;
+  font-size:0.9em;
+  filter:alpha(opacity=90);
+  -moz-opacity:0.9;
+  opacity:0.9;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_errorcat.gif) bottom right no-repeat;
+  
+}
+.mtberror{
+  position:absolute;
+  width:180px;
+  padding-left:555px;
+  padding-right:10px;
+  padding-top:10px;
+  height:90px;
+  z-index:10;
+  text-align:center;
+  color:#FF0000;
+  font-weight:bold;
+  font-size:0.9em;
+  filter:alpha(opacity=90);
+  -moz-opacity:0.9;
+  opacity:0.9;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_errorcat.gif) bottom right no-repeat;
+  
+}
+#cat_content{
+  width:960px;
+  margin:0;
+  padding-left:10px;
+  padding-top:10px;
+}
+.catbox_t{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_catbox_top.gif) no-repeat bottom;
+  width:960px;
+  height:45px;
+  clear:left;
+  margin:0;
+  padding-top:10px;
+}
+.catbox_m{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_catbox_middle.gif) repeat-y top;
+  width:960px;
+  margin:0;
+}
+.catbox_b{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_catbox_bottom.gif) no-repeat top;
+  width:960px;
+  height:10px;
+  margin:0;
+}
+.catbox_bnav{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_catbox_bottomnav.gif) no-repeat top;
+  width:960px;
+  height:20px;
+  margin:0;
+}
+.catbox_bnav2{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_catbox_bottomnav2.gif) no-repeat top;
+  width:960px;
+  height:20px;
+  margin:0;
+}
+.cat_header{
+  width:400px;
+  height:30px;
+  font-size:24px;
+  font-weight:bold;
+  color:#434343;
+  float:left;
+  margin:0;
+}
+.catnav{
+  float:right;
+  font-size:0.7em;
+  font-weight:bold;
+}
+.catbox_header{
+  width:940px;
+  height:21px;
+  margin:0;
+  font-size:0.7em;
+  font-weight:bold;
+  color:#fff;
+  padding-left:10px;
+  padding-top:4px;
+}
+.catbox_subheader{
+  width:950px;
+  height:20px;
+  margin:0;
+  font-size:0.6em;
+  font-weight:bold;
+  color:#434343;
+}
+.catbox_footer{
+  width:950px;
+  height:19px;
+  margin:0;
+  font-size:0.85em;
+  font-weight:bold;
+  color:#434343;
+  padding-top:1px;
+}
+.cb_live_white{
+  background:#fff;
+  width:949px;
+  margin:0;
+  margin-left:1px;
+  padding-left:9px;
+  font-size:0.8em;
+}
+.cb_live_blue{
+  background:#f0f0f0;
+  width:949px;
+  margin:0;
+  margin-left:1px;
+  padding-left:9px;
+  font-size:0.8em;
+}
+.cat_thumb{
+  width:90px;
+  height:62px;
+  margin:0;
+  padding-top:7px;
+  padding-left:10px;
+}
+.cat_zoom{
+  display:block;
+  width:100px;
+  height:20px;
+  margin:0;
+}
+.cat_produkt{
+  margin:0;
+  width:355px;
+  height:65px;
+  font-size:0.8em; 
+  color:#434343;
+  padding-top:5px;
+}
+.cat_aflags{
+  margin:0;
+  width:355px;
+  height:30px;
+  font-size:0.8em; 
+  color:#434343;
+}
+/* AUKTIONSDETAILS */
+.endingauction{
+    padding:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  width:225px;
+  float:left;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_motd2.gif) left repeat-y;
+}
+.ad_flags{
+   width:970px;
+  padding-left:10px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_contentbox_sub3.gif) repeat-y top;
+  padding-bottom:5px;
+}
+.auctiondetails{
+  width:960px;
+  padding:10px;
+  padding-bottom:0px;
+}
+.showbilder{
+  width:406px;
+  float:left;
+}
+#beobachten{
+  font-size:0.7em;
+  font-weight:bold;
+  float:right;
+  width:240px;
+  padding-top:6px;
+  padding-right:10px;
+  text-align:right;
+  color:#434343;
+}
+
+#mittelblock{
+  position:relative;
+  width:300px;
+  height:465px;
+  padding-left:8px;
+  float:left;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_mittelbox2.gif) no-repeat right;
+}
+.fehlerfeld{
+  position:absolute; 
+  z-index:100; 
+  width:300px; 
+  height:210px;
+}
+#fehlerfeld2{
+  filter:alpha(opacity=90);
+  -moz-opacity:0.9;
+  opacity:0.9;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_error.gif) no-repeat top; 
+  height:140px;
+}
+#fehlermeldung{
+  font-size:0.9em;
+  color:#FF0000;
+  height:40px;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:15px;
+  text-align:center;
+  font-weight:bold;
+}
+#fehlerhinweis{
+  font-size:0.7em;
+  color:#434343;
+  padding-left:25px;
+  padding-right:25px;
+  height:30px;
+  text-align:center;
+}
+#fehlerbutton{
+  padding-top:5px;
+  height:20px;
+  text-align:center;
+} 
+      
+#aktgebot{
+  width:282px;
+  height:75px;
+  padding-left:18px;
+  padding-top:13px;
+  font-family:Verdana, sans-serif;
+  color:#434343;
+  font-size:12px;
+}
+#countdown{
+  width:300px;
+  height:50px;
+  font-family:Verdana, sans-serif;
+  color:#18224c;
+  font-size:34px;
+  font-weight:bold;
+  text-align:center;
+  margin:0;
+}
+#cdspeed{
+  text-align:center;
+  width:300px;
+  height:30px;
+  font-size:0.6em;
+  color:#434343;
+}
+#gebotsbutton{
+  text-align:center;
+  width:300px;
+  height:60px;
+  color:#18224c;
+  font-size:1.25em;
+  font-weight:bold;
+}
+#bttext{
+  text-align:center;
+  width:300px;
+  height:77px;
+  padding-top:0px;
+  font-size:0.6em;
+  color:#434343;
+}
+.actions{
+  font-size:0.6em;
+  color:#FF0000;
+  text-align:center;
+  height:28px;
+}
+.erspanisnew{
+  width:290px;
+  padding-left:10px;
+  height:110px;
+  padding-top:10px;
+  font-family:Verdana, sans-serif;
+  font-size:12px;
+}
+.erspanisnew_lgin{
+  width:290px;
+  padding-left:10px;
+  height:110px;
+  padding-top:10px;
+  font-family:Verdana, sans-serif;
+  font-size:12px;
+}
+.erspanisnew_ended{
+  width:290px;
+  padding-left:10px;
+  height:180px;
+  font-family:Verdana, sans-serif;
+  font-size:12px;
+}
+.finishedauction{
+  width:290px;
+  padding-left:10px;
+  height:60px;
+  padding-top:20px;
+  font-size:1.3em; 
+  color:#66bc29; 
+  font-weight:bold; 
+  font-family:Arial, sans serif;
+  text-align:center;
+}
+.finishedauction2{
+  width:290px;
+  padding-left:10px;
+  height:40px;
+  padding-top:10px;
+  color:#141b52; 
+  font-weight:bold; 
+  font-family:Arial, sans serif;
+  text-align:center;
+}
+
+#rechterblock{
+  width:236px;
+  height:465px;
+  padding-left:8px;
+  float:left;
+}
+#ersparnis{
+  width:228px;
+  height:110px;
+  padding-left:8px;
+  padding-top:8px;
+  font-family:Verdana, sans-serif;
+  color:#434343;
+  font-size:12px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_ersparnis.gif) no-repeat top;
+}
+#ersparnis_lgin{
+  width:228px;
+  height:125px;
+  padding-left:8px;
+  padding-top:8px;
+  font-family:Verdana, sans-serif;
+  color:#434343;
+  font-size:12px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_ersparnis_lgin.gif) no-repeat top;
+}
+#telefon{
+  width:228px;
+  height:153px;
+  padding-left:8px;
+  padding-top:10px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_telefon.gif) no-repeat top;
+  font-size:0.75em;
+  font-weight:bold;
+  color:#434343;
+}
+#telefon2{
+  width:228px;
+  height:154px;
+  padding-left:8px;
+  padding-top:3px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_telefon.gif) no-repeat top;
+  font-size:0.7em;
+  color:#434343;
+}
+#benachrichtigen{
+  width:220px;
+  height:74px;
+  padding:8px;
+  padding-top:20px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_telefon2.gif) no-repeat top;
+  font-size:0.7em;
+  text-align:center;
+  color:#434343;
+}
+#onlineanmelden{
+  width:228px;
+  height:128px;
+  padding-left:8px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_onlineanmelden.gif) no-repeat top;
+  font-size:0.75em;
+  color:#434343;
+}
+#bietbutler{
+  padding-top:0px;
+  height:128px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_bietbutler.gif) no-repeat top;
+}
+#gbietbutler{
+  padding-top:0px;
+  height:128px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_gbietbutler.gif) no-repeat top;
+}
+#ghistorie{
+  padding-top:0px;
+  height:180px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_historie.gif) no-repeat top;
+}
+#mhistorie{
+  padding-top:0px;
+  height:180px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_historie.gif) no-repeat top;
+}
+#bb_header{
+  padding-left:10px;
+  padding-top:5px;
+  color:#FFFFFF;
+  font-size:0.7em;
+  font-weight:bold;
+}
+.bb_header_buchen{
+    height:23px;
+}
+.bbb{
+  float:left;
+  cursor:pointer;
+}
+.bba{
+  float:left;
+  cursor:pointer;
+}
+.hist_header_all{
+    height:23px;
+}
+.all{
+  float:left;
+  cursor:pointer;
+}
+.own{
+  float:left;
+  cursor:pointer;
+}
+.bb_subheader{
+  padding-left:8px;
+  padding-top:4px;
+  font-size:0.6em;
+  font-weight:bold;
+  color:#434343;
+}
+#bb_werte{
+  padding-left:8px;
+  padding-top:7px;
+}
+#bb_buchen{
+  padding-left:8px;
+  padding-top:3px;
+  color:#434343;
+  font-weight:bold;
+  font-size:0.75em;
+}
+.bbgebucht{
+  position:absolute;
+  z-index:10;
+  width:186px;
+  height:48px;
+  padding:25px;
+  padding-bottom:10px;
+  padding-top:22px;
+  filter:alpha(opacity=90);
+  -moz-opacity:0.9;
+  opacity:0.9;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_bbgebucht.gif) no-repeat center bottom;
+  font-size:0.7em;
+  text-align:center;
+  font-weight:bold;
+}
+#gbb_anzeige{
+  font-size:0.65em;
+  color:#434343;
+  padding-left:8px;
+  padding-top:4px;
+  height:85px;
+}
+#ghistorie_tbl{
+  padding-left:8px;
+  padding-top:7px;
+  font-size:0.55em;
+}
+.input65{
+  margin:0;
+  height:25px;
+  width:60px;
+  background:url(http://img2.telebid.de/telebid-uk/img/fld_input60.gif) no-repeat top;
+}
+.IPT65{
+  background:none;
+  border:none;
+  width:50px;
+  text-align:right;
+  margin:0;
+  padding-left:5px;
+  padding-top:3px;
+}
+.w_header{
+  font-size:0.8em;
+  text-align:left;
+  height:20px;
+  vertical-align:bottom;
+}
+.w_text{
+  font-size:0.7em;
+  text-align:left;
+  height:20px;
+  vertical-align:bottom;
+}
+.w_text2{
+  font-size:0.8em;
+  text-align:right;
+  font-weight:bold;
+  height:20px;
+  vertical-align:bottom;
+}
+.w_text3{
+  font-size:1.2em;
+  text-align:right;
+  color:#85a911;
+  font-weight:bold;
+  height:20px;
+  vertical-align:bottom;
+}
+#bilder_top{
+  width:406px;
+  height:350px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_bild_top.gif) no-repeat top;
+}
+
+#bilder_top2{
+  padding:3px;
+  padding-top:10px;
+}
+
+.lastsold{
+  position:absolute; 
+  z-index:10; 
+  padding-left:200px; 
+  padding-top:290px; 
+  height:20px; 
+  width:205px; 
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_lastsold.gif) no-repeat bottom right; 
+  text-align:center; 
+  font-size:0.7em; 
+  font-weight:bold;
+}
+#bilder_bottom{
+  width:406px;
+  height:105px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_bild_bottom2.gif) no-repeat bottom;
+  font-size:0.6em;
+  color:#434343;
+  padding-top:10px;
+}
+.thumb{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_thumb.gif) no-repeat center;
+}
+.fireworks{
+  width:236px;
+  height:128px;
+}
+/* statistik */
+.historie_header{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_historie_header.gif) no-repeat top left;
+  width:250px;
+  padding-top:3px;
+  padding-left:10px;
+  height:17px;
+  font-size:0.7em;
+  color:#ffffff;
+  font-weight:bold;
+}
+.historie{
+  font-size:0.65em;
+  color:#434343;
+  width:260px;
+  height:145px;
+  background-color:#ffffff;
+  padding-bottom:10px;
+}
+.statistiklinks{
+  width:270px;
+  float:left;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_hist.gif) repeat-y right;
+}
+.statistikrechts{
+  width:688px;
+  float:left;
+}
+.slots{
+  width:162px;
+  height:162px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_slots_bieten.gif) no-repeat top right;
+  float:left;
+  padding-left:10px;
+  padding-bottom:10px;
+}
+.slots2{
+  width:162px;
+  height:162px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_slots_tbe.gif) no-repeat top right;
+  float:left;
+  padding-left:10px;
+  padding-bottom:10px;
+}
+.slots3{
+  width:162px;
+  height:162px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_slots_gewonnen.gif) no-repeat top right;
+  float:left;
+  padding-left:10px;
+  padding-bottom:10px;
+}
+.slots4{
+  width:162px;
+  height:162px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_slots_help2.gif) no-repeat top right;
+  float:left;
+  padding-left:10px;
+  padding-bottom:10px;
+}
+.prdhist_header{
+  font-size:0.7em;
+  width:152px;
+  height:30px;
+  padding:5px;
+  padding-top:10px;
+  text-align:center;
+}
+.prdhist_header2{
+  width:149px;
+  height:14px;
+  padding:5px;
+  padding-left:8px;
+  padding-top:4px;
+  font-size:0.7em;
+  color:#ffffff;
+  font-weight:bold;
+}
+.prdhist_text{
+  width:152px;
+  padding:5px;
+  padding-top:14px;
+  font-size:0.7em;
+  text-align:center;
+  font-weight:bold;
+}
+.prdhist_text2{
+  width:142px;
+  padding:10px;
+  font-size:0.65em;
+  text-align:left;
+  padding-top:14px;
+  padding-bottom:0px;
+}
+.prdhist_daten{
+  width:162px;
+}
+.prdhist_image{
+  width:56px;
+  padding-top:2px;
+  padding-left:8px;
+  text-align:center;
+  float:left;
+}
+.prdhist_countdown{
+  width:98px;
+  color:#000044;
+  font-size:1em;
+  font-weight:bold;
+  text-align:center;
+  float:left;
+}
+.prdhist_price{
+  width:98px;
+  padding-top:1px;
+  padding-bottom:1px;
+  font-family:Verdana;
+  font-size:0.90em;
+  color:#66bc29;
+  font-weight:bold;
+  text-align:center;
+  float:left;
+}
+.prdhist_price2{
+  width:98px;
+  font-size:0.65em;
+  text-align:center;
+  float:left;
+  padding-bottom:2px;
+}
+.prdhist_bieter{
+  font-size:0.7em;
+  font-weight:bold;
+  padding-top:4px;
+  width:162px;
+  text-align:center;
+  color:#434343;
+}
+.prdhist_button{
+  width:152px;
+  text-align:center;
+  padding:5px;
+  padding-top:8px;
+}
+.prdhist_gewonnen{
+  width:98px;
+  padding-top:5px;
+  font-size:0.8em;
+  text-align:center;
+  float:left;
+}
+.prdhist_gewonnen2{
+  width:162px;
+  padding-top:10px;
+  color:#000044;
+  font-size:1em;
+  font-weight:bold;
+  text-align:center;
+  float:left;
+}
+.errorhistorie{
+  position:absolute;
+  z-index:10;
+  padding:10px;
+  padding-top:70px;
+  width:138px;
+  height:80px;
+  text-align:center;
+  color:#FF0000;
+  font-weight:bold;
+  font-size:0.9em;
+  filter:alpha(opacity=90);
+  -moz-opacity:0.9;
+  opacity:0.9;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_errorhist.gif) bottom right no-repeat;
+}
+#statssubheader{
+  font-size:0.7em;
+  font-weight:bold;
+  color:#434343;
+  padding-left:10px;
+  padding-top:2px;
+  height:22px;
+  text-align:center;
+}
+.stats_produkt{
+  float:left;
+  padding-left:10px;
+  width:174px;
+  height:216px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_produkt2.gif) top right no-repeat;
+}
+#googleads{
+  width:542px;
+  padding-left:10px;
+  padding-top:10px;
+  background:#434343;
+  height:90px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_googleads.gif) bottom right no-repeat;
+}
+/* produktinfo */
+#zahlung{
+  width:960px;
+  padding:10px;
+}
+.zahlung_t{
+  background:#434343;
+  width:960px;
+  height:20px;
+  margin:0;
+}
+#z_header{
+  font-size:0.7em;
+  font-weight:bold;
+  padding-left:8px;
+  padding-top:3px;
+  color:#66bc39;
+}
+#z_content{
+  font-size:0.7em;
+  padding-left:10px;
+  
+  color:#434343;
+  padding-top:10px;
+}
+.zahlung_m{
+  background:#f2f2f2;
+  width:960px;
+  margin:0;
+}
+.zahlung_b{
+  background:#f2f2f2;
+  width:960px;
+  height:10px;
+  margin:0;
+}
+.pd_header{
+  font-weight:bold;
+  color:#37435a;
+  margin:0px;
+  padding:10px;
+  padding-top:20px;
+  width:960px;}
+  
+.pd_content{
+  font-size:0.7em;
+  color:#434343;
+  margin:0px;
+  padding:20px;
+  padding-top:10px;
+  width:940px;}
+/* STARTSEITE */
+.aktuelles_motd{
+  float:left;
+  width:310px;
+  padding:10px;
+  padding-bottom:0px;
+  color:#434343;
+  vertical-align:middle;
+  text-align:center;
+}
+#aktuelles_neu{
+  float:left;
+  width:305px;
+  padding:10px;
+  color:#434343;
+  padding-bottom:0px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_motd2.gif) left repeat-y;
+}
+#aktuelles_ende{
+  float:left;
+  width:305px;
+  padding:10px;
+  color:#434343;
+  padding-bottom:0px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_motd2.gif) left repeat-y;
+}
+#startsdatum{
+  float:right;
+  width:180px;
+  text-align:right;
+  padding-right:10px;
+  padding-top:5px;
+  font-size:0.7em;
+  color:#ffffff;  
+}
+#startsdatum2{
+  float:right;
+  width:180px;
+  text-align:right;
+  padding-right:10px;
+  padding-top:5px;
+  font-size:0.7em;
+  color:#434343;  
+}
+#motd_header{
+  padding-top:1px;
+  height:17px;
+  font-size:0.75em;
+  color:#434343;
+  font-weight:bold;
+}
+#motd_text{
+  padding-top:10px;
+  height:90px;
+  font-size:0.7em;
+  color:#434343;
+}
+.startsprd_t{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_startsprd.gif) top left no-repeat;
+  width:295px;
+  padding-left:10px;
+  padding-top:4px;
+  height:17px;
+  font-size:0.7em;
+  color:#ffffff;
+  font-weight:bold;
+}
+.startsprd_b{
+  width:305px;
+  height:110px;
+}
+.startsprd_header{
+  color:#3e4c66;
+  text-align:center;
+  font-weight:bold;
+  font-size:0.8em;
+  padding:5px;
+}
+.startsprd_bild{
+  padding:5px;
+  padding-left:10px;
+  width:100px;
+  float:left;
+}
+.startsprd_text{
+  padding:5px;
+  width:170px;
+  text-align:center;
+  padding-left:10px;
+  float:left;
+  font-size:0.7em;
+}
+.starterror{
+  position:absolute;
+  z-index:10;
+  padding-top:160px;
+        padding-left:10px;
+        padding-right:10px;
+  width:153px;
+  height:90px;
+  text-align:center;
+  color:#FF0000;
+  font-weight:bold;
+  font-size:0.9em;
+  filter:alpha(opacity=90);
+  -moz-opacity:0.9;
+  opacity:0.9;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_errorstart.gif) bottom right no-repeat;
+}
+.starterror2{
+  position:absolute;
+  width:180px;
+  padding-left:770px;
+  padding-right:10px;
+  padding-top:10px;
+  height:90px;
+  z-index:10;
+  text-align:center;
+  color:#FF0000;
+  font-weight:bold;
+  font-size:0.9em;
+  filter:alpha(opacity=90);
+  -moz-opacity:0.9;
+  opacity:0.9;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_errorcat.gif) bottom right no-repeat;
+  
+}
+.starterror3{
+  position:absolute;
+  width:180px;
+  padding-left:25px;
+  padding-right:10px;
+  height:90px;
+  padding-top:8px;
+  z-index:10;
+  text-align:center;
+  color:#FF0000;
+  font-weight:bold;
+  font-size:0.9em;
+  filter:alpha(opacity=90);
+  -moz-opacity:0.9;
+  opacity:0.9;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_errorcat.gif) bottom right no-repeat;
+  
+}
+.start_produkt{
+  float:left;
+  padding-left:18px;
+  padding-top:18px;
+  width:174px;
+  height:260px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_produkt.gif) bottom right no-repeat;
+}
+.prd_header{
+        font-size:0.70em;
+        font-weight:bold;
+        width:164px;
+        height:26px;
+        padding:5px;
+        padding-top:10px;
+        text-align:center;
+        overflow:hidden;
+}       
+.prd_image{
+        width:164px;
+        padding:5px;
+        padding-top:9px;
+        text-align:center;
+}
+.prd_countdown{
+  font-size:1.6em;
+  font-weight:bold;
+  width:174px;
+  text-align:center;
+  color:#000044;
+}
+.prd_price{
+  font-family:Verdana;
+  font-size:1.2em;
+  font-weight:bold;
+  width:174px;
+  padding-top:2px;
+  padding-bottom:5px;
+  text-align:center;
+  color:#66bc29;
+}
+.prd_price2{
+  font-size:0.7em;
+  width:174px;
+  text-align:center;
+  color:#434343;
+}
+.prd_bieter{
+  font-size:0.7em;
+  font-weight:bold;
+  padding-top:4px;
+  width:174px;
+  text-align:center;
+  color:#434343;
+}
+.prd_button{
+  width:164px;
+  text-align:center;
+  padding:5px;
+  padding-top:8px;
+}
+.sts_flags{
+  position:absolute; 
+  width:25px; 
+  padding-top:48px; 
+  height:15px; 
+  text-align:right; 
+  z-index:10;
+}
+.mover_flags{
+  position:absolute; 
+  width:174px;
+}
+.mover_flags_t{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_movflags_t.gif) bottom no-repeat; 
+  height:15px;
+}
+.mover_flags_b{
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_movflags_b.gif) bottom no-repeat; 
+  padding-bottom:5px; 
+  text-align:center; 
+  font-size:0.7em; 
+  color:#394a59; 
+  font-weight:bold;
+}
+.start_auktion_white{
+  background:#fff;
+  width:978px;
+  margin-left:1px;
+  font-size:0.8em;
+}
+.start_auktion_grey{
+  background:#f3f3f3;
+  width:978px;
+  margin-left:1px;
+  font-size:0.8em;
+}
+/* HELPAGES */
+#helpmenus{
+  padding-left:10px;
+  float:left;
+  width:210px;
+}
+#helpcontent{
+  padding:20px;
+  float:left;
+  width:490px;
+  color:#434343;
+  font-size:0.8em;
+}
+#helpmenues2{
+  padding-left:10px;
+  float:left;
+  width:210px;
+}
+.subboxhlp_t{
+  margin:0px;
+  padding-left:10px;
+  padding-top:10px;
+  width:200px;
+  height:24px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subboxhlp_top.gif) no-repeat bottom;
+}
+.subboxhlp_m{
+  margin:0px;
+  padding-left:10px;
+  width:200px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subboxhlp_middle.gif) repeat-y top;
+}
+.subboxhlp_b{
+  margin:0px;
+  padding-left:10px;
+  width:200px;
+  height:10px;
+  background:url(http://img2.telebid.de/telebid-uk/img/hg_subboxhlp_bottom.gif) no-repeat top;
+}
+.sb_text2{
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:5px;
+  font-size:0.66em;
+  font-weight:bold;
+  color:#505050;
+  margin:0px;
+  width:195px;
+}
+.helpheadline{
+  font-size:1.4em;
+  color:#66bc29;
+  font-weight:bold;  
+}
+/* Date:26-Aug-2008 */
+#displayauction_bid_history
+{
+	height: 68px;
+	padding-bottom: 5px;
+	clear: both;
+	overflow:visible;
+}
+#displayauction_bid_history_gray
+{
+	background-color: #EEEEEE;
+	height: 68px;
+	padding-bottom: 5px;
+	clear: both;
+	overflow:visible;
+}
+
+#detailsimage
+{
+	background-image: url(../images/detailline.png);
+	background-repeat: no-repeat;
+	height: 65px;
+	width: 10px;
+	float: right;
+	margin-top: -10px;
+	position: relative;
+}
+.clickonlarge
+{
+	margin-top: -5px;
+}
+.zoomimagepadding
+{
+	padding-top: 19px;
+}
+.openAuction_itemname {
+	font-family:"arial narrow";
+	font-size:14px;
+	color:#022c7f;
+	text-decoration:none;
+	font-weight:bold;
+	height: 35px;
+	width: 292px;
+	padding-top: 8px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.zoomimagemargin
+{
+	margin-top: -5px;
+}
+#inner-buybids-lmargin
+{
+	padding-right: 5px;
+	float: right;
+}

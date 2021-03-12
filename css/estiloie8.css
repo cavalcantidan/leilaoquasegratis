@@ -1,0 +1,19 @@
+/* CSS Document */
+
+/* Topo */
+#login form p input.nome-senha { width:195px; height:28px; background:url(../imagens/login-input.gif) no-repeat; vertical-align:top;  border:none;display:inline-block; color:#FFF; padding:5px 10px 0 10px; }
+#login form p:first-child {margin:6px 0 2px 0; }
+#menu { width:945px; height:35px; background:url(../imagens/topo-menu-fundo2.gif) no-repeat; clear:both; padding:7px 0 0 38px; }
+
+
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ LOGIN
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+#login-user form p input.login-input2 {background:url(../imagens/login-input2.png) no-repeat; width:160px; height:27px; display:block; border:none; margin-bottom:15px; padding:5px 8px 0 8px;}
+

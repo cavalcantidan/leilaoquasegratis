@@ -1,0 +1,428 @@
+/* CSS Document */
+/*
+BODY {margin:0; font:normal 12px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#686868; background:url(../imagens/topo-fundo.gif) repeat-x; }
+p, h1, h2, h3, h4, h5, h6, h7, dl ,dt, dd, ul, li, a, img {margin:0; padding:0; list-style-type:none; text-decoration:none; font:normal 12px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#686868; }
+
+
+@font-face {
+font-family: 'FrutigerLT47LightCnRegular';
+	src: url('frutiger_lt_47_light_condensed-webfont.eot');
+	src: local('¢'), url('frutiger_lt_47_light_condensed-webfont.woff') format('woff'), url('frutiger_lt_47_light_condensed-webfont.ttf') format('truetype'), url('frutiger_lt_47_light_condensed-webfont.svg#webfontMnSkIO93') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+.innerDiv {color:#FFF; width:938px; }
+
+/* Nova aparencia */
+
+.CatalogoLeilao{ width:140px; height:266px; float:left; background-image:url(../imagens/box-leilao.gif);
+    background-repeat:no-repeat; text-align:left; margin:0px 2px 0px 2px;}
+.CatalogoLeilaoConteudo{ width:125px; height:252px; margin:4px 0px 0px 4px;}
+.NomeLeilao, .NomeLeilao a{ width:126px; height:23px; color:#005E7F; font-size:10px; text-align:center;
+    font-family:Geneva, Arial; font-weight:bold; overflow: hidden; cursor: pointer; text-decoration: none;}
+.NomeLeilao a:visited{color:#005E7F;}
+.ImagemLeilao{ width:126px; line-height:112px; height:112px; color:#005E7F;
+    font-family:Geneva, Arial; font-weight:bold; font-size:14px; text-align:center; vertical-align:middle; overflow: hidden;}
+.LoginLeilao{ width:126px; height:14px; color:#4E5152; font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:10px; text-align:center; max-width:126px; overflow: hidden;}
+.InicioLeilao{ width:120px; height:26px; margin:2px 0px 0px 2px; position:relative; top:-140px; background-color:#FFA200; 
+    color:#003; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; padding:0px 0px 0px 0px; 
+    text-align:center; opacity:0.80; -moz-opacity: 0.80; filter: alpha(opacity=80);}
+.TempoRegressivo{ font-family:Geneva, Arial; color:#E39717; font-weight:bold; font-size:28px;
+    width:126px; line-height:28px; height:28px; vertical-align:middle; text-align:center;}
+.PrecoLeilao{ width:126px; color:#005E7F; font-family:Arial; font-weight:bold;
+    font-size:16px; text-align:center; line-height:20px; height:20px;}
+.SeparadoLeilao{ width:126px; height:10px;}
+.BotaoLeilao{ width:126px; line-height:30px; margin-top: 5px; height:30px; text-align:center; vertical-align:bottom;}
+.bid-button-link, .BotaoLance{ background-image:url(../imagens/botao-lance-1.gif); background-repeat:no-repeat; background-color:Transparent;
+	width:88px; height:29px; padding:0px; border:0px; cursor:pointer; cursor:hand;}
+img:hover.BotaoLance, img:hover.bid-button-link{ background-image: url('../imagens/botao-lance-2.gif');}
+
+/* pagina * /
+#conteudo-principal {width:900px; margin:0 auto; }
+#topo { width:968px; height:228px; margin:0 auto; }
+h1 { width:480px; height:133px; background: url(../imagens/logo-arremati.gif) 1px 33px no-repeat; text-indent:-9999px; margin:0; padding:0; float:left; }
+#login { width:342px; height:148px; background: url(../imagens/login-fundo2.gif) bottom no-repeat; padding-top:4px; float:right; }
+#login em {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; color:#FFF; font-size:16px; display:block; font-style:normal; padding:4px 0 0 17px; }
+#login form {padding:10px 0 0 0; margin:0; width:280px; margin-left:30px; }
+#login form p {width:281px; text-align:left; margin-right:10px; }
+#login form p label {width:49px; height:23px; font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size:15px; background: url(../imagens/login-label.gif) no-repeat; display:inline-block; vertical-align: top; margin:0; padding:5px 0 0 15px; }
+#login form p input.nome-senha { width:195px; height:28px; background:url(../imagens/login-input.gif) no-repeat; vertical-align:top;  border:none;display:inline-block; color:#FFF; padding:0 10px 0 10px; }
+#login form p:first-child {margin:6px 0 12px 0; }
+#login form p a.esqueceu-senha { font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size:15px; float:left; margin-top:3px; }
+#login form p a.esqueceu-senha:hover { border-bottom:1px dotted #c4473a; color:#c4473a; }
+#login form p span.entrar { width:65px; height:27px; display:block; float:right; overflow:hidden; margin-top:3px; }
+
+#menu { width:945px; height:36px; background:url(../imagens/topo-menu-fundo2.gif) no-repeat; clear:both; padding:6px 0 0 38px; }
+#menu li {display:inline-block; zoom:1; *display:inline; margin-right:30px; }
+#menu li a {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size:16px; text-shadow:1px 1px 1px #FFF; }
+#menu li a:hover { border-bottom:1px dotted #c4473a; color:#c4473a; }
+#topo-mensagem { width:938px; height:17px; padding-top:7px; margin:0 auto; }
+#topo-mensagem @p {text-align:center; color:#FFF; }
+
+/* banner * /
+#banner-abs { width:983px; height:260px; position:relative; margin:0 auto; }
+#banner { width:959px; height:260px; background: position:absolute; }
+#banner img {margin-left:20px; margin-top:-20px; }
+
+/* conteudo leiloes */
+#leiloes-home, #leiloes-home2{width:890px; margin:0 auto; }
+#leiloes-home ul, #leiloes-home2 ul  { width:900px; }
+#leiloes-home ul li, #leiloes-home2 ul li { width:160px; height:243px; background:url(../imagens/leilao-fundo.jpg) no-repeat; float:left; margin-left:7px; text-align:left; margin-bottom:10px;
+ background-size:100% 100%;-webkit-background-size: 100% 100%;-o-background-size: 100% 100%;-khtml-background-size: 100% 100%;-moz-background-size: 100% 100%;
+}
+/*
+#leiloes-home ul li { width:319px; height:435px; background:url(../imagens/leilao-fundo.jpg) no-repeat; display:inline-block; zoom:1; *display:inline; margin-left:14px; }
+*/
+#leiloes-home ul li a.leilao-titulo, #leiloes-home2 ul li a.leilao-titulo, a.leilao-titulo {font:normal 10px Georgia, "Times New Roman", Times, serif; color:#5b6c95; margin:4px 10px 0 10px; display:block; }
+#leiloes-home ul li a.leilao-titulo:hover, #leiloes-home2 ul li a.leilao-titulo:hover {text-decoration:underline; }
+.leilao-data-inicio { width:130px; height:21px; background:url(../imagens/leilao-inicio.png) no-repeat; color:#f3f3f3; padding:5px 0 0 15px; text-shadow:1px 1px 1px #902f26;
+ background-size:100% 100%;-webkit-background-size: 100% 100%;-o-background-size: 100% 100%;-khtml-background-size: 100% 100%;-moz-background-size: 100% 100%;
+ }
+.leilao-data-inicio span { font-size:8px; font-weight:bold; margin-left:0px; }
+.leilao-home-foto {width:135px; height:85px; border-top:1px solid #d4d4d4; border-bottom: 1px solid #d4d4d4; margin-left:15px; overflow:hidden; text-align:center; background-color: #FFF; }
+.leilao-home-foto a img {border:none; width:135px; height:85px; }
+.leilao-home-produto-info {width:143px; height:55px; margin-left: 13px; }
+.leilao-home-produto-info p:first-child {padding-bottom:2px; border-bottom:1px dotted #999; }
+
+span.fazer-lance { width:76px; height:42px; display:block; float:left; border-right:1px dotted #666; text-align:center; margin-top:2px; }
+span.fazer-lance em { font-style:normal; font-size:10px; display:block; }
+span.fazer-lance p.contador { color:#bf9a2a; font-size:15px; }
+p.arrematado { color:#C00; font-size:10px; }
+
+span.preco-atual { width:56px; height:42px; display:block; float:right; text-align:center; margin:4px 5px 0 0; text-align:right; }
+
+span.preco-atual p:first-child {font-size:8px; text-transform:uppercase; border-bottom:none; padding:0; }
+span.preco-atual span.preco-atual-valor { font-size:10px; color:#b5362b; }
+p.arrematador {font-size:10px; color:#bf9a2a;  margin-top: 65px; margin-left: 0px;}
+p.arrematador span {font-size:11px; text-transform:uppercase; }
+span.botao-lance { width:135px; height:29px; display:block; overflow:hidden; padding-top: 0px; }
+
+/* rodape * /
+#rodape {background:url(../imagens/rodape-fundo.gif) repeat-x; height:103px; width:100%; }
+#rodape-conteudo {width:auto; height:auto; margin:0 auto; text-align:center; }
+#rodape-conteudo ul {padding-top:26px; }
+#rodape-conteudo ul li {display:inline-block; zoom:1; *display:inline; margin-right:22px; padding-top:6px; vertical-align:middle }
+#rodape-conteudo ul li a {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:16px; vertical-align:middle }
+/*
+#rodape-conteudo ul li:first-child a {background:url(../imagens/rodape-logo.gif) no-repeat; width:160px; height:35px; margin-right:50px; text-indent:-9999px; display:block; vertical-align:middle }
+* /
+#rodape-conteudo ul li a:hover { color:#c4473a; border-bottom:1px dotted #c4473a; }
+#rodape-conteudo ul li:first-child a:hover {border:none; }
+
+
+/* REGISTRAR */
+#registrar-tit {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:32px; display:block; font-style:normal; margin:20px 0 20px 0; padding:0 0 4px 0; border-bottom:1px dotted #686868; }
+#registrar-vantagens {margin:0; padding:0; }
+#registrar-vantagens li {margin:0 0 10px 0; padding:0; height:21px; }
+#registrar-vantagens li p {background:url(../imagens/registrar-marcador.gif) left 0 no-repeat; padding-left:30px; font-size:14px; height:21px; }
+#registration { width:717px; margin:0; padding:0; display:block; }
+#registration p {width:1030px; line-height:30px;}
+#registration p label, #registration p span label{display:block; font-size:14px; }
+#registration p label span {color: #C00; }
+input.campo1 { width:320px; height:31px; display:block; border:groove green; font-size:18px; }
+input.campo2 { width:150px; height:31px; display:block; border:groove green; font-size:18px; }
+input.campo3 { width:100px; height:31px;  border:groove green; font-size:18px; }
+select.campo3 { height:35px;  border:groove green; font-size:18px; }
+span.registro-campo { float:left; padding-left: 25px; }
+#registration h3.info-pessoal { width:206px; height:34px; background:url(../imagens/registrar-info-pessoal.gif) no-repeat; text-indent:-9999px; margin-top:20px }
+#registration h3.info-login { width:206px; height:34px; background: url(../imagens/registrar-info-login.gif) no-repeat; text-indent:-9999px; clear:both; margin-top:150px }
+#registrar-botao {width:181px; height:50px; overflow:hidden; display:block; margin-left: 250px; }
+
+
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ LOGIN
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+#login-banner { width:658px; height:105px; background:url(../imagens/login-banner.jpg) no-repeat; float:left; padding:274px 0 0 25px; margin-top:20px; }
+#login-user { width:204px; height:353px; background:url(../imagens/login-user-fundo.jpg) no-repeat; float:right; padding:26px 0 0 26px;  margin-top:20px; }
+#login-registrar {background: url(../imagens/login-banner-register.jpg) no-repeat; width:220px; height:74px; display:block; text-indent:-9999px; outline:none; position:relative; z-index:100; float:left; }
+#login-registrar:hover {background-position:0 -74px; }
+#login-saiba {background:url(../imagens/login-banner-saiba.gif) no-repeat; width:213px; height:74px; display:block; text-indent:-9999px; outline:none; position:relative; z-index:200; float:left; ma rgin-left:-22px;  }
+#login-saiba:hover {background-position:0 -74px; }
+#login-user form p:first-child {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:20px; color:#e8e8e8; }
+#login-user form p:first-child + p {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:14px; color:#e8e8e8; margin-bottom:15px; }
+#login-user form p label { font-size:14px;  color:#e8e8e8; display:block; }
+#login-user form p input.login-input2 {background:url(../imagens/login-input2.png) no-repeat; width:160px; height:29px; display:block; border:none; margin-bottom:15px; padding:0 8px 0 8px;}
+#login-entrar2 { width:65px; height:27px; overflow:hidden; display:block; }
+#login2 { width:131px; height:72px; background:none; }
+#login-esqueceu {color:#e8e8e8; margin-top:15px; }
+#login-esqueceu a {color:#e8e8e8; border-top:1px dotted #e8e8e8; }
+#login-esqueceu a:hover {color:#FFF; text-decoration:underline; }
+.login-aviso {color:#930; font-size:18px; background:#FFF; padding:4px; margin-right:20px; }
+
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ MY ACOUNT
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+#conteudo-conta {width:650px; float:right; }
+#conta-tit,  #venci-tit, .historico-tit {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:32px; display:block; font-style:normal; margin:20px 0 40px 0; padding:0 0 4px 0; border-bottom:1px dotted #686868; }
+#comprar-tit {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:32px; display:block; font-style:normal; margin:20px 0 20px 0; padding:0 0 4px 0; border-bottom:1px dotted #686868; }
+#pacotes {width:700px; margin:0; padding:0; }
+#pacotes li { width:600px; height:132px; padding-right:25px; padding-left:25px; padding-bottom:25px; padding-top:25px; border-right:1px dotted #999; border-bottom:1px dotted #999; }
+span.pacote {background:url(../imagens/pacotes.gif) no-repeat; width:129px; height:117px; display:inline-block; zoom:1; *display:inline; }
+.pacotelink { width:100px; height:128px; margin-left:16px; display:inline-block; zoom:1; *display:inline; background:url(../imagens/pacote-valor-fundo.jpg) top no-repeat; vertical-align:top; }
+.pacotelink p.txt-pacote, .pacotelink p.txt-titulo, .pacotelink p.txt-lance, .pacotelink p.txt-valor, .pacote-comprar {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; display:block; font-style:normal; color:#FFF; }
+.pacotelink p.txt-pacote {font-size:12px; margin:8px 0 0 11px; }
+.pacotelink p.txt-titulo {font-size:40px; margin:0 0 0 11px; line-height:32px; }
+.pacotelink p.txt-lance {font-size:12px; margin:0 0 0 11px;}
+.pacotelink p.txt-valor { font-size:22px; margin:0 0 0 11px; }
+.pacotelink:hover {background-position:0 -131px; }
+.pacotelink p.pacote-comprar {font-size:26px; color:#747474; display:none; }
+.pacotelink:hover p.pacote-comprar {font-size:26px; color:#747474; display:block; }
+#menu-esquerdo {width:230px; background:blue url(../imagens/menuL-fundo2.png) repeat-y; float:left; margin-top:24px; }
+#menu-esquerdo-tit { width:220px; height:44px; background:blue url(../imagens/menuL-topo2.png) no-repeat; font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; color:#FFF; font-size:20px; padding:10px 0 0 10px; margin:0; }
+#menu-esquerdo dl {width:210px; margin-left:10px; }
+/*#menu-esquerdo dl dt { background:red url(../imagens/menuL-dt-fundo2.png) repeat-x; margin:0; padding:0 }*/
+#menu-esquerdo dl dt a span {background-color:#FFF; padding:0 10px 0 10px; font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:16px; margin-left:10px; }
+#menu-esquerdo dl dd { width:190px; border-top:1px dotted #999; padding:5px 0; margin:0 0 0 10px; font-size:14px; }
+#menu-esquerdo dl dd a {font-size:14px; padding-left:10px; }
+#menu-esquerdo dl dd a:hover {background-color:#c4473a; width:180px; display:block; color:#FFF; }
+span.menu-esquerdo-bottom {background:blue url(../imagens/menuL-bottom2.png) no-repeat; display:block; width:230px; height:20px; }
+
+
+/* leilao my acount */
+.leilao-m-conteudo {width:649px; height:215px; background:url(../imagens/leilaoM-fundo.jpg) no-repeat; position:relative; margin-top:15px; margin-bottom:15px; }
+span.lm-titulos {position:absolute; top:0; left:0; }
+span.lm-sombra {background: url(../imagens/leilaoM-titulo-sombra.png) no-repeat; width:16px; height:39px; display:inline-block; zoom:1; *display:inline; vertical-align:top; }
+span.lm-titulo {background:#c4473a; font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; color:#FFF; height:30px; padding:0 8px; font-size:14px; display:inline-block; zoom:1; *display:inline; vertical-align:top; padding-top:9px; }
+span.lm-foto {width:165px; height:162px; border-top:1px solid #d4d4d4; border-right:1px solid #d4d4d4; position:absolute; bottom:17px; left:1px; overflow:hidden; }
+div.lm-descricao {width:268px; height:211px; position:relative; margin-left:168px; margin-top:0; float:left; }
+div.lm-leilao {width:208px; height:211px; position:absolute; left:377px; top:-15px; }
+a.lm-produto {font:normal 18px Georgia, "Times New Roman", Times, serif; color:#5b6c95; padding:30px 0 0 15px; display:block; width:140px; }
+p.lm-detalhes { padding:20px 0 0 15px; width:190px; }
+div.lm-info-lance {width:208px; height:164px; position:relative; float:left; padding-top:30px; }
+div.lm-info-lance p.preco-atual {font-size:10px; color:#3c3c3c; width:150px; margin-left:10px; text-align:center; }
+div.lm-info-lance p.preco-atual span {font-size:20px; }
+div.lm-info-lance p.lm-lance {font-size:10px; color:#bf9a2a; border-bottom:1px dotted #666;  border-top:1px dotted #666; padding:4px 0;  width:150px; margin-left:10px; text-align:center;}
+div.lm-info-lance p.lm-lance span {font-size:14px; color:#c4473a; display:block; margin-top:-4px; }
+div.lm-info-lance p.lm-contador {font-size:10px; color:#3c3c3c; border-bottom:1px dotted #666; padding:4px 0 1px 0; width:150px; margin-left:10px; text-align:center; }
+div.lm-info-lance p.lm-contador span {display:block; font-size:30px; margin-top:-8px; }
+span.botao-lance2, div.botao-lance2 { width:132px; height:29px; display:block; overflow:hidden; margin:10px 0 0 20px; }
+
+
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+LEILOES QUE VENCI - wonauctions.php
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+ 
+ /* #venci-tit {  } - css = #conta-tit */
+ .finalizado { width:99px; height:21px; background:url(../imagens/finalizado.png) center center no-repeat; text-indent:-9999px; display:block; font-size:1px; text-align:center; width:150px; margin-top:10px; }
+ .clique-finalizar {font-size:14px; color:#c4473a; display:block; text-align:center; width:150px; margin-top:10px; }
+ .efetua-pagamento {width:124px; height:26px; overflow:hidden; display:block; }
+ 
+ /*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+COMPRAR CRÉDITOS - buybids.php
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+ 
+ .pacote-escolha {width:355px; display:inline-block; zoom:1; *display:inline; vertical-align:top; margin-left:20px; font-size:14px; padding-left:20px; border-left:1px dotted #666; }
+ .pacote-escolha-voce {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; color: #FFF; font-size:14px; background-color:#686868; padding:3px 6px; }
+ .pacote-escolha-tit {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; color: #C00; height:30px; font-size:30px; display:block; }
+ .pacote-escolha-info {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; color: #979e38; height:30px; font-size:24px; display:block; }
+ .finalizar-compra-bt  {width:115px; height:27px; display:block; overflow:hidden; float:right; }
+ 
+ /*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+TOTAL DE LANCES - bid_history.php
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+ 
+ /* #historico-tit {  } - css = #conta-tit */
+ .lances-comprados {border:1px solid #c8c8c8; width:inherit; margin-bottom:40px; }
+ .lances-comprados h4 {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; color: #FFF;  font-size:16px; display:block; background-color:#686868; padding:6px; }
+  .lances-comprados h4 span {font-size:24px; }
+  .lances-comprados p {border-top:1px dotted #999; padding:6px; }
+  .lances-comprados p span {font-size:14px; font-weight:bold; color:#C30; }
+  a.lm-produto2 {font:normal 18px Georgia, "Times New Roman", Times, serif; color:#5b6c95; padding:30px 0 0 0px; display:block; width:200px; }
+  p.lm-paginacao {text-align:center; margin-top:10px; border-top:1px dotted #999; padding-top:10px; margin-bottom:15px;}
+  .lm-proxima { width:84px; height:26px; background:url(../imagens/proxima-anterior.gif) no-repeat; display:inline-block; zoom:1; *display:inline;  margin:0 15px; outline:none; text-indent:-9999px; }
+  .lm-proxima:hover {background-position:0 -27px; }
+  .lm-anterior { width:84px; height:26px; background:url(../imagens/proxima-anterior.gif) 0 -54px no-repeat; display:inline-block; zoom:1; *display:inline; margin:0 15px; outline:none; text-indent:-9999px; }
+  .lm-anterior:hover {background-position:0 -81px; }
+  
+  /*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+DETALHES DE CONTA
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+ #meus-detalhes {width:647px; border:1px solid #d4d4d4; }
+ #meus-detalhes-tit { width:647px; height:70px; background:url(../imagens/meusdetalhes-tit.gif) no-repeat; position:relative; }
+ #meus-detalhes-tit .md-titulo { width:171px; height:42px; position:absolute; font-size:14px; font-weight:bold; text-shadow:1px 1px 1px #902f26; color:#f3f3f3; display:block; left:-16px; top:12px; position:absolute; text-align:right; padding:10px 35px 0 0; }
+ #meus-detalhes-tit .md-titulo1 { width:171px; height:42px; background:url(../imagens/leilao-inicio1.png) no-repeat; position:absolute; font-size:14px; font-weight:bold; text-shadow:1px 1px 1px #902f26; color:#f3f3f3; display:block; left:-16px; top:12px; position:absolute; text-align:right; padding:10px 35px 0 0; }
+ #meus-detalhes-tit .md-computer { width:174px; height:137px; background:url(../imagens/computer.png) no-repeat; right:1px; bottom:1px; display:block; position:absolute; }
+ #meus-detalhes p.p-data { padding:7px 0 0 15px; margin:10px 0; } /* width:632px; height:37px; background:url(../imagens/meus-detalhes-p.gif) no-repeat; */
+ #meus-detalhes p.p-data span {color:#C30; font-size:14px; font-weight:bold; }
+ #meus-detalhes p span.enviar,  span.enviar {width:54px; height:26px; overflow:hidden; display:inline-block; zoom:1; *display:inline; vertical-align:middle; }
+ #meus-detalhes p span.editar-dados {width:94px; height:26px; overflow:hidden; display:inline-block; zoom:1; *display:inline; vertical-align:middle; }
+ 
+ #meus-detalhes form p input.campo1 { width:343px; height:31px; background:url(../imagens/registrar-input1-1.gif) no-repeat; display:inline-block; zoom:1; *display:inline; border:none; }
+ #meus-detalhes form p label {font-size:14px; }
+ #meus-detalhes form p {width:500px; text-align:right; margin-bottom:10px; }
+ .muda-end-tit {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:18px; display:block; font-style:normal; margin:20px 0 40px 0; padding:0 0 4px 0; border-bottom:1px dotted #686868; color:#C00; }
+ .muda-titulo-1 {font-family:sans-serif; font-size:20px; display:block; font-style:normal; margin:20px 0 40px 0; padding:0 0 4px 0;  color:#C00; text-shadow:1px 1px 1px #F33;}
+ .muda-titulo-2 {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:14px; display:block; font-style:normal; margin:0; padding:0 5px 0 5px;  color:#C00; } /* border-top-style: */
+ .muda-titulo-3 {font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:32px; display:block; font-style:normal; margin:20px 0 40px 0; padding:0 0 4px 0; border-bottom:1px dotted #686868; border-top:1px groove #686868; }
+ 
+ span.encerrar {width:104px; height:26px; overflow:hidden; display:inline-block; zoom:1; *display:inline; vertical-align:middle; }
+ span.inscrevase {width:84px; height:26px; overflow:hidden; display:inline-block; zoom:1; *display:inline; vertical-align:middle; }
+  span.retire {width:104px; height:26px; overflow:hidden; display:inline-block; zoom:1; *display:inline; vertical-align:middle; }
+  
+  
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+HELP
+---------------------------------------------------------------leiloes-home
+---------------------------------------------------------------
+ */
+ 
+ #conteudo-help {width:650px; float:right; }
+ 
+#help-menu-conteudo { width:230px; float:left;  margin-top:20px; }
+#help-menu-conteudo h3 { width:220px; height:43px; background: url(../imagens/help-menu-bg-top.gif) top no-repeat; font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:15px; padding:10px 0 0 10px; margin:0; color:#FFF; }
+.help-menu {width:230px; }
+.help-menu-dl {width:230px; background:url(../imagens/help-menu-bg.gif) top repeat-y;  }
+.help-menu-tit { width:220px; height:44px; background:url(../imagens/help-menu-bg-top.gif) no-repeat; font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; color:#FFF; font-size:20px; padding:10px 0 0 10px; margin:0; }
+.help-menu-dl dt {background-color:#979e37; padding:4px 0; margin:0 0 10px 0; width:210px; margin-left:10px; margin-top:7px;  font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:16px;  color:#FFF; }
+.help-menu-dl dt a { font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:16px;  color:#FFF; }
+.help-menu-dl dd { width:190px; border-top:1px dotted #999; padding:5px 0; margin:0 0 0 20px; }
+.help-menu-dl dd a {font-size:13px; }
+.help-menu-dl dd a:hover {color: #979e37; }
+.help-menu-bottom { width:230px; height:51px; background:url(../imagens/help-menu-bg-bottom.gif) no-repeat #FFF; display:block; }
+#links-rapidos {width:230px; background:url(../imagens/help-menu-bg.gif) top repeat-y;  }
+#links-rapidos li {width:190px; padding:5px 0; margin:0 0 0 20px; border-top:1px dotted #999; }
+#links-rapidos li a { font-size:13px; }
+#links-rapidos li a:hover {color: #979e37; }
+#ajuda-topo {background:url(../imagens/help-topo.jpg) no-repeat; width:649px; height:194px; position:relative; margin-top:20px; }
+#ajuda-topo span {background:url(../imagens/help-mulher.png) no-repeat; width:231px; height:289px; position:absolute; right:0; top:-80px; display:block; }
+.help-pergunta { font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:22px; margin-bottom:10px; font-weight:bold; }
+.help-pergunta span {border-bottom:1px dotted #686868; }
+
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+COMO FUNCIONA
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+  
+
+.como-titulo { font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:22px; margin-bottom:10px; font-weight:bold; }
+.como-titulo span {border-bottom:1px dotted #686868; }
+#como-menu { width:230px; float:left;  margin-top:20px; background:url(../imagens/help-menu-bg.gif) top repeat-y; }
+#como-menu h3 { width:220px; height:43px; background: url(../imagens/help-menu-bg-top.gif) top no-repeat; font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:20px; padding:10px 0 0 10px; margin:0; color:#FFF; }
+#como-menu ul {width:160px; margin:0 0 0 20px; padding:0; }
+#como-menu ul li { width:160px; padding:5px 0; margin:0 0 0 20px; border-top:1px dotted #999; list-style-type:none; }
+#como-menu ul li span {color:#C30; font-size:13px }
+#links-rapidos li a { font-size:13px; }
+#links-rapidos li a:hover {color: #979e37; }
+#como-menu-bottom { width:230px; height:51px; background:url(../imagens/help-menu-bg-bottom.gif) no-repeat #FFF; display:block; }
+
+
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+LEILAO FINALIZADO
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+ 
+ .leilao-f-conteudo {width:915px; height:216px; background: url(../imagens/leilao-finalizado-fundo.gif) no-repeat; position:relative; margin-top:15px; margin-bottom:15px; }
+ .lf-preco-loja {font-size:14px; }
+ .lf-arremate {color:#bf9a2a; font-size:12px; border-top:1px dotted #666; border-bottom:1px dotted #666; padding:5px 0; margin:5px 0; }
+ .lf-arremate span { display:block; font-size:18px; font-weight:bold; }
+ .lf-hora { }
+ div.lf-vencedor {width:274px; height:164px; position:relative; float:left; padding-top:30px; margin-left:45px; }
+  div.lf-vencedor p {font-size:14px; }
+  span.lf-nome-vencedor {color:#b5362b; font-weight:18px; font-weight:bold; }
+  span.lf-desconto {color:#26ab23; font-size:18px; font-weight:bold; }
+  div.lf-descricao {width:230px; height:211px; position:relative; margin-left:168px; margin-top:0; float:left; }
+  div.lf-info-lance {width:178px; height:164px; position:relative; float:left; padding-top:30px; text-align:center; }
+
+
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+PÁGINA DE LEILAO
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+ 
+ #leilao-cabecalho { width:960px !important;}
+ #leilao-pag-titulo { width:968px; height:41px; background:url(../imagens/leilao-pag-tit-fundo.gif) repeat-x; position:relative; }
+ #leilao-pag-titulo span.pag-tit-sombra1 { width:15px; height:56px; background:url(../imagens/leilao-pag-tit-sombra1.gif) no-repeat; position:absolute; top:0; left:-14px; display:block; }
+ #leilao-pag-titulo span.pag-tit-sombra2 { width:15px; height:56px; background:url(../imagens/leilao-pag-tit-sombra2.gif) no-repeat; position:absolute; top:0; right:-14px; display:block; }
+ #leilao-pag-titulo h2 { font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:22px;  font-weight:bold; color:#f3f3f3; float:left; display:block; padding:4px 0 0 10px; }
+ #leilao-pag-titulo span.leilao-tipo { font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:14px; font-weight:bold; color:#f3f3f3; float:left; display:block; padding:11px 0 0 6px;}
+ #leilao-pag-titulo span.leilao-id { font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:16px; color:#f3f3f3; display:block; float:right; background:url(../imagens/leilao-pag-tit-fundo-id.gif) repeat-x; height:34px; border-left:1px dotted #e2a39d; border-right:1px dotted #e2a39d; padding:7px 8px 0 8px; margin-right:28px;}
+ #leilao-pag-conteudo, #detalhes-produto, #leilao-mais {width:965px; border:1px solid #c9c9c9; padding-top:20px; }
+ #leilao-pag-foto-moldura { width:355px; height:497px; background:url(../imagens/leilao-pag-foto-moldura.gif) no-repeat; float:left; }
+ span.leilao-pag-foto-principal { width:353px; height:361px; display:block; overflow:hidden; padding:1px 0 0 1px; }
+ div.leilao-pag-thumbs {width:344px; height:77px; padding:20px 0 0 10px; }
+ div.leilao-pag-thumbs img {border:1px solid #CCC; }
+ div.leilao-pag-thumbs img:hover {border-color:#C30; }
+ #leilao-pag-valor-conteudo {width:290px; float:left; margin-left:10px; }
+ #leilao-pag-valor-atual, #leilao-pag-economia {width:297px; padding-bottom:15px; border:1px solid #CCC; }
+ #leilao-pag-valor-atual h3, #leilao-pag-economia h3 { background-color:#686868; font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:16px; font-weight:bold; color: #FFF; padding:6px; }
+ #leilao-pag-valor-atual p.lm-lance {font-size:10px; color:#bf9a2a; border-bottom:1px dotted #666;  border-top:1px dotted #666; padding:8px 0;  width:277px; margin-left:10px; text-align:center;}
+ #leilao-pag-valor-atual p.lm-lance span {font-size:14px; color:#c4473a; display:block; margin-top:-4px; } 
+ #leilao-pag-valor-atual p.lm-contador {font-size:10px; color:#3c3c3c; border-bottom:1px dotted #666; padding:8px 0 1px 0; width:277px; margin-left:10px; text-align:center; }
+ #leilao-pag-valor-atual p.lm-contador span {display:block; font-size:30px; margin-top:-8px; }
+ #leilao-pag-economia p {width:257px; margin-left:10px; border-top:1px dotted #999; padding:4px 10px; text-align:right; }
+ #parabens { width:243px; height:75px; background:url(../imagens/parabens.jpg) no-repeat; padding-top:15px; font-size:20px; color:#FFF; text-align:center; margin-left:20px; }
+ #mais-leiloes-conteudo {width:239px; float:right; }
+ .productdetail_box {width:278px; border-top:1px solid #CCC;  border-bottom:1px solid #CCC;  border-left:1px solid #CCC; }
+ .product-history-leftside, .product-history-leftside_dark {background-color:#c4473a; width:150px; background-image:none; color:#FFF }
+ .product-history-rightside, .product-history-rightside_dark {background-color:#9b2b1f; width:128px; background-image:none; color:#FFF }
+ .product-history-full {background-color:#c4473a; width:278px; background-image:none; color:#FFF }
+ .middlepart {width:150px; border-bottom:1px solid #CCC;  border-left:1px solid #CCC; background-image:none; }
+ .autobidder_title {color:#FFF; }
+ #detalhes-produto-tit { font-family: 'FrutigerLT47LightCnRegular', sans-serif; font-size-adjust: 0.51; font-size:22px;  font-weight:bold; color:#f3f3f3; padding:4px 0 0 10px; height:37px; background:url(../imagens/leilao-pag-tit-fundo.gif) repeat-x; position:relative; margin-bottom:20px; }
+ #leilao-mais {margin-bottom:20p; }
+ 
+ /* conteudo leiloes */
+#leilao-mais{width:983px; margin:0 auto; }
+#leilao-mais ul { width:1025px; }
+#leilao-mais ul li { width:319px; height:435px; background:url(../imagens/leilao-fundo.jpg) no-repeat; float:left; margin-left:14px; text-align:left; margin-bottom:20px;}
+/*
+#leiloes-home ul li { width:319px; height:435px; background:url(../imagens/leilao-fundo.jpg) no-repeat; display:inline-block; zoom:1; *display:inline; margin-left:14px; }
+*/
+#leilao-mais ul li a.leilao-titulo {font:normal 18px Georgia, "Times New Roman", Times, serif; color:#5b6c95; margin:16px 30px 0 34px; display:block; }
+#leilao-mais ul li a.leilao-titulo:hover {text-decoration:underline; }

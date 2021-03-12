@@ -1,0 +1,725 @@
+/* primeiro bloco de leiloes iniciando */
+
+#pagLeilao .itemLeilaoIniciado {
+	width:31%;
+	float: left;
+}
+
+#pagLeilao .itemLeilaoIniciado .nomeItem {
+	float:left;
+	width:55%;
+	line-height:300%;
+}
+
+#pagLeilao .itemLeilaoIniciado .nomeItem a {
+	color: #334C80;
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#pagLeilao .itemLeilaoIniciado .nomeItem a:hover {
+	text-decoration: underline;
+}
+
+#pagLeilao .itemLeilaoIniciado .iconesItem {
+	float:right;
+	width:45%;
+	text-align:right;
+}
+
+#pagLeilao .itemLeilaoIniciado .img { 
+	float:left;
+	padding-right:5px;
+}
+
+#pagLeilao .itemLeilaoIniciado .itensDireita {
+	float:right;
+	width:170px;
+}
+
+#pagLeilao .itemLeilaoIniciado .areaTempoIN {
+	background:url(../img/layout/bgAreaTempo.png);
+	background-repeat:no-repeat;
+	width:158px;
+	height:24px;
+	margin-left:15px;
+}
+
+#pagLeilao .itemLeilaoIniciado .areaTempoIN .areaTextoTempo {
+	color:#fff;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px 0 0 30px;
+	text-shadow: 1px 1px 0px #000;
+	line-height:200%;
+}
+
+.ie7 #pagLeilao .itemLeilaoIniciado .areaTempoIN .areaTextoTempo, .ie8 #pagLeilao .itemLeilaoIniciado .areaTempoIN .areaTextoTempo, .chrome #pagLeilao .itemLeilaoIniciado .areaTempoIN .areaTextoTempo {
+	line-height:210%;
+}
+
+#pagLeilao .itemLeilaoIniciado .valorItem {
+	font-size:25px;
+	font-weight:bold;
+	color:#EC0909;
+	margin:10px 0;
+	text-align:center;
+}
+
+#pagLeilao .itemLeilaoIniciado .areaContagem {
+	float:left;
+}
+
+#pagLeilao .itemLeilaoIniciado .digitoC {
+	background:url(../img/layout/bgDigitoCinza.png);
+	background-repeat:no-repeat;
+	width:35px;
+	height:44px;
+	color:#fff;
+	font-size:40px;
+	float:left;
+	margin-right:1px;
+}
+
+#pagLeilao .itemLeilaoIniciado .digitoV {
+	background:url(../img/layout/bgDigitoVermelho.png);
+	background-repeat:no-repeat;
+	width:35px;
+	height:44px;
+	color:#fff;
+	font-size:40px;
+	float:left;
+	margin-right:1px;	
+}	
+
+#pagLeilao .itemLeilaoIniciado .infoItens {
+	float:right;
+	margin-top:-6px;
+}
+
+#pagLeilao .itemLeilaoIniciado .usuario {
+	color:#7099BA;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding:4px 0 0 0;
+}
+
+#pagLeilao .itemLeilaoIniciado .usuario a {
+	color:#7099BA;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+#pagLeilao .itemLeilaoIniciado .usuario a:hover {
+	text-decoration:underline;
+}
+
+
+#pagLeilao .divisoriaItem {
+	background:url(../img/leilao/divItem.png);
+	background-repeat: repeat-y;
+	width:12px;
+	height:154px;
+	float:left;
+	margin: 0 10px;
+}
+
+/* box principal do leilao */
+
+#pagLeilao .ttlPadrao .texto {
+	float: left;
+	width:60%;
+}
+
+#pagLeilao .social {
+	float:right;
+	width:21%;
+	text-align:right;
+	padding-top:5px;
+}
+
+/* parte esquerda box principal */
+
+#pagLeilao .blocoEsq {
+	width:320px;
+	float:left;
+}
+
+#pagLeilao .blocoEsq .nomeProduto {
+	color: #2E72AD;
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:120%;
+}
+
+#pagLeilao .blocoEsq .imgProduto {
+	margin:10px 0;
+	text-align:center;
+}
+
+#pagLeilao .blocoEsq .valorProduto {
+	color: #324B7E;
+	font-size:30px;
+	text-align:center;
+	line-height:120%;
+	margin-bottom:25px;
+}
+
+#pagLeilao .blocoEsq .areaContagem {
+	float:left;
+	width:40%;
+}
+
+#pagLeilao .blocoEsq .digitoC {
+	background:url(../img/leilao/bgDigitoCinza.png);
+	background-repeat:no-repeat;
+	width:46px;
+	height:57px;
+	color:#fff;
+	font-size:45px;
+	float:left;
+	margin-right:1px;
+	text-shadow: 1px 0px 0px #777;
+}
+
+#pagLeilao .blocoEsq .digitoV {
+	background:url(../img/leilao/bgDigitoVermelho.png);
+	background-repeat:no-repeat;
+	width:46px;
+	height:57px;
+	color:#fff;
+	font-size:45px;
+	float:left;
+	margin-right:1px;
+	text-shadow: 1px 0px 0px #777;		
+}
+
+.ie8 #pagLeilao .blocoEsq .digitoV, .ie7 #pagLeilao .blocoEsq .digitoV, .chrome #pagLeilao .blocoEsq .digitoV {
+	line-height:130%;
+}
+
+.ie8 #pagLeilao .blocoEsq .digitoC, .ie7 #pagLeilao .blocoEsq .digitoC, .chrome #pagLeilao .blocoEsq .digitoC {
+	line-height:130%;
+}
+
+#pagLeilao .blocoEsq .areaLance {
+	float:right;
+	width:50%;
+	text-align:center;
+}
+
+#pagLeilao .blocoEsq .btnLance {
+	width:119px;
+	height:46px;
+	margin: 0 0 0 10px;
+}
+
+#pagLeilao .blocoEsq .btnLance a {
+	background-image:url(../img/leilao/btnLance.png);	
+	background-repeat:no-repeat;
+	width:119px;
+	height:46px;
+	display:block;	
+}
+
+#pagLeilao .blocoEsq .btnLance a:hover {
+	background-image:url(../img/leilao/btnLanceHover.png);	
+}
+
+#pagLeilao .blocoEsq .btnLogin {
+	width:119px;
+	height:46px;
+	margin: 0 0 0 10px;
+}
+
+#pagLeilao .blocoEsq .btnLogin a {
+	background-image:url(../img/leilao/btnLogin.png);	
+	background-repeat:no-repeat;
+	width:119px;
+	height:46px;
+	display:block;	
+}
+
+#pagLeilao .blocoEsq .btnLogin a:hover {
+	background-image:url(../img/leilao/btnLoginHover.png);	
+}
+
+#pagLeilao .blocoEsq  .demaisInfo {
+	font-size:11px;
+	color:#3E3E3E;
+	line-height:130%;
+	margin: 15px 0 10px 0;
+	text-align:center;
+}
+
+#pagLeilao .divisoriaItemM {
+	background:url(../img/leilao/divItemM.png);
+	background-repeat: repeat-y;
+	width:13px;
+	height:508px;
+	float:left;
+	margin: 0 10px;
+}
+
+/* bloco central */
+
+#pagLeilao .blocoCentro {
+	width:350px;
+	float:left;
+}
+
+#pagLeilao .blocoCentro .dadosGeraisLeilao {
+	margin: 0 0 10px 0;
+}
+
+#pagLeilao .blocoCentro .dadosGeraisLeilao .infoData {
+	font-size:12px;
+	font-weight:bold;
+	color:#7E7E7E;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+#pagLeilao .blocoCentro .dadosGeraisLeilao .txtData {
+	font-size:15px;
+	font-weight:bold;
+	color:#2D72AC;
+	text-align:center;
+	line-height:150%;
+	margin-bottom:15px;
+}	
+
+#pagLeilao .blocoCentro .dadosGeraisLeilao .infoValores {
+	float:left;
+	width:115px;
+	font-size:11px;
+	font-weight:bold;
+	text-align:center;
+	color:#7E7E7E;
+}
+
+#pagLeilao .blocoCentro .dadosGeraisLeilao .infoValores p {
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	color:#444;
+	margin:0px 0 5px 0;
+}
+
+#pagLeilao .blocoCentro .dadosGeraisLeilao .infoOutros {
+	float:left;
+	width:230px;
+}
+
+#pagLeilao .blocoCentro .dadosGeraisLeilao .infoOutros .percentual {
+	color:#E88025;
+	font-weight:bold;
+	font-size:28px;
+	margin:0px 0 10px 0;
+}
+
+#pagLeilao .blocoCentro .dadosGeraisLeilao .infoOutros p {
+	font-size:12px;
+	color:#3E3E3E;
+}
+
+#pagLeilao .blocoCentro .boxLanceAutomatico {
+	margin: 15px 0;
+	width:100%;
+	background-color:#C8CFDE;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size:10px;
+	color:#3E3E3E;
+	padding:6px;
+}
+
+#pagLeilao .blocoCentro .boxLanceAutomatico .areaEsq {
+	float:left;
+	width:240px;
+}
+
+#pagLeilao .blocoCentro .boxLanceAutomatico .ttl {
+	color:#344E85;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+	margin-bottom:6px;
+}
+
+#pagLeilao .blocoCentro .boxLanceAutomatico table input {
+	width:60px;
+	height:19px;
+	border: 1px solid #ccc;
+	color:#454545;
+	padding: 2px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	outline:none;
+}
+
+#pagLeilao .boxLanceAutomatico .btnAutomatizar {
+	width:119px;
+	height:46px;
+	margin: 8px 0 0 0px;
+}
+
+#pagLeilao .boxLanceAutomatico .btnAutomatizar a {
+	background-image:url(../img/leilao/btnAutomatizar.png);	
+	background-repeat:no-repeat;
+	width:104px;
+	height:29px;
+	display:block;	
+}
+
+#pagLeilao .boxLanceAutomatico .btnAutomatizar a:hover {
+	background-image:url(../img/leilao/btnAutomatizarHover.png);	
+}
+
+#pagLeilao .blocoCentro .boxLanceAutomatico .areaDicas {
+	float:right;
+	width:103px;
+	border-left:1px solid #efefef;
+	padding-left:5px;
+	min-height:105px;
+}
+
+#pagLeilao .blocoCentro .lanceUsuarioQtd {
+	margin:10px 0;
+	font-size:14px;
+	color:#433F3F;
+	line-height:120%;
+}
+
+#pagLeilao .blocoCentro .lanceUsuarioQtd .foto {
+	background:url(../img/leilao/bgImagem.png) no-repeat;
+	width:70px;
+	height:71px;
+	float:left;
+	padding:8px 0 0 8px;
+ }
+
+#pagLeilao .blocoCentro .lanceUsuarioQtd .areaTxt {
+	float:left;
+	width:270px;
+	padding-top:6px;
+}
+
+#pagLeilao .blocoCentro .lanceUsuarioQtd .areaTxt .numero {
+	color:#EB0707;
+	font-weight:bold;
+}
+
+#pagLeilao .blocoCentro .lanceUsuarioQtd .btnCompreLances {
+	width:119px;
+	height:46px;
+	margin:10px 0 0 0px;
+}
+
+#pagLeilao .blocoCentro .lanceUsuarioQtd .btnCompreLances a {
+	background-image:url(../img/leilao/btnCompreLances.png);	
+	background-repeat:no-repeat;
+	width:118px;
+	height:30px;
+	display:block;	
+}
+
+#pagLeilao .blocoCentro .lanceUsuarioQtd .btnCompreLances a:hover {
+	background-image:url(../img/leilao/btnCompreLancesHover.png);	
+}
+
+#pagLeilao .blocoCentro .margemMeio {
+	background:url(../img/leilao/divMeio.png);
+	background-repeat: repeat-x;
+	height:10px;
+}	
+
+#pagLeilao .blocoCentro .areaImagens p {
+	font-size:14px;
+	color:#345087;
+	font-weight:bold;
+	margin: 5px 0 5px 0;
+	text-transform:uppercase;
+}
+
+#pagLeilao .blocoCentro .areaImagens img {
+	float:left;
+	margin-right:13px;
+}
+
+#pagLeilao .blocoDir {
+	float:right;
+	width:200px;
+}
+
+#pagLeilao .blocoDir #tableHisLance {
+	color:#324B7E;
+	font-size:11px;
+	margin:6px 0 10px 0;
+}
+
+#pagLeilao .blocoDir #tableHisLance a {
+	color:#324B7E;
+	font-size:12px;
+	text-decoration:none;
+}	
+
+#pagLeilao .blocoDir #tableHisLance a:hover {
+	text-decoration: underline;
+}	
+
+#pagLeilao .blocoDir #tableHisLance .header {
+	color:#454545;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family:Tahoma, Geneva, sans-serif;	
+}
+
+#pagLeilao .blocoDir #tableHisLance .bordaTabela {
+	border-bottom:1px solid #ccc;
+}
+
+#pagLeilao .blocoDir .nomeUserUltimo a, #pagLeilao .blocoDir .nomeUserUltimo {
+	font-size:15px;
+	font-weight:bold;
+	color:#324B7E;
+	text-decoration:none;
+}
+
+#pagLeilao .blocoDir .nomeUserUltimo a:hover {
+	text-decoration: underline;
+}
+
+#pagLeilao .blocoDir .btnComprarProduto {
+	margin: 10px 0;
+}
+
+#pagLeilao .blocoDir #tableTop {
+	color:#333;
+	font-size:11px;
+	margin-top:10px;
+	margin-left:-10px;
+}
+
+#pagLeilao .blocoDir #tableTop a {
+	color:#324B7E;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:bold;
+	
+}	
+
+#pagLeilao .blocoDir #tableTop a:hover {
+	text-decoration: underline;
+}
+
+/* bloco de leiloes em destaque */
+
+#pagLeilao .itemLeilaoDestaque {
+	width:30%;
+	float: left;
+}
+
+#pagLeilao .itemLeilaoDestaque .areaTempoIN {
+	background:url(../img/layout/bgAreaTempo.png);
+	background-repeat:no-repeat;
+	width:158px;
+	height:24px;
+	margin-left:25px;
+	margin-bottom:5px;
+}
+
+#pagLeilao .itemLeilaoDestaque .areaTempoIN .areaTextoTempo {
+	color:#fff;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px 0 0 30px;
+	text-shadow: 1px 1px 0px #000;
+	line-height:200%;
+}
+
+.ie7 #pagLeilao .itemLeilaoDestaque .areaTempoIN .areaTextoTempo, .ie8 #pagLeilao .itemLeilaoDestaque .areaTempoIN .areaTextoTempo, .chrome #pagLeilao .itemLeilaoDestaque .areaTempoIN .areaTextoTempo {
+	line-height:210%;
+}
+
+#pagLeilao .itemLeilaoDestaque .nomeItem {
+	line-height:200%;
+}
+
+#pagLeilao .itemLeilaoDestaque .nomeItem a {
+	color: #334C80;
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#pagLeilao .itemLeilaoDestaque .nomeItem a:hover {
+	text-decoration: underline;
+}
+
+#pagLeilao .itemLeilaoDestaque .img {
+	float:left;
+	width:90px;
+}
+
+#pagLeilao .itemLeilaoDestaque .itensDireita {
+	float:left;
+	width:80px;
+	margin-top:5px;
+}
+
+#pagLeilao .itemLeilaoDestaque .valorItem {
+	font-size:20px;
+	font-weight:bold;
+	color:#324B7E;
+	margin:4px 0 5px 0;
+}
+
+#pagLeilao .itemLeilaoDestaque .areaContagem {
+	color:#E21818;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+
+#pagLeilao .itemLeilaoDestaque .usuario {
+	color:#7099BA;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding:4px 0 0 0;
+}
+
+#pagLeilao .itemLeilaoDestaque .usuario a {
+	color:#7099BA;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+#pagLeilao .itemLeilaoDestaque .usuario a:hover {
+	text-decoration:underline;
+}
+
+#pagLeilao .itemLeilaoDestaque .btnLance, #pagLeilao .itemLeilaoDestaque .btnLogin {
+	margin-left:30px;
+}
+
+#pagLeilao .divisoriaItemN {
+	background:url(../img/leilao/divItemN.png);
+	background-repeat: repeat-y;
+	width:12px;
+	height:154px;
+	float:left;
+	margin: 0 5px;
+}
+
+#pagLeilao .boxProdutosEmDestaque {
+	float:left;
+	width:675px;
+}
+
+/* box depoimento */
+
+#pagLeilao .areaDepoimentoLeilao {
+	float:right;
+	width:287px;
+	height:216px;
+	background:url(../img/leilao/bgDepoimento.png) no-repeat;
+}
+
+#pagLeilao .areaDepoimentoLeilao .img {
+	float:left;
+	width:60px;
+	height:60px;
+	margin:80px 0 0 14px;
+}
+
+#pagLeilao .areaDepoimentoLeilao .info {
+	float:right;
+	width:185px;
+	margin-top:75px;
+}
+	
+#pagLeilao .areaDepoimentoLeilao .info p {
+	color:#333;
+	line-height:125%;
+	font-size:12px;
+	margin:0;
+	padding:0;
+	margin-bottom:6px;
+}
+
+#pagLeilao .areaDepoimentoLeilao .info a {
+	color:#222;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#pagLeilao .areaDepoimentoLeilao .info a:hover {
+	text-decoration:underline;
+}
+
+#pagLeilao .areaDepoimentoLeilao .info .btnCadastro {
+	width:109px;
+	height:30px;
+	margin-top:15px;	
+}
+
+#pagLeilao .areaDepoimentoLeilao .info .btnCadastro a {
+	background-image:url(../img/leilao/btnCadastro.png);	
+	background-repeat:no-repeat;
+	width:109px;
+	height:30px;	
+	display:block;		
+}	
+
+#pagLeilao .areaDepoimentoLeilao .info .btnCadastro a:hover {
+	background-image:url(../img/leilao/btnCadastroHover.png);	
+
+}	
+
+/* detalhes para leilao finalizado */
+
+#pagLeilao .blocoCentro .boxLeilaoFinalizado {
+	margin: 15px 0;
+	width:100%;
+	background-color:#F7D6B0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size:12px;
+	color:#333;
+	padding:6px;
+}
+
+#pagLeilao .blocoCentro .boxLeilaoFinalizado .ttl {
+	color:#E38317;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:underline;
+	margin-bottom:6px;
+}

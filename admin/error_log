@@ -1,0 +1,368 @@
+[28-Jul-2010 11:52:10] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'webnobre_swopo2'@'localhost' (using password: YES) in /home/baratode/public_html/siteadmin/connect.php on line 3
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[02-Aug-2010 14:03:23] PHP Warning:  Division by zero in /home/baratode/public_html/siteadmin/averagebidbutler.php on line 203
+[06-Ago-2010 00:40:12] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/password.php on line 8
+[06-Ago-2010 00:40:12] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/password.php on line 9
+[06-Ago-2010 00:40:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wwwbara/public_html/siteadmin/password.php:8) in /home/wwwbara/public_html/siteadmin/password.php on line 35
+[11-Aug-2010 19:54:51] PHP Parse error:  syntax error, unexpected '[' in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 68
+[11-Aug-2010 19:56:50] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 70
+[11-Aug-2010 19:58:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 70
+[11-Aug-2010 19:59:21] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 71
+[11-Aug-2010 19:59:25] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 71
+[11-Aug-2010 20:00:06] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 71
+[11-Aug-2010 20:29:03] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 66
+[11-Aug-2010 21:17:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 66
+[11-Aug-2010 21:19:31] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 66
+[11-Aug-2010 21:23:00] PHP Warning:  unlink(../uploads/imgusers/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 16
+[11-Aug-2010 21:31:47] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 18
+[11-Aug-2010 21:32:35] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 19
+[11-Aug-2010 21:32:39] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 19
+[11-Aug-2010 21:33:06] PHP Parse error:  syntax error, unexpected '{' in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 78
+[11-Aug-2010 21:35:07] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 19
+[11-Aug-2010 21:36:10] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 19
+[11-Aug-2010 21:36:13] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 19
+[11-Aug-2010 21:47:32] PHP Parse error:  syntax error, unexpected '}' in /home/wwwbara/public_html/siteadmin/manage_depo_ver.php on line 11
+[11-Aug-2010 21:52:59] PHP Fatal error:  Call to undefined function  enddatefunction() in /home/wwwbara/public_html/siteadmin/manage_depo_ver.php on line 43
+[11-Aug-2010 21:54:09] PHP Parse error:  syntax error, unexpected ';' in /home/wwwbara/public_html/siteadmin/manage_depo_ver.php on line 43
+[11-Aug-2010 23:10:50] PHP Warning:  unlink(../uploads/imgusers/1281578920_501originalback.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 18
+[11-Aug-2010 23:11:11] PHP Warning:  unlink(../uploads/imgusers/1281578862_501originalback.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/wwwbara/public_html/siteadmin/manage_depo.php on line 18
+[01-Nov-2010 15:56:39] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/prosisc1/public_html/leilao/admin/connect.php on line 3
+[15-Jun-2019 17:28:29 America/Sao_Paulo] PHP Notice:  Undefined variable: id in /home/demohostgbi/public_html/admin/index.php on line 58
+[15-Jun-2019 17:28:29 America/Sao_Paulo] PHP Notice:  Undefined variable: redirect in /home/demohostgbi/public_html/admin/index.php on line 87
+[15-Jun-2019 17:28:51 America/Sao_Paulo] PHP Notice:  Undefined index: order in /home/demohostgbi/public_html/admin/manageauction.php on line 14
+[15-Jun-2019 17:28:51 America/Sao_Paulo] PHP Notice:  Undefined index: pgno in /home/demohostgbi/public_html/admin/manageauction.php on line 16
+[15-Jun-2019 17:28:51 America/Sao_Paulo] PHP Notice:  Undefined index: aucstatus in /home/demohostgbi/public_html/admin/manageauction.php on line 24
+[15-Jun-2019 17:28:59 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_IMAGES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 12
+[15-Jun-2019 17:28:59 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_ICONS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 13
+[15-Jun-2019 17:28:59 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_BANNERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 14
+[15-Jun-2019 17:28:59 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_CATEGORIES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 15
+[15-Jun-2019 17:28:59 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_PRODUCTS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 16
+[15-Jun-2019 17:28:59 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_MANUFACTURERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 17
+[15-Jun-2019 17:28:59 America/Sao_Paulo] PHP Notice:  Undefined index: editinfo in /home/demohostgbi/public_html/admin/pagsegurosetting.php on line 10
+[15-Jun-2019 17:28:59 America/Sao_Paulo] PHP Notice:  Undefined variable: lng_characset in /home/demohostgbi/public_html/admin/pagsegurosetting.php on line 33
+[15-Jun-2019 17:34:57 America/Sao_Paulo] PHP Notice:  Undefined index: order in /home/demohostgbi/public_html/admin/manageauction.php on line 14
+[15-Jun-2019 17:34:57 America/Sao_Paulo] PHP Notice:  Undefined index: pgno in /home/demohostgbi/public_html/admin/manageauction.php on line 16
+[15-Jun-2019 17:34:57 America/Sao_Paulo] PHP Notice:  Undefined index: aucstatus in /home/demohostgbi/public_html/admin/manageauction.php on line 24
+[15-Jun-2019 17:41:15 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_IMAGES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 12
+[15-Jun-2019 17:41:15 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_ICONS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 13
+[15-Jun-2019 17:41:15 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_BANNERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 14
+[15-Jun-2019 17:41:15 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_CATEGORIES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 15
+[15-Jun-2019 17:41:15 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_PRODUCTS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 16
+[15-Jun-2019 17:41:15 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_MANUFACTURERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 17
+[15-Jun-2019 17:41:15 America/Sao_Paulo] PHP Notice:  Undefined index: editinfo in /home/demohostgbi/public_html/admin/pagsegurosetting.php on line 10
+[15-Jun-2019 17:41:15 America/Sao_Paulo] PHP Notice:  Undefined variable: lng_characset in /home/demohostgbi/public_html/admin/pagsegurosetting.php on line 33
+[15-Jun-2019 17:49:15 America/Sao_Paulo] PHP Notice:  Undefined index: order in /home/demohostgbi/public_html/admin/manageauction.php on line 14
+[15-Jun-2019 17:49:15 America/Sao_Paulo] PHP Notice:  Undefined index: pgno in /home/demohostgbi/public_html/admin/manageauction.php on line 16
+[15-Jun-2019 17:49:15 America/Sao_Paulo] PHP Notice:  Undefined index: aucstatus in /home/demohostgbi/public_html/admin/manageauction.php on line 24
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: statusLeilao in /home/demohostgbi/public_html/admin/addauction.php on line 6
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: aucstartdate in /home/demohostgbi/public_html/admin/addauction.php on line 7
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: aucstarthours in /home/demohostgbi/public_html/admin/addauction.php on line 8
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: aucstartminutes in /home/demohostgbi/public_html/admin/addauction.php on line 8
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: aucstartseconds in /home/demohostgbi/public_html/admin/addauction.php on line 8
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/demohostgbi/public_html/admin/addauction.php on line 16
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/demohostgbi/public_html/admin/addauction.php on line 16
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: category in /home/demohostgbi/public_html/admin/addauction.php on line 21
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: product in /home/demohostgbi/public_html/admin/addauction.php on line 22
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: aucstartprice in /home/demohostgbi/public_html/admin/addauction.php on line 23
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: statusLeilao in /home/demohostgbi/public_html/admin/addauction.php on line 26
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auctionduration in /home/demohostgbi/public_html/admin/addauction.php on line 27
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: shippingmethod in /home/demohostgbi/public_html/admin/addauction.php on line 28
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: minimum_auction in /home/demohostgbi/public_html/admin/addauction.php on line 32
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: max_robot_consec in /home/demohostgbi/public_html/admin/addauction.php on line 36
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: addauction in /home/demohostgbi/public_html/admin/addauction.php on line 45
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auction_edit in /home/demohostgbi/public_html/admin/addauction.php on line 54
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auction_delete in /home/demohostgbi/public_html/admin/addauction.php on line 54
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auction_clone in /home/demohostgbi/public_html/admin/addauction.php on line 54
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: editando in /home/demohostgbi/public_html/admin/addauction.php on line 82
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: apagando in /home/demohostgbi/public_html/admin/addauction.php on line 125
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstatus in /home/demohostgbi/public_html/admin/addauction.php on line 218
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstatus in /home/demohostgbi/public_html/admin/addauction.php on line 218
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstatus in /home/demohostgbi/public_html/admin/addauction.php on line 218
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auction_delete in /home/demohostgbi/public_html/admin/addauction.php on line 356
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auction_edit in /home/demohostgbi/public_html/admin/addauction.php on line 361
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auction_delete in /home/demohostgbi/public_html/admin/addauction.php on line 363
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstatus in /home/demohostgbi/public_html/admin/addauction.php on line 376
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aid in /home/demohostgbi/public_html/admin/addauction.php on line 384
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: pprice in /home/demohostgbi/public_html/admin/addauction.php on line 421
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstartprice in /home/demohostgbi/public_html/admin/addauction.php on line 426
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstatus in /home/demohostgbi/public_html/admin/addauction.php on line 434
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucsthours in /home/demohostgbi/public_html/admin/addauction.php on line 445
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstatus in /home/demohostgbi/public_html/admin/addauction.php on line 449
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstmin in /home/demohostgbi/public_html/admin/addauction.php on line 460
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstatus in /home/demohostgbi/public_html/admin/addauction.php on line 464
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstsec in /home/demohostgbi/public_html/admin/addauction.php on line 475
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: aucstatus in /home/demohostgbi/public_html/admin/addauction.php on line 482
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auction_edit in /home/demohostgbi/public_html/admin/addauction.php on line 486
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$time_duration in /home/demohostgbi/public_html/admin/addauction.php on line 508
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Use of undefined constant auc_plus_time - assumed 'auc_plus_time' in /home/demohostgbi/public_html/admin/addauction.php on line 508
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$time_duration in /home/demohostgbi/public_html/admin/addauction.php on line 514
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$time_duration in /home/demohostgbi/public_html/admin/addauction.php on line 514
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$time_duration in /home/demohostgbi/public_html/admin/addauction.php on line 514
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$time_duration in /home/demohostgbi/public_html/admin/addauction.php on line 514
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: shippingchargeid in /home/demohostgbi/public_html/admin/addauction.php on line 530
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: shippingchargeid in /home/demohostgbi/public_html/admin/addauction.php on line 530
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: shippingchargeid in /home/demohostgbi/public_html/admin/addauction.php on line 530
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: shippingchargeid in /home/demohostgbi/public_html/admin/addauction.php on line 530
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined variable: shippingchargeid in /home/demohostgbi/public_html/admin/addauction.php on line 530
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auction_edit in /home/demohostgbi/public_html/admin/addauction.php on line 569
+[15-Jun-2019 17:49:18 America/Sao_Paulo] PHP Notice:  Undefined index: auction_delete in /home/demohostgbi/public_html/admin/addauction.php on line 577
+[15-Jun-2019 17:49:26 America/Sao_Paulo] PHP Notice:  Undefined index: default in /home/demohostgbi/public_html/admin/innerdatabase.php on line 3
+[15-Jun-2019 17:49:27 America/Sao_Paulo] PHP Notice:  Undefined variable: lng_characset in /home/demohostgbi/public_html/admin/defaultdatabase.php on line 8
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_IMAGES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 12
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_ICONS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 13
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_BANNERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 14
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_CATEGORIES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 15
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_PRODUCTS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 16
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_MANUFACTURERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 17
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: addcategory in /home/demohostgbi/public_html/admin/addcategory.php on line 22
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: editcategory in /home/demohostgbi/public_html/admin/addcategory.php on line 69
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: category_edit in /home/demohostgbi/public_html/admin/addcategory.php on line 149
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: category_delete in /home/demohostgbi/public_html/admin/addcategory.php on line 149
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: category_edit in /home/demohostgbi/public_html/admin/addcategory.php on line 244
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: category_delete in /home/demohostgbi/public_html/admin/addcategory.php on line 244
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/demohostgbi/public_html/admin/addcategory.php on line 283
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/demohostgbi/public_html/admin/addcategory.php on line 287
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/demohostgbi/public_html/admin/addcategory.php on line 301
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/demohostgbi/public_html/admin/addcategory.php on line 302
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: category_delete in /home/demohostgbi/public_html/admin/addcategory.php on line 332
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: category_edit in /home/demohostgbi/public_html/admin/addcategory.php on line 343
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined variable: cid in /home/demohostgbi/public_html/admin/addcategory.php on line 343
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: category_edit in /home/demohostgbi/public_html/admin/addcategory.php on line 343
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined variable: cid in /home/demohostgbi/public_html/admin/addcategory.php on line 343
+[15-Jun-2019 17:49:30 America/Sao_Paulo] PHP Notice:  Undefined index: category_edit in /home/demohostgbi/public_html/admin/addcategory.php on line 354
+[15-Jun-2019 17:49:35 America/Sao_Paulo] PHP Notice:  Undefined index: order in /home/demohostgbi/public_html/admin/manageproducts.php on line 25
+[15-Jun-2019 17:49:35 America/Sao_Paulo] PHP Notice:  Undefined index: pgno in /home/demohostgbi/public_html/admin/manageproducts.php on line 29
+[15-Jun-2019 17:49:35 America/Sao_Paulo] PHP Notice:  Undefined index: catID in /home/demohostgbi/public_html/admin/manageproducts.php on line 50
+[15-Jun-2019 17:49:35 America/Sao_Paulo] PHP Notice:  Undefined variable: total in /home/demohostgbi/public_html/admin/manageproducts.php on line 224
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: parents in /home/demohostgbi/public_html/admin/addproducts.php on line 51
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: addproduct in /home/demohostgbi/public_html/admin/addproducts.php on line 55
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: editproduct in /home/demohostgbi/public_html/admin/addproducts.php on line 158
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_delete in /home/demohostgbi/public_html/admin/addproducts.php on line 259
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_edit in /home/demohostgbi/public_html/admin/addproducts.php on line 288
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_delete in /home/demohostgbi/public_html/admin/addproducts.php on line 288
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_edit in /home/demohostgbi/public_html/admin/addproducts.php on line 498
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_delete in /home/demohostgbi/public_html/admin/addproducts.php on line 498
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: pcode in /home/demohostgbi/public_html/admin/addproducts.php on line 522
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/demohostgbi/public_html/admin/addproducts.php on line 568
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/demohostgbi/public_html/admin/addproducts.php on line 571
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: status in /home/demohostgbi/public_html/admin/addproducts.php on line 587
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: status in /home/demohostgbi/public_html/admin/addproducts.php on line 588
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: price in /home/demohostgbi/public_html/admin/addproducts.php on line 595
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: actualcost in /home/demohostgbi/public_html/admin/addproducts.php on line 599
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/demohostgbi/public_html/admin/addproducts.php on line 619
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/demohostgbi/public_html/admin/addproducts.php on line 623
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: metatags in /home/demohostgbi/public_html/admin/addproducts.php on line 632
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: metadescription in /home/demohostgbi/public_html/admin/addproducts.php on line 636
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: image in /home/demohostgbi/public_html/admin/addproducts.php on line 643
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: image in /home/demohostgbi/public_html/admin/addproducts.php on line 647
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: image in /home/demohostgbi/public_html/admin/addproducts.php on line 651
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: image in /home/demohostgbi/public_html/admin/addproducts.php on line 655
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_edit in /home/demohostgbi/public_html/admin/addproducts.php on line 683
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_delete in /home/demohostgbi/public_html/admin/addproducts.php on line 689
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_edit in /home/demohostgbi/public_html/admin/addproducts.php on line 698
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_edit in /home/demohostgbi/public_html/admin/addproducts.php on line 698
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_edit in /home/demohostgbi/public_html/admin/addproducts.php on line 709
+[15-Jun-2019 17:49:37 America/Sao_Paulo] PHP Notice:  Undefined index: product_cid in /home/demohostgbi/public_html/admin/addproducts.php on line 709
+[15-Jun-2019 17:51:47 America/Sao_Paulo] PHP Notice:  Undefined variable: id in /home/demohostgbi/public_html/admin/index.php on line 58
+[15-Jun-2019 17:51:47 America/Sao_Paulo] PHP Notice:  Undefined variable: redirect in /home/demohostgbi/public_html/admin/index.php on line 87
+[15-Jun-2019 17:54:07 America/Sao_Paulo] PHP Notice:  Undefined index: default in /home/demohostgbi/public_html/admin/innerstatic.php on line 3
+[15-Jun-2019 17:54:08 America/Sao_Paulo] PHP Notice:  Undefined variable: MLinksArray in /home/demohostgbi/public_html/admin/leftstatic.php on line 78
+[15-Jun-2019 17:54:08 America/Sao_Paulo] PHP Notice:  Undefined variable: lng_characset in /home/demohostgbi/public_html/admin/defaultstatic.php on line 8
+[15-Jun-2019 17:54:11 America/Sao_Paulo] PHP Notice:  Undefined index: submit in /home/demohostgbi/public_html/admin/staticpages.php on line 12
+[15-Jun-2019 17:54:11 America/Sao_Paulo] PHP Notice:  Undefined variable: Error in /home/demohostgbi/public_html/admin/staticpages.php on line 82
+[15-Jun-2019 17:54:24 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_IMAGES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 12
+[15-Jun-2019 17:54:24 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_ICONS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 13
+[15-Jun-2019 17:54:24 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_BANNERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 14
+[15-Jun-2019 17:54:24 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_CATEGORIES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 15
+[15-Jun-2019 17:54:24 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_PRODUCTS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 16
+[15-Jun-2019 17:54:24 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_MANUFACTURERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 17
+[15-Jun-2019 17:54:24 America/Sao_Paulo] PHP Notice:  Undefined index: editinfo in /home/demohostgbi/public_html/admin/pagsegurosetting.php on line 10
+[15-Jun-2019 17:54:24 America/Sao_Paulo] PHP Notice:  Undefined variable: lng_characset in /home/demohostgbi/public_html/admin/pagsegurosetting.php on line 33
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_IMAGES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 12
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_ICONS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 13
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_BANNERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 14
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_CATEGORIES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 15
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_PRODUCTS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 16
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_MANUFACTURERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 17
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Undefined index: submit in /home/demohostgbi/public_html/admin/dailyloginreport.php on line 7
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Undefined index: sdate in /home/demohostgbi/public_html/admin/dailyloginreport.php on line 7
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Undefined variable: startdate in /home/demohostgbi/public_html/admin/dailyloginreport.php on line 108
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Undefined variable: enddate in /home/demohostgbi/public_html/admin/dailyloginreport.php on line 108
+[15-Jun-2019 17:54:47 America/Sao_Paulo] PHP Notice:  Undefined variable: uid in /home/demohostgbi/public_html/admin/dailyloginreport.php on line 118
+[15-Jun-2019 17:54:57 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_IMAGES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 12
+[15-Jun-2019 17:54:57 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_ICONS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 13
+[15-Jun-2019 17:54:57 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_BANNERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 14
+[15-Jun-2019 17:54:57 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_CATEGORIES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 15
+[15-Jun-2019 17:54:57 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_PRODUCTS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 16
+[15-Jun-2019 17:54:57 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_MANUFACTURERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 17
+[15-Jun-2019 17:54:57 America/Sao_Paulo] PHP Notice:  Undefined index: pgno in /home/demohostgbi/public_html/admin/dailyloginreport.php on line 9
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_IMAGES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 12
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_ICONS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 13
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_BANNERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 14
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_CATEGORIES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 15
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_PRODUCTS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 16
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_MANUFACTURERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 17
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Undefined index: submit in /home/demohostgbi/public_html/admin/finincialreport.php on line 8
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Undefined index: sdate in /home/demohostgbi/public_html/admin/finincialreport.php on line 8
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Undefined variable: startdate in /home/demohostgbi/public_html/admin/finincialreport.php on line 97
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Undefined variable: enddate in /home/demohostgbi/public_html/admin/finincialreport.php on line 97
+[15-Jun-2019 17:55:10 America/Sao_Paulo] PHP Notice:  Undefined variable: total in /home/demohostgbi/public_html/admin/finincialreport.php on line 263
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_IMAGES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 12
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_ICONS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 13
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_BANNERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 14
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_CATEGORIES already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 15
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_PRODUCTS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 16
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Constant DIR_WS_MANUFACTURERS already defined in /home/demohostgbi/public_html/admin/config.inc.php on line 17
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Undefined index: submit in /home/demohostgbi/public_html/admin/finan_pagseg.php on line 10
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Undefined variable: startdate in /home/demohostgbi/public_html/admin/finan_pagseg.php on line 74
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Undefined variable: enddate in /home/demohostgbi/public_html/admin/finan_pagseg.php on line 76
+[15-Jun-2019 17:55:14 America/Sao_Paulo] PHP Notice:  Undefined variable: total in /home/demohostgbi/public_html/admin/finan_pagseg.php on line 156

@@ -1,0 +1,1951 @@
+/*PARAMENTROS GERAIS*/
+
+* { margin:0; padding:0; border:0; }
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+html {
+	overflow: -moz-scrollbars-vertical;
+}
+  
+/****************************************************/
+
+/* CLASSES GERAIS */
+
+.strong {	
+	font-weight:bold;
+}
+
+.hide { 
+	display: none; 
+}
+
+.clear {
+	clear: both; 
+}
+
+img {
+	border: none;
+}
+
+.img-left {
+	float:left;
+	padding: 2px 12px 2px 0px;
+}
+
+.img-right {
+	float:right;
+	padding: 2px 0px 2px 12px;
+}
+
+.img-right-internas {
+	float:right;
+	padding: 2px 50px 2px 12px;
+}	
+
+.centro {
+	text-align: center;
+}
+
+.direita {
+	text-align:right;
+}
+
+.left {
+	float:left;
+}
+
+.right { 
+	float:right;
+}
+
+a {
+	color:#375193;
+}
+
+a:hover {
+	text-transform:underline;
+}
+
+.obrigatorio {
+	color: #800;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.destaque {
+	color:#385296;
+	font-weight:bold;
+}
+	
+	
+/****************************************************/
+
+/*CONTEUDO DE TODAS PAGINAS*/
+
+#main {
+	width: 100%;
+}
+
+#main .conteudo {
+	width: 972px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:transparent;
+}
+
+/****************************************************/
+
+/*TOPO*/
+
+#topo {
+	width:100%;
+	overflow:hidden;
+	height:129px;
+}
+
+#logo {
+	float:left;
+	width:343px;
+	margin-top:4px;
+	height:129px;	
+}
+
+#meioTopo {
+	width:312px;
+	height:129px;
+	float:left;
+	margin-top:3px;
+}
+
+#meioTopo .bannerSuperior {
+	margin-top:10px;
+}
+
+#meioTopo .icones img {
+	float:left;
+	margin-right:10px;
+}
+
+#menuLogin {
+	float:left;
+	width:314px;
+}
+
+#menuTopo {
+	background:url(../img/layout/bgTopoMenu.png) no-repeat;
+	width:314px;
+	height:38px;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#menuTopo a {
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#menuTopo a:hover {
+	text-decoration:none;
+}
+	
+#menuTopo .texto {
+	float:left;
+	margin: 8px 0 0 9px;
+}
+
+#menuTopo .cadastre {
+	float:left;
+	margin: 8px 0 0 37px;
+}
+
+#menuTopo .login {
+	float:left;
+	margin: 8px 0 0 30px;
+}
+
+#horarioServidor {
+	margin: 10px 2px 0 0;
+	float:right;
+	width:310px;
+	height:33px;
+	background: url(../img/layout/icoHorario2.png);
+	background-repeat:no-repeat;
+}
+
+#horarioServidor .horarioRelogio {
+	font-size:14px;
+	color:#FFF;
+	padding-top:6px;
+	padding-left:45px;
+	text-align:left;
+	text-shadow: 0px 0px 1px #6C135A;
+	font-weight:bold;
+}
+
+
+/****************************************************/
+
+/*MENU*/
+#menu {
+	width:972px;
+	height:27px;
+	margin: 0;
+	padding:0;
+}
+
+#menu ul {
+	width: 100%;
+	height: 27px;
+	background:  blue url("../img/layout/menu_m.png") repeat-x 0px -27px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li {
+	display: block;
+	float: left;
+	margin: 0 5px;
+}
+
+#menu a, #menu_cat {
+	height: 27px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	float: left;
+	line-height: 200%;
+	padding: 0 10px 0 10px;
+	font-size:14px;
+	text-align:center;
+	font-weight:bolder;
+	text-transform:uppercase;
+	text-shadow: 0px 1px 2px #ccc;
+}
+
+#menu a:hover, #menu .item_ativo {
+	color: #FF6;
+	/*background:red url("../img/layout/menu_m.png") repeat-x 0px 0px;*/
+	background:red url("../img/layout/menu_m.png") repeat-x 0px -27px;
+}
+
+/****************************************************/
+
+/*DIV LOGIN*/
+
+#bgLogin {
+	background:url(../img/layout/bgLogin.png);
+	width:405px;
+	height:77px;
+	background-repeat:no-repeat;
+	float:right;
+	margin-right:-5px;
+}
+
+#bgLogin .inputLogin {
+	background: url(../img/layout/inputLogin.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:24px;
+	outline:none;
+	color: #277E96;
+	padding: 0px 0 0 5px;	
+	margin: 15px 0 0 10px;
+	float:left;
+	font-size:11px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#bgLogin .inputSenha {
+	background: url(../img/layout/inputSenha.png);
+	background-repeat:no-repeat;
+	width:150px;
+	height:24px;
+	outline:none;
+	color: #277E96;
+	padding: 0px 0 0 5px;	
+	margin: 15px 0 0 5px;
+	float:left;
+	font-size:11px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+
+.ie8 #bgLogin .inputLogin, .ie7 #bgLogin .inputLogin, .ie8 #bgLogin .inputSenha, .ie7 #bgLogin .inputSenha  {
+	padding: 6px 0 0 5px;	
+}
+
+#bgLogin .btnLoginA a {
+	float:left;
+	margin:15px 0 0 5px;
+	background-image:url(../img/layout/btnEntrar.png);
+	background-repeat:no-repeat;
+	width:65px;
+	height:25px;
+}
+
+#bgLogin .btnLoginA a:hover {
+	background-image:url(../img/layout/btnEntrarHover.png);
+}
+
+
+#bgLogin .btnPerdeuSenha a {
+	float:left;
+	margin: 6px 0 0 14px;
+	background-image:url(../img/layout/btnPerdeuSenha.png);
+	background-repeat:no-repeat;
+	width:122px;
+	height:15px;	
+}
+
+.ie8 #bgLogin .btnPerdeuSenha a, .ie7 #bgLogin .btnPerdeuSenha a, .ie8 #bgLogin .btnCadastreseAgora a, .ie7 #bgLogin .btnCadastreseAgora a { 
+	margin-top:3px;
+}
+
+#bgLogin .btnPerdeuSenha a:hover {
+	background-image:url(../img/layout/btnPerdeuSenhaHover.png);
+}
+
+#bgLogin .btnCadastreseAgora a {
+	float:left;
+	margin: 6px 0 0 8px;
+	background-image:url(../img/layout/btnCadatreseAgora.png);	
+	background-repeat:no-repeat;
+	width:143px;
+	height:15px;	
+}
+
+#bgLogin .btnCadastreseAgora a:hover {
+	background-image:url(../img/layout/btnCadatreseAgoraHover.png);	
+}
+
+/****************************************************/
+
+/*BANNER E MIDIA*/
+
+#banner {
+	float:left;
+	width:735px;
+	height:175px;
+}
+
+#bannerCadastrado {
+	float:left;
+	width:237px;
+	height:175px;
+}
+
+/****************************************************/
+
+/*MARQUEE*/
+
+#marquee {
+	background-image: url(../img/layout/bgMarquee.png);
+	background-repeat:no-repeat;
+	width:972px;
+	height:36px;
+	margin: 10px 0;
+}
+
+#textoMarquee {
+	color:#334C80;
+	font-size:12px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	width:925px;
+	height:20px;
+	margin:5px 0 0 43px;
+	padding:5px 0 0 0;
+}
+
+.ie7 #textoMarquee {
+	padding:9px 0 0 0;
+}
+
+#textoMarquee a {
+	color:#334C80;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+#textoMarquee a:hover {
+	text-decoration:none;
+}
+
+/****************************************************/
+
+/*�?REA DE LEILOES*/
+
+#areaLeiloes {
+	margin:10px 0;
+}
+
+#areaLeiloes .lateralEsquerdaHome {
+	float:left;
+	width:760px;
+	background-color:transparent;
+}
+
+#areaLeiloes .lateralDireitaHome {
+	float:right;
+	width:210px;
+	background-color:transparent;
+}
+
+.ttlPadrao {
+	background-image:url(../img/layout/ttlPadrao.png);
+	background-repeat:no-repeat;
+	width:971px;
+	height:29px;
+}
+
+.ttlPadrao .texto {
+	padding: 5px 0 0 8px;
+	font-size:14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:left;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#areaLeiloes .ttlPadraoHome {
+	background-image:url(../img/layout/ttlPadraoHome.png);
+	background-repeat:no-repeat;
+	width:744px;
+	height:29px;
+}
+
+#areaLeiloes .ttlPadraoHome .texto {
+	padding: 5px 0 0 8px;
+	font-size:14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:left;
+	font-weight:bold;
+}
+
+#areaLeiloes .ofertaMomento {
+	margin: 8px 0 0 15px;
+}
+
+#areaLeiloes .ofertaMomento .bg {
+	background:url(../img/layout/bgOfertaMomento.png);
+	background-repeat:no-repeat;
+	width:973px;
+	height:245px;
+}
+
+#areaLeiloes .ofertaMomento .localImagem {
+	float: left;
+	width:160px;
+	margin: 42px 0 0 30px;
+}
+
+#areaLeiloes .ofertaMomento .localTexto {
+	width:520px;
+	float:left;
+	margin:13px 0 0 30px;
+}
+
+#areaLeiloes .ofertaMomento .localTexto a {
+	color:#000;
+	font-size:20px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#areaLeiloes .ofertaMomento .localTexto a:hover {
+	color:#111;
+	text-decoration:underline;
+}
+
+#areaLeiloes .ofertaMomento .nomeProduto {
+	color:#111;
+	font-size:20px;
+}
+
+#areaLeiloes .ofertaMomento .textoProduto {
+	font-size:13px;
+	color:#464646;
+	line-height:140%;
+}
+
+#areaLeiloes .ofertaMomento .localValores {
+	float:right;
+	width:181px;
+	margin-right:25px;
+	margin-top:23px;
+
+}
+
+#areaLeiloes .ofertaMomento .textoTempo {
+	font-size:11px;
+	color:#555;
+}
+
+#areaLeiloes .ofertaMomento .numeroTempo {
+	font-size:30px;
+	color:#E39A1C;
+	margin-top:4px;
+	font-weight:bold;
+}
+
+#areaLeiloes .ofertaMomento .textoValor {
+	float:left;
+	width:25%;
+	margin-top:30px;
+	font-size:11px;
+}
+
+#areaLeiloes .ofertaMomento .numeroValor {
+	text-align:center;
+	margin-top:20px;
+	color:#065B7D;
+	font-size:24px;
+	font-weight:bold;
+
+}
+
+#areaLeiloes .ofertaMomento .botaoLance {
+	clear:both;
+	margin: 20px 0 0 20px;
+
+}
+
+#areaLeiloes .ofertaMomento .botaoLance a {
+	background-image:url(../img/layout/btnLogin.png);	
+	background-repeat:no-repeat;
+	width:139px;
+	height:34px;
+	display:block;	
+}
+
+#areaLeiloes .ofertaMomento .botaoLance a:hover {
+	background-image:url(../img/layout/btnLoginHover.png);	
+}
+
+#areaLeiloes .ofertaMomento .textoUltimoLance {
+	float:left;
+	width:50%;
+	margin-top:12px;
+	font-size:11px;
+}
+
+#areaLeiloes .ofertaMomento .numeroUltimoLance {
+	float:left;
+	width:40%;
+	text-align:right;
+	margin-top:10px;
+	color:#D59207;
+	font-size:12px;
+	margin-right:5px;
+}
+
+#areaLeiloes .divBg {
+	background-color:#DADCDB;
+	width:975px;
+	height:2px;
+	margin: 5px 0 20px 0;
+}
+
+#areaLeiloes .itemLeiaoCategoria {
+	width:187px;
+	float:left;
+	margin: 0 6px 20px 6px;
+	border:1px solid #CCCCCE;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding-bottom:10px;	
+}
+
+#areaLeiloes .itemLeiaoCategoria .nomeProduto {
+	width:90%;
+	height:20px;
+	text-align:center;
+	margin-top:7px;
+}
+
+.ie8 #areaLeiloes .itemLeiaoCategoria .nomeProduto, .ie7 #areaLeiloes .itemLeiaoCategoria .nomeProduto {
+	padding-top:5px;
+}
+
+#areaLeiloes .itemLeiaoCategoria .nomeProduto a {
+	color:#111;
+	font-size:11px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#areaLeiloes .itemLeiaoCategoria .nomeProduto a:hover {
+	text-decoration:underline;
+}
+
+#areaLeiloes .itemLeiaoCategoria .imagemProduto {
+	margin:0;
+	padding:0;
+	margin: 5px 0;
+}
+
+#areaLeiloes .itemLeiao .iconesSup {
+	float:right;
+	margin: 7px 5px 0 0;
+}
+
+#areaLeiloes .itemLeiao .iconesSup img {
+	float:right;
+}
+
+#areaLeiloes .itemLeiao .nomeProduto {
+	width:90%;
+	height:30px;
+	text-align:center;
+	margin-top:7px;
+}
+
+.ie8 #areaLeiloes .itemLeiao .nomeProduto, .ie7 #areaLeiloes .itemLeiao .nomeProduto {
+	padding-top:10px;
+}
+
+#areaLeiloes .itemLeiao .nomeProduto a {
+	color:#111;
+	font-size:11px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#areaLeiloes .itemLeiao .nomeProduto a:hover {
+	text-decoration:underline;
+}
+
+#areaLeiloes .itemLeiao .imagemProduto {
+	margin:0;
+	padding:0;
+	margin: 5px 0;
+}
+
+#areaLeiloes .itemLeiao .tempoProduto {
+	color:#E39A1C;
+	font-size:22px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#areaLeiloes .itemLeiao .txtValor {
+	font-size:11px;
+	color:#444;
+	margin-top:4px;
+}
+
+#areaLeiloes .itemLeiao .valorProduto {
+	color:#065B7D;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.btnLogin {
+	width:84px;
+	height:39px;
+}
+
+.btnLogin a {
+	background-image:url(../img/layout/btnLogin.png);	
+	background-repeat:no-repeat;
+	width:84px;
+	height:39px;
+	display:block;	
+}
+
+.btnLogin a:hover {
+	background-image:url(../img/layout/btnLoginHover.png);	
+}
+
+.btnLance {
+	width:84px;
+	height:39px;
+}
+
+.btnLance a {
+	background-image:url(../img/layout/btnLance.png);	
+	background-repeat:no-repeat;
+	width:84px;
+	height:39px;
+	display:block;	
+}
+
+.btnLance a:hover {
+	background-image:url(../img/layout/btnLanceHover.png);	
+}
+
+.btnComprar {
+	width:84px;
+	height:28px;
+}
+
+.btnComprar a {
+	background-image:url(../img/layout/btnComprar.png);	
+	background-repeat:no-repeat;
+	width:84px;
+	height:28px;
+	display:block;	
+}
+
+.btnComprar a:hover {
+	background-image:url(../img/layout/btnComprarHover.png);	
+}
+
+#areaLeiloes .itemLeiao .nomeUser {
+	font-size:12px;
+	color:#111;
+	margin-top:10px;
+	line-height:150%;
+}
+
+#areaLeiloes .btnTodososLeiloes {
+	float:right;
+	margin: 0px 10px 0 0px;
+}
+
+#areaLeiloes a.btnTodososLeiloes {
+	background-image:url(../img/layout/verTodosLeiloes.png);	
+	background-repeat:no-repeat;
+	width:308px;
+	height:30px;	
+}
+
+#areaLeiloes a.btnTodososLeiloes:hover {
+	background-image:url(../img/layout/verTodosLeiloesHover.png);	
+}
+
+#areaLeiloes .btnTodososLeiloesFuturos {
+	float:right;
+	margin: 0px 10px 0 0px;
+}
+
+#areaLeiloes a.btnTodososLeiloesFuturos {
+	background-image:url(../img/layout/verTodosLeiloesFuturos.png);	
+	background-repeat:no-repeat;
+	width:259px;
+	height:30px;	
+}
+
+#areaLeiloes a.btnTodososLeiloesFuturos:hover {
+	background-image:url(../img/layout/verTodosLeiloesFuturosHover.png);	
+}
+
+#areaLeiloes .btnTodososLeiloesFinalizados {
+	float:right;
+	margin: 0px 10px 0 0px;
+}
+
+#areaLeiloes a.btnTodososLeiloesFinalizados {
+	background-image:url(../img/layout/verTodosLeiloesFinalizados.png);	
+	background-repeat:no-repeat;
+	width:288px;
+	height:30px;	
+}
+
+#areaLeiloes a.btnTodososLeiloesFinalizados:hover {
+	background-image:url(../img/layout/verTodosLeiloesFinalizadosHover.png);	
+}
+
+#areaLeiloes .itemLeiaoCaixa {
+	border:1px solid #CCCCCE;
+	width:998px;
+	margin: 10px 0px 10px 0px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding-bottom:10px;
+}
+
+#areaLeiloes .itemLeiaoCaixa .imagemProduto {
+	margin:0;
+	padding:0;
+	margin: 8px 0 0 10px;
+	float:left;
+	width:120px;
+}
+
+.leiloesFuturos {padding-bottom:20px;}
+
+#areaLeiloes .itemLeilaoFuturo .textosProduto {
+	float:left;
+	width:420px;
+	margin-left:10px;
+}
+
+#areaLeiloes .itemLeilaoFuturo .nomeProduto {
+	width:400px;
+	text-align:left;
+}
+
+#areaLeiloes .itemLeilaoFuturo .descProduto {
+	width:400px;
+	text-align:left;
+	margin-top:7px;
+}
+
+.ie8 #areaLeiloes .itemLeilaoFuturo .nomeProduto, .ie7 #areaLeiloes .itemLeilaoFuturo .nomeProduto {
+	padding-top:10px;
+}
+
+#areaLeiloes .itemLeilaoFuturo .nomeProduto a {
+	color:#4399DE;
+	font-size:15px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#areaLeiloes .itemLeilaoFuturo .nomeProduto a:hover {
+	text-decoration:underline;
+}
+
+.areaUser {
+	background:url(../img/layout/bgAreaUser.png);
+	background-repeat:no-repeat;
+	min-width:15px;
+	min-height:20px;
+	float:left;
+	padding-left:20px;
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	line-height:180%;
+	margin: 40px 20px 0 0px;
+}
+
+.areaUser a {
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	line-height:180%;
+	text-decoration:none;
+}
+
+.areaUser a:hover {
+	text-decoration:underline;
+}
+
+
+#areaLeiloes .itemLeilaoFuturo .areaImagem {
+	float:left;
+	width:170px;
+	height:115px;
+	margin-right:10px;
+}
+
+
+#areaLeiloes .itemLeilaoFuturo .tempoProduto {
+	color:#667F01;
+	font-size:20px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	float:left;
+	width:0px;
+	margin: 50px 0 0 20px;
+	text-align:center;
+	
+}
+
+#areaLeiloes .itemLeilaoFuturo .txtValor {
+	font-size:20px;
+	color:#D12B2A;
+	margin-top:4px;
+	margin-bottom:10px;
+}
+
+#areaLeiloes .itemLeilaoFuturo .dataLeilao {
+	font-size:20px;
+	color:#267991;
+	margin-top:8px;
+	margin-bottom:2px;
+	font-weight:bold;
+}
+
+#areaLeiloes .itemLeilaoFuturo .valorProduto {
+	color:#D12B2A;
+	font-size:20px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top:2px;
+}
+
+#areaLeiloes .itemLeilaoFuturo .areaBotao {
+	float:left;
+	text-align:center;
+	margin: 30px 0 0 60px;
+}
+
+#areaLeiloes .itemLeilaoFuturo .btnPrincipal {
+	margin: 8px 0 0 0;
+	height:34px;
+	width:139px;
+}
+
+#areaLeiloes .itemLeilaoFuturo .btnPrincipal a {
+	background-image:url(../img/layout/btnLogin.png);	
+	background-repeat:no-repeat;
+	width:139px;
+	height:34px;
+	display:block;	
+}
+
+#areaLeiloes .itemLeilaoFuturo .btnPrincipal a:hover {
+	background-image:url(../img/layout/btnLoginHover.png);	
+}
+
+#areaLeiloes .itemLeilaoFuturo .nomeUser {
+	font-size:12px;
+	color:#111;
+	margin-top:10px;
+	text-align:center;
+}
+
+#bgFinal {
+	background-image:url(../img/layout/bgFinal.png);	
+	background-repeat:no-repeat;
+	width:1024px;
+	height:14px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+/* rodape */
+
+#rodape {
+	width:100%;
+	background-color:#E3E3E3;
+	/*height:240px;*/
+	padding-top:20px;
+	border-top:1px solid #ccc;
+}
+
+#rodape .conteudoR {
+	width: 972px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rodape a {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4D4D4D;
+	text-decoration:none;
+	text-shadow: 0px 1px 2px #fff;	
+}
+
+#rodape a:hover {
+	color:#4D4D4D;
+	text-decoration:underline;
+}
+
+#rodape .menuRodape {
+	background-image:url(../img/layout/bgRodape.png);	
+	background-repeat:no-repeat;
+	width:687px;
+	height:18px;
+	margin: 0px 0 15px 15px;
+	padding-top:25px;
+	float:left;
+}
+
+.ie7 #rodape .menuRodape {
+	margin: 25px 0 15px 15px;
+	padding-top:25px;
+	padding-bottom:110px;
+}
+
+#rodape .menuRodape .institucional {
+	float:left;
+	width:187px;
+	line-height:165%;
+}
+	
+#rodape  .menuRodape .servicos {
+	float:left;
+	width:160px;
+	line-height:165%;
+}	
+
+#rodape .menuRodape .atendimento {
+	float:left;
+	width:158px;
+	line-height:165%;
+}
+
+#rodape  .menuRodape .pagamento {
+	float:left;
+	width:160px;
+	line-height:165%;
+}
+
+
+
+#areaLeiloes .pagInstitucional {
+	margin: 20px 0;
+	font-size:12px;
+}
+
+#areaLeiloes .pagInstitucional p a {
+	text-decoration:underline;
+}
+
+#areaLeiloes .pagInstitucional p a:hover {
+	text-decoration:none;
+}
+
+#areaLeiloes .pagInstitucional p {
+	line-height:140%;
+	padding-bottom:10px;
+}
+
+#areaLeiloes .pagInstitucional .textoConteudo {
+	padding: 10px 15px 5px 15px;
+}
+
+h3 {
+	padding: 0px 0 5px 0;
+	font-size:17px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#153360;
+	text-align:left;
+	font-weight:bolder;
+	text-transform:uppercase;
+	text-shadow: 0px 1px 2px #ccc;
+}
+
+h4 {
+	padding: 0px 0 15px 0;
+	font-size:14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#153360;
+	text-align:left;
+	font-weight:bolder;
+	text-transform:uppercase;
+	text-shadow: 0px 1px 2px #ccc;
+}
+
+#areaLeiloes .pagInternas p {
+	line-height:140%;
+	padding-bottom:10px;
+}
+
+#areaLeiloes .boxDestque {
+	margin: 10px 0;
+	padding:10px;
+	border: 1px solid #DDD;
+	background-color:#EFEFEF;
+	width:50%;
+	float:left;
+}
+
+#areaLeiloes .boxDestque label {
+	width:125px;
+	display:block;
+	text-align:right;
+	float:left;
+	margin-right:5px;
+	line-height:200%;
+}
+
+.emailRecuperarSenha, .inputPadrao {
+	border: 1px solid #ccc;
+	color:#454545;
+	width:300px;
+	display:block;
+	float:left;
+	height:16px;
+	padding: 2px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.dataRecuperarSenha {
+	border: 1px solid #ccc;
+	color:#454545;
+	width:50px;
+	display:block;
+	float:left;
+	height:23px;
+	padding: 2px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.mesRecuperarSenha {
+	border: 1px solid #ccc;
+	color:#454545;
+	width:100px;
+	display:block;
+	float:left;
+	height:23px;
+	padding: 2px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.anoRecuperarSenha {
+	border: 1px solid #ccc;
+	color:#454545;
+	width:65px;
+	display:block;
+	float:left;
+	height:23px;
+	padding: 2px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.sexoRegistro {
+	border: 1px solid #ccc;
+	color:#454545;
+	width:100px;
+	display:block;
+	float:left;
+	height:23px;
+	padding: 2px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.obrigatorioMenor {
+	margin-left:130px;
+	font-size:10px;
+	color: #777;
+}
+
+#areaLeiloes .btnEnviar button {
+	float:left;
+	margin:15px 0 0 125px;
+	background-image:url(../img/layout/btnEnviar.png);
+	background-repeat:no-repeat;
+	width:84px;
+	height:28px;
+	cursor:pointer;
+}
+
+#areaLeiloes .btnEnviar a:hover {
+	background-image:url(../img/layout/btnEnviarHover.png);
+}
+
+#areaLeiloes .btnRegistrar a {
+	float:left;
+	margin:5px 0 0 125px;
+	background-image:url(../img/layout/btnRegistrar.png);
+	background-repeat:no-repeat;
+	width:84px;
+	height:28px;
+}
+
+#areaLeiloes .btnRegistrar a:hover {
+	background-image:url(../img/layout/btnRegistrarHover.png);
+}
+
+.areaInput {
+	margin:7px 0 7px 130px;
+}
+
+/* PAGINAÇÃO */
+
+#pages {
+	margin:auto;
+	padding:3px;
+	width:415px;
+	border-top: 1px solid #efefef;
+	padding-top:10px;
+}
+
+#pages ul {
+	list-style-type:none;
+}
+
+#pages li {
+	display:inline;
+	margin:0 5px 0 0;
+}
+
+#pages li a {
+	border:medium none;
+	color:#375193;
+	font-size:11px;
+	padding:4px;
+	text-decoration:none;
+}
+
+#pages li a:hover {
+	border:medium none;
+	color:#283A6A;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#pages li.nolink {
+	border:medium none;
+	color:#444444;
+	font-size:11px;
+	padding:4px;
+}
+
+#pages li.current {
+	border:medium none;
+	color:#4565B8;
+	font-size:11px;
+	font-weight:bold;
+	padding:4px;
+}
+
+/* FIM PAGINAÇÃO */
+
+/* QUANDO ESTIVER LOGADO */
+
+#areaLogado {
+	width:459px;
+	height:57px;
+	float:right;
+	text-align:right;
+	margin-top:20px;
+	
+}
+
+#areaLogado .texto {
+	float:right;
+	margin-right:10px;
+	margin-top:3px;
+	font-size:13px;
+}
+
+#areaLogado .lances {
+	color:#E77817;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#areaLogado .btnLogout a {
+	float:right;
+	background-image:url(../img/layout/btnSair.png);
+	background-repeat:no-repeat;
+	width:65px;
+	height:20px;
+	margin-left:5px;
+}
+
+#areaLogado .btnLogout a:hover {
+	background-image:url(../img/layout/btnSairHover.png);
+}
+
+/* FIM QUANDO ESTIVER LOGADO */
+
+/* CADA ITEM DO LEILÃO HOME */
+
+#areaLeiloes .itemLeiao {
+	width:174px;
+	float:left;
+	margin: 0 15px 15px 0px;
+}
+
+div.itemLeiao .areaNome {
+	color:#4399DE;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 0 0 0;
+}
+
+div.itemLeiao .areaNome a {
+	color:#4399DE;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+div.itemLeiao .areaNome a:hover {
+	text-decoration:underline;
+}
+
+
+div.itemLeiao .areaMeioBorda .areaFoto {
+	padding:14px 0 8px 0;
+	z-index:1;
+}
+		
+div.itemLeiao .areaMeioBorda .areaTempo {
+	background:url(../img/layout/bgAreaTempo.png);
+	background-repeat:no-repeat;
+	width:158px;
+	height:24px;
+	top:-80px;
+	z-index:5;
+	position:relative;
+}
+
+div.itemLeiao .areaMeioBorda .areaTempo .areaTextoTempo {
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px 0 0 21px;
+	line-height:170%;
+	text-shadow: 1px 1px 0px #000;
+	line-height:172%;
+}
+
+.ie7 div.itemLeiao .areaMeioBorda .areaTempo .areaTextoTempo, .ie8 div.itemLeiao .areaMeioBorda .areaTempo .areaTextoTempo, .chrome div.itemLeiao .areaMeioBorda .areaTempo .areaTextoTempo {
+	line-height:195%;
+}
+
+div.itemLeiao .areaMeioBorda .areaUser {
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	line-height:180%;
+}
+
+div.itemLeiao .areaMeioBorda .areaUser a {
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	line-height:180%;
+	text-decoration:none;
+}
+
+div.itemLeiao .areaMeioBorda .areaUser a:hover {
+	text-decoration:underline;
+}
+
+div.itemLeiao .areaMeioBorda .areaValor {
+	color:#324B7E;
+	font-size:18px;
+	font-weight:bold;
+	margin: 4px 0 5px 0;
+}
+
+div.itemLeiao .areaMeioBorda .usuario {
+	color:#7099BA;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding:12px 0 0 0;
+}
+
+div.itemLeiao .areaMeioBorda .usuario a {
+	color:#7099BA;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+div.itemLeiao .areaMeioBorda .usuario a:hover {
+	text-decoration:underline;
+}
+
+div.itemLeiao .areaMeioBorda .areaContagem {
+	color: #E21818;
+	font-size:23px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top:-32px;
+}
+
+.areaContagemM {
+	color: #267991;
+	font-size:25px;
+	font-weight:bold;
+}
+
+div.itemLeiao .areaMeioBorda .divisao {
+	background:url(../img/layout/divisao.png);
+	background-repeat:no-repeat;
+	width:180px;
+	height:2px;
+	margin:6px 0;
+}
+
+div.itemLeiao .areaMeioBorda .textoValor {
+	font-size:11px;
+	color:#444;
+}
+
+div.itemLeiao .areaMeioBorda .areaBotaoLance {
+	margin:0px 0px 0 0;
+}
+
+div.itemLeiao .bordaInferior {
+	background:url(../img/layout/leilao_baixo.png);
+	background-repeat:no-repeat;
+	width:174px;
+	height:12px;
+}
+
+div.itemLeiao .bordaSuperior {
+	background:url(../img/layout/leilao_topo.png);
+	background-repeat:no-repeat;
+	width:174px;
+	height:10px;
+}
+
+div.itemLeiao .areaMeioBorda {
+	background:url(../img/layout/leilao_meio.png);
+	background-repeat: repeat-y;
+	width:174px;
+	margin-top:-6px;
+}
+
+
+/*outros */
+
+#areaLeiloes .areaBotao .btnLogin {
+	height:47px;
+	width:97px;
+}
+
+#areaLeiloes .areaBotao .btnLogin a {
+	background-image:url(../img/layout/btnLogin.png);	
+	background-repeat:no-repeat;
+	height:47px;
+	width:97px;
+	display:block;	
+}
+
+#areaLeiloes .areaBotao .btnLogin a:hover {
+	background-image:url(../img/layout/btnLoginHover.png);	
+}
+
+#areaLeiloes .areaBotao .btnLance {
+	height:47px;
+	width:97px;
+}
+
+#areaLeiloes .areaBotao .btnLance a {
+	background-image:url(../img/layout/btnLance.png);	
+	background-repeat:no-repeat;
+	width:97px;
+	height:47px;
+	display:block;	
+}
+
+#areaLeiloes .areaBotao .btnLance a:hover {
+	background-image:url(../img/layout/btnLanceHover.png);	
+}
+
+
+#areaLeiloes .itemLeiao .btnVejaMAis {
+	height:28px;
+	width:84px;
+}
+
+#areaLeiloes .itemLeiao .btnVejaMAis a {
+	background-image:url(../img/layout/btnVejaMAis.png);	
+	background-repeat:no-repeat;
+	height:28px;
+	width:84px;
+	display:block;	
+}
+
+#areaLeiloes .itemLeiao .btnVejaMAis a:hover {
+	background-image:url(../img/layout/btnVejaMAisHover.png);	
+}
+
+.valorLeilao {
+	color:#952828;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.valorReal {
+	color:#D12B2A;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.valorReal .real {
+	color:#444;
+	font-size:12px;
+	font-weight:normal;
+}
+
+#areaLeiloes .itemLeilaoFuturo {
+	width:710px;
+	padding:15px 10px 0 10px;
+}
+
+#areaLeiloes .leiloesFuturos .bordaMeio {
+	background:url(../img/layout/bordaMeioBox.png);
+	background-repeat:repeat-y;
+	width:743px;
+	padding-top:10px;
+}
+
+#areaLeiloes .leiloesFuturos .bordaBaixo {
+	background:url(../img/layout/bordaBaixoBox.png);
+	background-repeat: no-repeat;
+	width:743px;
+	height:16px;
+}
+
+#areaLeiloes .leiloesFuturos .areaFoto {
+	z-index:1;
+}
+		
+#areaLeiloes .leiloesFuturos .areaTempo {
+	background:url(../img/layout/bgAreaTempo.png);
+	background-repeat:no-repeat;
+	width:158px;
+	height:24px;
+	top:5px;
+	margin-bottom:10px;
+	z-index:5;
+	position:relative;
+}
+
+#areaLeiloes .leiloesFuturos .areaTextoTempo {
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px 0 0 21px;
+	line-height:170%;
+	text-shadow: 1px 1px 0px #000;
+	line-height:172%;
+}
+
+.ie7 #areaLeiloes .leiloesFuturos .areaTextoTempo, .ie8 #areaLeiloes .leiloesFuturos .areaTextoTempo, .chrome #areaLeiloes .leiloesFuturos  .areaTextoTempo {
+	line-height:195%;
+}
+
+#areaLeiloes .latDireita {
+	float:left;
+	width:100px;
+}
+
+#areaLeiloes .areaValor {
+	color:#324B7E;
+	font-size:18px;
+	font-weight:bold;
+	margin: 4px 0 5px 0;
+	width:100px;
+}
+
+#areaLeiloes .usuario {
+	color:#7099BA;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding:12px 0 0 0;
+}
+
+#areaLeiloes .usuario a {
+	color:#7099BA;
+	font-size:12px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+#areaLeiloes .usuario a:hover {
+	text-decoration:underline;
+}
+
+.divisaoHome {
+	background:url(../img/layout/divisaoHome.png);
+	background-repeat:no-repeat;
+	width:695px;
+	height:12px;
+}
+
+#buscaLateral {
+	background:url(../img/layout/bgBusca.png) no-repeat;
+	width:210px;
+	height:69px;
+	margin-bottom:15px;
+}
+
+#buscaLateral input {
+	background-color:transparent;	
+	width:150px;
+	height:18px;
+	outline:none;
+	color: #385590;
+	padding: 0px 0 0 4px;	
+	margin: 34px 0 0 8px;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#buscaLateral .botao {
+	float:right;
+	margin:33px 5px 0 0;
+}
+
+#destaquesLateral {
+	width:210px;
+	margin-bottom:15px;
+}
+
+#destaquesLateral .titulo {
+	background:url(../img/layout/ttlPadraoLateral.png) no-repeat;
+	width:210px;
+	height:29px;
+	font-size:14px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:200%;
+	color:#fff;
+}
+
+#destaquesLateral .bordaLateral {
+	background: url(../img/layout/bgDestaqueLateral.png);
+	background-repeat:repeat-y;
+	width:210px;
+	padding: 10px 8px 0 8px;
+	width: 194px;
+}
+
+#destaquesLateral .bordaInferiorLateral {
+	background: url(../img/layout/bgDestaqueBaixo.png);
+	background-repeat: no-repeat;
+	width:210px;
+	height:15px;
+}
+
+#destaquesLateral .divisaoLateral {
+	background: url(../img/layout/divLateral.png);
+	background-repeat:no-repeat;
+	width:174px;
+	height:20px;
+}
+
+#destaquesLateral .areaNome {
+	color:#4399DE;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 0 0 0;
+}
+
+#destaquesLateral .areaNome a {
+	color:#4399DE;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#destaquesLateral .areaNome a:hover {
+	text-decoration:underline;
+}
+
+#destaquesLateral .areaFoto {
+	padding:14px 0 8px 0;
+	z-index:1;
+}
+
+#destaquesLateral .areaContagem {
+	color: #E21818;
+	font-size:15px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* area login topo */
+
+#menuLoginAjax {
+	background:url(../img/layout/bgAjax.png) no-repeat;
+	width:314px;
+	height:166px;
+	margin:0;
+	padding:0;
+	position: absolute;
+	top: 0;
+	z-index: 999;
+
+	background-color: #ffcc80;
+	color: #385590;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#menuLoginAjax a {
+	text-decoration:underline;
+}
+
+#menuLoginAjax a:hover {
+	text-decoration:none;
+}
+
+#menuLoginAjax .titulo_geral {
+	padding: 0px 0 0 2px;	
+	margin: 10px 0 0 30px;
+	float:left;
+	font-size:26px;
+}
+
+#menuLoginAjax .titulo_usuario {
+	padding: 0px 0 0 2px;	
+	top: 45px;
+	left: 20px;
+	position:absolute;
+}
+
+#menuLoginAjax .titulo_senha {
+	padding: 0px 0 0 2px;	
+	top: 70px;
+	left: 20px;
+	position:absolute;
+}
+
+#menuLoginAjax .inputA {
+	width:176px;
+	height:18px;
+	outline:none;
+	color: #385590;
+	padding: 0px 0 0 2px;	
+	margin: 5px 0 0 80px;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#menuLoginAjax .inputB {
+	width:176px;
+	height:18px;
+	outline:none;
+	color: #385590;
+	padding: 0px 0 0 2px;	
+	margin: 5px 0 0 80px;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#menuLoginAjax .input_txt{
+	width:200px;
+}
+	
+#menuLoginAjax .texto {
+	float:left;
+	margin: 12px 0 0 9px;
+}
+
+#menuLoginAjax .cadastre {
+	float:left;
+	margin: 12px 0 0 80px;
+}
+
+#menuLoginAjax .fechar {
+	top:0;
+	position:absolute;
+	margin: 4px 0 0 290px;
+}
+
+#menuLoginAjax .fechar a {
+	text-decoration:none;
+}
+
+#menuLoginAjax .botao {
+	float:left;
+	margin: 8px 0 0 56px;
+}
+
+#menuLoginAjax .senha {
+	float:right;
+	margin: 11px 96px 0 0px;
+}
+
+#menuLoginAjax .senha a {
+	font-size:14px !important;
+	font-weight:normal !important;
+}
+
+/* quando estiver logado */
+
+#menuLogado {
+	float:left;
+	width:314px;
+}
+
+#menuLogado {
+	background:url(../img/layout/bgTopoMenuLogado.png) no-repeat;
+	width:314px;
+	height:38px;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#menuLogado a {
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#menuLogado a:hover {
+	text-decoration:none;
+}
+	
+#menuLogado .user {
+	float:left;
+	margin: 8px 0 0 9px;
+	text-align:center;
+	width:115px;
+}
+
+#menuLogado .lance {
+	float:left;
+	margin: 8px 0 0 45px;
+	width:80px;
+}
+
+#menuLogado .sair {
+	float:left;
+	margin: 8px 0 0 32px;
+	width:30px;
+}
+
+/* para institucionais */
+
+#areaLeiloes .ttlPadraoHome {
+	background-image:url(../img/layout/ttlPadraoHome.png);
+	background-repeat:no-repeat;
+	width:744px;
+	height:29px;
+}
+
+#areaLeiloes .ttlPadraoHome .texto {
+	padding: 5px 0 0 8px;
+	font-size:14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:left;
+	font-weight:bold;
+}
+
+#areaLeiloes .leiloesFuturos .bordaMeioG {
+	background:url(../img/layout/bordaMeioBoxG.png);
+	background-repeat:repeat-y;
+	width:971px;
+	padding-top:10px;
+}
+
+#areaLeiloes .leiloesFuturos .bordaBaixoG {
+	background:url(../img/layout/bordaBaixoBoxG.png);
+	background-repeat: no-repeat;
+	width:971px;
+	height:16px;
+}
+
+#areaLeiloes .pagInstitucional .itemLeiao {
+	margin: 0 8px 15px 6px !important;
+}
+
+.login_button{
+	background:url(../img/layout/btnEntrarAjax.png);
+	background-repeat: no-repeat;
+	width:51px;
+	height:22px;
+	cursor:pointer;
+}
+
+.error,#email_error,#login_error,#cpf_error {
+	width:400px;
+	font-size:11px;
+	color:#E45B00;
+	font-weight:bold;
+}
+
+#login_error{
+	width:400px;
+	height:32px;
+	margin-top:5px;
+	position:relative;
+}
+
+/* mensagens */
+
+.mensagemOk {
+	background: #DBF3CA url(../img/sistema/icoOk.png) no-repeat;
+	background-position: left;
+	padding:6px;
+	color: #0FB00A;
+	padding-left:29px;
+	width:935px;
+	top:10px;
+	position:relative;
+}
+
+.mensagemErro {
+	background: #F9C2B1 url(../img/sistema/icoErro.png) no-repeat;
+	background-position: left;
+	padding:6px;
+	color: #F33F0E;
+	padding-left:29px;
+	width:935px;
+	top:10px;
+	position:relative;
+}
+
+/*box menor para pagina de leilao */
+
+#areaLeiloes .ttlBoxLeilao {
+	background-image:url(../img/leilao/ttlBoxLeilao.png);
+	background-repeat:no-repeat;
+	width:668px;
+	height:29px;
+}
+
+#areaLeiloes .ttlBoxLeilao .texto {
+	padding: 5px 0 0 8px;
+	font-size:14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:left;
+	font-weight:bold;
+}
+
+#areaLeiloes .LeilaobordaMeio {
+	background:url(../img/leilao/bordaMeioBox.png);
+	background-repeat:repeat-y;
+	width:668px;
+	padding:10px 10px 0 10px;
+}
+
+#areaLeiloes .LeilaobordaBaixo {
+	background:url(../img/leilao/bordaBaixoBox.png);
+	background-repeat: no-repeat;
+	width:668px;
+	height:16px;
+}
